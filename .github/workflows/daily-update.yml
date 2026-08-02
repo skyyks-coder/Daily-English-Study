@@ -28,7 +28,7 @@ jobs:
 
       - name: Generate today's article
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python generate_articles.py
 
       - name: Validate generated JSON
