@@ -165,7 +165,15 @@
     function renderContent(data) {
       document.getElementById('article-title').innerText = data.title;
       document.getElementById('article-date').innerText = `📅 기사 발행일: ${data.date}`;
-      document.getElementById('article-link').href = data.link;
+      const articleLink =
+        document.getElementById('article-link');
+      
+      if (data.isWeeklyReview) {
+        articleLink.classList.add('hidden');
+      } else {
+        articleLink.href = data.link;
+        articleLink.classList.remove('hidden');
+      }
       document.getElementById('article-summary').innerText = data.summary;
       renderVocabulary(data.vocab || []);
       renderShadowing(data.shadowing || []);
