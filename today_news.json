@@ -32,15 +32,6 @@
     "Experts recommend clear guidelines for responsible AI use.",
     "AI will continue to influence workplaces around the world."
   ],
-  "quiz": {
-    "question": "Why are companies using artificial intelligence?",
-    "options": [
-      "To improve productivity",
-      "To reduce internet access",
-      "To avoid making decisions"
-    ],
-    "answer": 0
-  },
   "rephraseTarget": [
     {
       "original": "Companies are using AI to improve productivity.",
@@ -49,6 +40,35 @@
     {
       "original": "AI will continue to influence workplaces around the world.",
       "ai_suggestion": "Artificial intelligence will keep transforming workplaces globally."
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Why are companies using artificial intelligence?",
+      "options": [
+        "To improve productivity",
+        "To reduce internet access",
+        "To avoid making decisions"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What do experts emphasize about AI?",
+      "options": [
+        "It should only be used at home",
+        "Responsible use is important",
+        "It will disappear soon"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is AI expected to continue influencing?",
+      "options": [
+        "Workplaces around the world",
+        "Only social media",
+        "Weather forecasts"
+      ],
+      "answer": 0
     }
   ]
 }
