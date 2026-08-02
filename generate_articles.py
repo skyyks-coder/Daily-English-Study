@@ -190,147 +190,41 @@ def pick_article():
 
 
 def generate_study_material(article):
-    api_key = os.environ.get("OPENROUTER_API_KEY")
+    raw_api_key = os.environ.get(
+        "OPENROUTER_API_KEY",
+        ""
+    )
+
+    # GitHub Secret에 포함될 수 있는 줄바꿈, 탭,
+    # 따옴표, Bearer 접두어를 제거
+    api_key = "".join(raw_api_key.split())
+
+    api_key = api_key.strip('"').strip("'")
+
+    if api_key.lower().startswith("bearer"):
+        api_key = api_key[6:].strip()
 
     if not api_key:
         raise RuntimeError(
-            "OPENROUTER_API_KEY가 설정되지 않았습니다."
+            "OPENROUTER_API_KEY가 비어 있습니다."
         )
+
+    if not api_key.startswith("sk-or-"):
+        raise RuntimeError(
+            "OPENROUTER_API_KEY 형식이 올바르지 않습니다. "
+            "OpenRouter 키 자체만 Secret에 등록하세요."
+        )
+
+    print(
+        "OpenRouter 키 확인 완료:",
+        f"길이={len(api_key)}, "
+        f"시작={api_key[:6]}..."
+    )
 
     client = OpenAI(
         base_url="https://openrouter.ai/api/v1",
         api_key=api_key,
     )
-
-    prompt = f"""
-Create English study material based only on the
-CNBC RSS article information below.
-
-Topic: {article["topic"]}
-Title: {article["title"]}
-Published: {article["published"]}
-Description: {article["description"]}
-Original URL: {article["link"]}
-
-Return only one valid JSON object using exactly
-this structure:
-
-{{
-  "summary": "3 to 5 sentence CEFR C1 summary",
-  "vocab": [
-    {{
-      "word": "English word",
-      "meaning": "Natural Korean meaning"
-    }}
-  ],
-  "shadowing": [
-    "English shadowing sentence"
-  ],
-  "quizzes": [
-    {{
-      "question": "Question in English",
-      "options": [
-        "Option 1",
-        "Option 2",
-        "Option 3"
-      ],
-      "answer": 0
-    }}
-  ],
-  "rephraseTarget": [
-    {{
-      "original": "Original English sentence",
-      "ai_suggestion": "Suggested rephrasing"
-    }}
-  ]
-}}
-
-Requirements:
-
-1. Write a CEFR C1 English summary in 3 to 5 sentences.
-2. Provide exactly 5 vocabulary items.
-3. Korean meanings must be natural and concise.
-4. Provide exactly 5 shadowing sentences.
-5. Shadowing sentences must be based only on the article.
-6. Provide exactly 3 comprehension quizzes.
-7. Each quiz must have exactly 3 options.
-8. The answer must be the zero-based correct option index:
-   0, 1, or 2.
-9. Provide exactly 2 rephrasing exercises.
-10. Do not invent facts that are not included in the supplied
-    CNBC RSS information.
-11. Output JSON only. Do not use Markdown code fences.
-"""
-
-    response = client.chat.completions.create(
-        model="openai/gpt-4o-mini",
-        messages=[
-            {
-                "role": "system",
-                "content": (
-                    "You create accurate English-learning "
-                    "materials. Output valid JSON only and "
-                    "never invent article facts."
-                ),
-            },
-            {
-                "role": "user",
-                "content": prompt,
-            },
-        ],
-        response_format={
-            "type": "json_object"
-        },
-        temperature=0.4,
-    )
-
-    raw_content = response.choices[0].message.content
-
-    if not raw_content:
-        raise RuntimeError(
-            "OpenRouter가 빈 응답을 반환했습니다."
-        )
-
-    try:
-        parsed_data = json.loads(raw_content)
-        result = StudyMaterial.model_validate(parsed_data)
-    except Exception as error:
-        raise RuntimeError(
-            f"AI 응답 JSON 처리 실패: {error}"
-        ) from error
-
-    if len(result.vocab) != 5:
-        raise RuntimeError(
-            "Vocabulary가 5개가 아닙니다."
-        )
-
-    if len(result.shadowing) != 5:
-        raise RuntimeError(
-            "Shadowing 문장이 5개가 아닙니다."
-        )
-
-    if len(result.quizzes) != 3:
-        raise RuntimeError(
-            "Quiz가 3개가 아닙니다."
-        )
-
-    if len(result.rephraseTarget) != 2:
-        raise RuntimeError(
-            "Rephrasing이 2개가 아닙니다."
-        )
-
-    for quiz in result.quizzes:
-        if len(quiz.options) != 3:
-            raise RuntimeError(
-                "Quiz 보기가 3개가 아닙니다."
-            )
-
-        if quiz.answer not in [0, 1, 2]:
-            raise RuntimeError(
-                "Quiz 정답 번호가 잘못되었습니다."
-            )
-
-    return result
 
 def save_today_news(article, study):
     today = get_korea_today()
