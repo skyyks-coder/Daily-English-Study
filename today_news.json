@@ -1,74 +1,74 @@
 {
-  "title": "AI Is Changing the Way Businesses Work",
+  "title": "To keep growing, incoming Best Buy CEO says he first wants to go smaller",
   "date": "2026-08-02",
-  "link": "https://www.cnbc.com/",
-  "summary": "Artificial intelligence is changing the way businesses operate. Companies are using AI to improve productivity and make faster decisions. Experts also emphasize the importance of responsible use. The technology is expected to continue influencing workplaces around the world.",
+  "link": "https://www.cnbc.com/2026/08/01/best-buy-ceo-jason-bonfig-smaller-stores.html",
+  "summary": "Jason Bonfig, the incoming CEO of Best Buy, has outlined his strategy for the company's future, emphasizing a focus on smaller store formats. He believes that by going smaller, Best Buy can enhance its customer experience while also expanding its reach. This approach reflects a shift in retail strategy aimed at adapting to changing consumer preferences and market dynamics.",
   "vocab": [
     {
-      "word": "operate",
-      "meaning": "운영되다, 작동하다"
+      "word": "incoming",
+      "meaning": "예정된, 다가오는"
     },
     {
-      "word": "productivity",
-      "meaning": "생산성"
+      "word": "CEO",
+      "meaning": "최고 경영자"
     },
     {
-      "word": "guideline",
-      "meaning": "지침, 가이드라인"
+      "word": "expand",
+      "meaning": "확장하다"
     },
     {
-      "word": "responsible",
-      "meaning": "책임감 있는"
+      "word": "enhance",
+      "meaning": "향상시키다"
     },
     {
-      "word": "influence",
-      "meaning": "영향을 미치다"
+      "word": "customer experience",
+      "meaning": "고객 경험"
     }
   ],
   "shadowing": [
-    "Artificial intelligence is changing the way businesses operate.",
-    "Companies are using AI to improve productivity.",
-    "The technology helps businesses make faster decisions.",
-    "Experts recommend clear guidelines for responsible AI use.",
-    "AI will continue to influence workplaces around the world."
+    "As incoming CEO Jason Bonfig prepares to take the reins.",
+    "He told CNBC he's focused on expanding the company's reach.",
+    "Enhancing the customer experience is also a priority.",
+    "Going smaller could lead to better engagement with customers.",
+    "This strategy reflects a shift in retail dynamics."
   ],
   "quizzes": [
     {
-      "question": "Why are companies using artificial intelligence?",
+      "question": "Who is the incoming CEO of Best Buy?",
       "options": [
-        "To improve productivity",
-        "To reduce internet access",
-        "To avoid making decisions"
+        "Jason Bonfig",
+        "Best Buy",
+        "CNBC"
       ],
       "answer": 0
     },
     {
-      "question": "What do experts emphasize about AI?",
+      "question": "What is a key focus for the new CEO?",
       "options": [
-        "It should only be used at home",
-        "Responsible use is important",
-        "It will disappear soon"
+        "Expanding store sizes",
+        "Going smaller",
+        "Closing stores"
       ],
       "answer": 1
     },
     {
-      "question": "What is AI expected to continue influencing?",
+      "question": "What does Bonfig aim to enhance?",
       "options": [
-        "Workplaces around the world",
-        "Only social media",
-        "Weather forecasts"
+        "Company profits",
+        "Customer experience",
+        "Employee satisfaction"
       ],
-      "answer": 0
+      "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "Companies are using AI to improve productivity.",
-      "ai_suggestion": "Businesses are adopting artificial intelligence to work more efficiently."
+      "original": "As incoming CEO Jason Bonfig prepares to take the reins.",
+      "ai_suggestion": "Jason Bonfig is getting ready to take over as the new CEO."
     },
     {
-      "original": "AI will continue to influence workplaces around the world.",
-      "ai_suggestion": "Artificial intelligence will keep transforming workplaces globally."
+      "original": "He believes that by going smaller, Best Buy can enhance its customer experience.",
+      "ai_suggestion": "Bonfig thinks that adopting smaller formats will improve the customer experience at Best Buy."
     }
   ]
 }
