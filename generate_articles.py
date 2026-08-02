@@ -4,6 +4,8 @@ import random
 import re
 from datetime import datetime
 from zoneinfo import ZoneInfo
+from pathlib import Path
+from datetime import datetime, timedelta
 
 import feedparser
 from openai import OpenAI
@@ -208,46 +210,498 @@ Requirements:
     print("AI 학습 자료 생성 완료")
     return result
 
+def save_daily_archive(output):
+    archive_folder = Path("articles")
+    archive_folder.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
 
-def save_today_news(article, study):
+    archive_date = output["date"]
+
+    archive_path = (
+        archive_folder
+        / f"{archive_date}.json"
+    )
+
+    with open(
+        archive_path,
+        "w",
+        encoding="utf-8",
+    ) as file:
+        json.dump(
+            output,
+            file,
+            ensure_ascii=False,
+            indent=2,
+        )
+
+    print(
+        f"날짜별 학습자료 저장 완료: "
+        f"{archive_path}"
+    )
+    
+def save_today_news(
+    article,
+    study,
+    is_weekly_review=False,
+):
     output = {
         "title": article["title"],
-        "date": get_korea_today().strftime("%Y-%m-%d"),
-        "link": article["link"],
+        "date": get_korea_today().strftime(
+            "%Y-%m-%d"
+        ),
+        "link": article.get(
+            "link",
+            "",
+        ),
+        "isWeeklyReview": is_weekly_review,
         "summary": study.summary,
-        "vocab": [item.model_dump() for item in study.vocab],
-        "shadowing": list(study.shadowing),
-        "quizzes": [item.model_dump() for item in study.quizzes],
-        "rephraseTarget": [item.model_dump() for item in study.rephraseTarget],
+        "vocab": [
+            item.model_dump()
+            for item in study.vocab
+        ],
+        "shadowing": list(
+            study.shadowing
+        ),
+        "quizzes": [
+            item.model_dump()
+            for item in study.quizzes
+        ],
+        "rephraseTarget": [
+            item.model_dump()
+            for item in study.rephraseTarget
+        ],
     }
 
-    with open("today_news.json", "w", encoding="utf-8") as file:
-        json.dump(output, file, ensure_ascii=False, indent=2)
+    with open(
+        "today_news.json",
+        "w",
+        encoding="utf-8",
+    ) as file:
+        json.dump(
+            output,
+            file,
+            ensure_ascii=False,
+            indent=2,
+        )
 
-    with open("today_news.json", "r", encoding="utf-8") as file:
+    if not is_weekly_review:
+        save_daily_archive(output)
+
+    with open(
+        "today_news.json",
+        "r",
+        encoding="utf-8",
+    ) as file:
         validated = json.load(file)
 
-    if len(validated.get("quizzes", [])) != 3:
-        raise RuntimeError("생성된 JSON의 Quiz 개수가 3개가 아닙니다.")
+    if len(
+        validated.get(
+            "quizzes",
+            [],
+        )
+    ) != 3:
+        raise RuntimeError(
+            "생성된 JSON의 Quiz 개수가 "
+            "3개가 아닙니다."
+        )
 
-    print("today_news.json 생성 완료")
-    print(f"제목: {article['title']}")
-    print(f"링크: {article['link']}")
+    print(
+        "today_news.json 생성 완료"
+    )
 
+    print(
+        f"제목: {article['title']}"
+    )
 
 def main():
-    article = pick_article()
-    print(f"오늘의 주제: {article['topic']}")
-    print(f"선택 기사: {article['title']}")
-    print(f"실제 링크: {article['link']}")
+    today = get_korea_today()
 
-    study = generate_study_material(article)
-    if study is None:
-        raise RuntimeError("generate_study_material 함수가 결과를 반환하지 않았습니다.")
+    # Python weekday:
+    # 월요일 0, 화요일 1, ..., 일요일 6
+    is_sunday = (
+        today.weekday() == 6
+    )
 
-    save_today_news(article, study)
-    print("모든 작업이 정상적으로 완료되었습니다.")
+    if is_sunday:
+        print(
+            "오늘은 Weekly Review Day입니다."
+        )
 
+        weekly_articles = (
+            load_weekly_articles()
+        )
+
+        study = generate_weekly_review(
+            weekly_articles
+        )
+
+        article = {
+            "title": (
+                "Weekly English Review"
+            ),
+            "link": "",
+            "published": (
+                today.strftime(
+                    "%Y-%m-%d"
+                )
+            ),
+            "description": (
+                "Review of this week's "
+                "English study materials."
+            ),
+            "topic": "Weekly Review",
+        }
+
+        save_today_news(
+            article,
+            study,
+            is_weekly_review=True,
+        )
+
+    else:
+        article = pick_article()
+
+        print(
+            f"오늘의 주제: "
+            f"{article['topic']}"
+        )
+
+        print(
+            f"선택 기사: "
+            f"{article['title']}"
+        )
+
+        print(
+            f"실제 링크: "
+            f"{article['link']}"
+        )
+
+        study = (
+            generate_study_material(
+                article
+            )
+        )
+
+        save_today_news(
+            article,
+            study,
+            is_weekly_review=False,
+        )
+
+    print(
+        "모든 작업이 정상적으로 "
+        "완료되었습니다."
+    )
+def load_weekly_articles():
+    archive_folder = Path("articles")
+
+    if not archive_folder.exists():
+        raise RuntimeError(
+            "articles 폴더가 없습니다. "
+            "월요일부터 토요일까지 학습자료가 "
+            "먼저 저장되어야 합니다."
+        )
+
+    today = get_korea_today()
+
+    weekly_articles = []
+
+    for days_back in range(1, 7):
+        target_date = (
+            today
+            - timedelta(
+                days=days_back
+            )
+        )
+
+        file_path = (
+            archive_folder
+            / (
+                target_date.strftime(
+                    "%Y-%m-%d"
+                )
+                + ".json"
+            )
+        )
+
+        if not file_path.exists():
+            print(
+                f"복습 파일 없음: "
+                f"{file_path}"
+            )
+
+            continue
+
+        with open(
+            file_path,
+            "r",
+            encoding="utf-8",
+        ) as file:
+            article_data = json.load(
+                file
+            )
+
+        weekly_articles.append(
+            article_data
+        )
+
+    weekly_articles.reverse()
+
+    if not weekly_articles:
+        raise RuntimeError(
+            "Weekly Review에 사용할 "
+            "지난 학습자료가 없습니다."
+        )
+
+    print(
+        f"Weekly Review 자료 "
+        f"{len(weekly_articles)}개 불러오기 완료"
+    )
+
+    return weekly_articles
+
+def generate_weekly_review(
+    weekly_articles,
+):
+    raw_api_key = os.environ.get(
+        "OPENROUTER_API_KEY",
+        "",
+    )
+
+    api_key = "".join(
+        raw_api_key.split()
+    )
+
+    api_key = (
+        api_key
+        .strip('"')
+        .strip("'")
+    )
+
+    if api_key.lower().startswith(
+        "bearer"
+    ):
+        api_key = (
+            api_key[6:]
+            .strip()
+        )
+
+    if not api_key:
+        raise RuntimeError(
+            "OPENROUTER_API_KEY가 "
+            "비어 있습니다."
+        )
+
+    client = OpenAI(
+        base_url=(
+            "https://openrouter.ai/api/v1"
+        ),
+        api_key=api_key,
+    )
+
+    review_source = []
+
+    for index, item in enumerate(
+        weekly_articles,
+        start=1,
+    ):
+        review_source.append(
+            {
+                "day": index,
+                "date": item.get(
+                    "date",
+                    "",
+                ),
+                "title": item.get(
+                    "title",
+                    "",
+                ),
+                "summary": item.get(
+                    "summary",
+                    "",
+                ),
+                "vocab": item.get(
+                    "vocab",
+                    [],
+                ),
+                "shadowing": item.get(
+                    "shadowing",
+                    [],
+                ),
+            }
+        )
+
+    review_json = json.dumps(
+        review_source,
+        ensure_ascii=False,
+        indent=2,
+    )
+
+    prompt = f"""
+Create a Sunday Weekly Review for an English
+learner based only on the previous study
+materials below.
+
+Previous study materials:
+
+{review_json}
+
+Return one valid JSON object using exactly this
+structure:
+
+{{
+  "summary": "Weekly review summary",
+  "vocab": [
+    {{
+      "word": "English word",
+      "meaning": "Natural Korean meaning"
+    }}
+  ],
+  "shadowing": [
+    "English review sentence"
+  ],
+  "quizzes": [
+    {{
+      "question": "Review question",
+      "options": [
+        "Option 1",
+        "Option 2",
+        "Option 3"
+      ],
+      "answer": 0
+    }}
+  ],
+  "rephraseTarget": [
+    {{
+      "original": "Original English sentence",
+      "ai_suggestion": "Suggested rephrasing"
+    }}
+  ]
+}}
+
+Requirements:
+
+1. Summarize the main themes studied this week
+   in 3 to 5 CEFR C1 sentences.
+2. Choose exactly 5 useful vocabulary items
+   from the supplied materials.
+3. Write vocabulary meanings in Korean.
+4. Provide exactly 5 review shadowing sentences.
+5. Provide exactly 3 review quizzes.
+6. Each quiz must have exactly 3 options.
+7. Quiz answers must be 0, 1, or 2.
+8. Provide exactly 2 rephrasing exercises.
+9. Use only the supplied weekly materials.
+10. Do not invent facts.
+11. Output valid JSON only.
+12. Do not use Markdown code fences.
+"""
+
+    print(
+        "Weekly Review 생성을 요청합니다."
+    )
+
+    response = (
+        client
+        .chat
+        .completions
+        .create(
+            model=(
+                "openai/gpt-4o-mini"
+            ),
+            messages=[
+                {
+                    "role": "system",
+                    "content": (
+                        "Create an accurate "
+                        "weekly English review. "
+                        "Return valid JSON only."
+                    ),
+                },
+                {
+                    "role": "user",
+                    "content": prompt,
+                },
+            ],
+            response_format={
+                "type": "json_object"
+            },
+            temperature=0.3,
+        )
+    )
+
+    raw_content = (
+        response
+        .choices[0]
+        .message
+        .content
+    )
+
+    if not raw_content:
+        raise RuntimeError(
+            "Weekly Review 응답이 "
+            "비어 있습니다."
+        )
+
+    try:
+        parsed_data = json.loads(
+            raw_content
+        )
+
+        result = (
+            StudyMaterial
+            .model_validate(
+                parsed_data
+            )
+        )
+
+    except Exception as error:
+        print(
+            "Weekly Review 원본 응답:"
+        )
+
+        print(
+            raw_content
+        )
+
+        raise RuntimeError(
+            f"Weekly Review JSON 처리 실패: "
+            f"{error}"
+        ) from error
+
+    if len(result.vocab) != 5:
+        raise RuntimeError(
+            "Weekly Review Vocabulary가 "
+            "5개가 아닙니다."
+        )
+
+    if len(result.shadowing) != 5:
+        raise RuntimeError(
+            "Weekly Review Shadowing이 "
+            "5개가 아닙니다."
+        )
+
+    if len(result.quizzes) != 3:
+        raise RuntimeError(
+            "Weekly Review Quiz가 "
+            "3개가 아닙니다."
+        )
+
+    if len(
+        result.rephraseTarget
+    ) != 2:
+        raise RuntimeError(
+            "Weekly Review Rephrasing이 "
+            "2개가 아닙니다."
+        )
+
+    print(
+        "Weekly Review 생성 완료"
+    )
+
+    return result
 
 if __name__ == "__main__":
     main()
