@@ -1,0 +1,44 @@
+name: Update Daily English Article
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 매일 한국시간 오전 7시 10분
+    # GitHub Actions cron은 UTC 기준
+    - cron: "10 22 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-daily-article:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate today's article
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python generate_articles.py
+
+      - name: Validate generated JSON
+        run: python -m json.tool today_news.json > /dev/null
+
+      - name: Commit and push updated article
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add today_news.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Update daily English article"
+          git push
