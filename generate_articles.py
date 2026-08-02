@@ -190,14 +190,17 @@ def pick_article():
 
 
 def generate_study_material(article):
-    api_key = os.environ.get("OPENAI_API_KEY")
+    api_key = os.environ.get("OPENROUTER_API_KEY")
 
     if not api_key:
         raise RuntimeError(
-            "OPENAI_API_KEY가 설정되지 않았습니다."
+            "OPENROUTER_API_KEY가 설정되지 않았습니다."
         )
 
-    client = OpenAI(api_key=api_key)
+    client = OpenAI(
+        base_url="https://openrouter.ai/api/v1",
+        api_key=api_key,
+    )
 
     prompt = f"""
 Create English study material based only on the
@@ -209,6 +212,39 @@ Published: {article["published"]}
 Description: {article["description"]}
 Original URL: {article["link"]}
 
+Return only one valid JSON object using exactly
+this structure:
+
+{{
+  "summary": "3 to 5 sentence CEFR C1 summary",
+  "vocab": [
+    {{
+      "word": "English word",
+      "meaning": "Natural Korean meaning"
+    }}
+  ],
+  "shadowing": [
+    "English shadowing sentence"
+  ],
+  "quizzes": [
+    {{
+      "question": "Question in English",
+      "options": [
+        "Option 1",
+        "Option 2",
+        "Option 3"
+      ],
+      "answer": 0
+    }}
+  ],
+  "rephraseTarget": [
+    {{
+      "original": "Original English sentence",
+      "ai_suggestion": "Suggested rephrasing"
+    }}
+  ]
+}}
+
 Requirements:
 
 1. Write a CEFR C1 English summary in 3 to 5 sentences.
@@ -218,20 +254,23 @@ Requirements:
 5. Shadowing sentences must be based only on the article.
 6. Provide exactly 3 comprehension quizzes.
 7. Each quiz must have exactly 3 options.
-8. The answer must be the correct zero-based option index:
+8. The answer must be the zero-based correct option index:
    0, 1, or 2.
 9. Provide exactly 2 rephrasing exercises.
-10. Do not add facts not present in the supplied article data.
+10. Do not invent facts that are not included in the supplied
+    CNBC RSS information.
+11. Output JSON only. Do not use Markdown code fences.
 """
 
-    response = client.responses.parse(
-        model="gpt-5-mini",
-        input=[
+    response = client.chat.completions.create(
+        model="openai/gpt-4o-mini",
+        messages=[
             {
                 "role": "system",
                 "content": (
                     "You create accurate English-learning "
-                    "materials. Never invent article facts."
+                    "materials. Output valid JSON only and "
+                    "never invent article facts."
                 ),
             },
             {
@@ -239,15 +278,26 @@ Requirements:
                 "content": prompt,
             },
         ],
-        text_format=StudyMaterial,
+        response_format={
+            "type": "json_object"
+        },
+        temperature=0.4,
     )
 
-    result = response.output_parsed
+    raw_content = response.choices[0].message.content
 
-    if result is None:
+    if not raw_content:
         raise RuntimeError(
-            "학습 자료를 생성하지 못했습니다."
+            "OpenRouter가 빈 응답을 반환했습니다."
         )
+
+    try:
+        parsed_data = json.loads(raw_content)
+        result = StudyMaterial.model_validate(parsed_data)
+    except Exception as error:
+        raise RuntimeError(
+            f"AI 응답 JSON 처리 실패: {error}"
+        ) from error
 
     if len(result.vocab) != 5:
         raise RuntimeError(
@@ -264,6 +314,11 @@ Requirements:
             "Quiz가 3개가 아닙니다."
         )
 
+    if len(result.rephraseTarget) != 2:
+        raise RuntimeError(
+            "Rephrasing이 2개가 아닙니다."
+        )
+
     for quiz in result.quizzes:
         if len(quiz.options) != 3:
             raise RuntimeError(
@@ -276,7 +331,6 @@ Requirements:
             )
 
     return result
-
 
 def save_today_news(article, study):
     today = get_korea_today()
