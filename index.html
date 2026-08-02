@@ -7,375 +7,62 @@
   <title>Daily CNBC English Study</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      color: #374151;
-      background: linear-gradient(145deg, #fff7ed 0%, #fdf2f8 45%, #eff6ff 100%);
-      font-family: Pretendard, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    }
-    .app-container {
-      max-width: 480px;
-      min-height: 100vh;
-      margin: 0 auto;
-      padding: 20px;
-      background: rgba(255,255,255,.9);
-      box-shadow: 0 18px 45px rgba(148, 163, 184, .22);
-      backdrop-filter: blur(10px);
-    }
-    .soft-card {
-      background: rgba(255,255,255,.96);
-      border: 1px solid rgba(226,232,240,.9);
-      border-radius: 22px;
-      box-shadow: 0 8px 22px rgba(148,163,184,.13);
-    }
-    .section-title {
-      display: flex;
-      align-items: center;
-      gap: 9px;
-      margin-bottom: 14px;
-      font-size: 1.05rem;
-      font-weight: 800;
-      letter-spacing: -.02em;
-    }
-    .section-icon {
-      display: grid;
-      width: 36px;
-      height: 36px;
-      place-items: center;
-      border-radius: 13px;
-      font-size: 19px;
-    }
-    .shadow-text {
-      user-select: all;
-      -webkit-user-select: all;
-      -webkit-touch-callout: default;
-      cursor: text;
-    }
-    .practice-dot {
-      width: 18px;
-      height: 18px;
-      flex: 0 0 18px;
-      border: 2px solid #ddd6fe;
-      border-radius: 9999px;
-      background: #fff;
-      transition: transform .18s ease, background-color .18s ease, border-color .18s ease;
-    }
-    .practice-dot.completed {
-      border-color: #a78bfa;
-      background: linear-gradient(135deg, #c4b5fd, #8b5cf6);
-      box-shadow: 0 2px 7px rgba(139,92,246,.28);
-      transform: scale(1.05);
-    }
-    .practice-button { transition: transform .15s ease, box-shadow .15s ease; }
-    .practice-button:active { transform: scale(.98); }
-    .practice-button:disabled { cursor: default; }
-    .float-emoji { animation: float 2.6s ease-in-out infinite; }
-    @keyframes float { 0%,100% { transform: translateY(0) rotate(-2deg); } 50% { transform: translateY(-5px) rotate(2deg); } }
+    *{box-sizing:border-box}body{margin:0;color:#374151;background:linear-gradient(145deg,#fff7ed 0%,#fdf2f8 45%,#eff6ff 100%);font-family:Pretendard,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.app-container{max-width:480px;min-height:100vh;margin:0 auto;padding:20px;background:rgba(255,255,255,.9);box-shadow:0 18px 45px rgba(148,163,184,.22);backdrop-filter:blur(10px)}.soft-card{background:rgba(255,255,255,.96);border:1px solid rgba(226,232,240,.9);border-radius:22px;box-shadow:0 8px 22px rgba(148,163,184,.13)}.section-title{display:flex;align-items:center;gap:9px;margin-bottom:14px;font-size:1.05rem;font-weight:800;letter-spacing:-.02em}.section-icon{display:grid;width:36px;height:36px;place-items:center;border-radius:13px;font-size:19px}.shadow-text{user-select:all;-webkit-user-select:all;-webkit-touch-callout:default;cursor:text}.practice-dot{width:18px;height:18px;flex:0 0 18px;border:2px solid #ddd6fe;border-radius:9999px;background:#fff;transition:.18s}.practice-dot.completed{border-color:#a78bfa;background:linear-gradient(135deg,#c4b5fd,#8b5cf6);box-shadow:0 2px 7px rgba(139,92,246,.28);transform:scale(1.05)}.practice-button{transition:.15s}.practice-button:active{transform:scale(.98)}.float-emoji{animation:float 2.6s ease-in-out infinite}@keyframes float{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-5px) rotate(2deg)}}
   </style>
 </head>
 <body class="antialiased">
   <div class="app-container">
     <header class="relative mb-6 overflow-hidden rounded-[26px] bg-gradient-to-br from-blue-600 via-indigo-500 to-violet-500 p-5 text-white shadow-lg shadow-indigo-100">
-      <div class="absolute -right-5 -top-8 h-28 w-28 rounded-full bg-white/10"></div>
-      <div class="absolute -bottom-8 -left-5 h-24 w-24 rounded-full bg-pink-300/20"></div>
-      <div class="relative flex items-center justify-between gap-4">
-        <div>
-          <p class="mb-1 text-xs font-semibold tracking-wide text-blue-100">✨ DAILY ENGLISH ROUTINE</p>
-          <h1 id="topic-title" class="text-2xl font-extrabold tracking-tight">Today's Topic</h1>
-          <p id="date-display" class="mt-1.5 text-sm text-blue-100"></p>
-        </div>
-        <div class="float-emoji grid h-16 w-16 shrink-0 place-items-center rounded-2xl bg-white/20 text-4xl shadow-inner">📚</div>
-      </div>
+      <div class="absolute -right-5 -top-8 h-28 w-28 rounded-full bg-white/10"></div><div class="absolute -bottom-8 -left-5 h-24 w-24 rounded-full bg-pink-300/20"></div>
+      <div class="relative flex items-center justify-between gap-4"><div><p class="mb-1 text-xs font-semibold tracking-wide text-blue-100">✨ DAILY ENGLISH ROUTINE</p><h1 id="topic-title" class="text-2xl font-extrabold tracking-tight">Today's Topic</h1><p id="date-display" class="mt-1.5 text-sm text-blue-100"></p></div><div class="float-emoji grid h-16 w-16 shrink-0 place-items-center rounded-2xl bg-white/20 text-4xl shadow-inner">📚</div></div>
       <div class="relative mt-4 inline-flex items-center gap-1.5 rounded-full bg-white/20 px-3 py-1.5 text-xs font-bold backdrop-blur-sm">📰 CNBC News</div>
     </header>
-
-    <div id="loading" class="soft-card py-12 text-center">
-      <div class="mb-3 text-4xl">⏳</div>
-      <p class="font-semibold text-gray-600">오늘의 기사를 불러오는 중입니다...</p>
-    </div>
-
+    <div id="loading" class="soft-card py-12 text-center"><div class="mb-3 text-4xl">⏳</div><p class="font-semibold text-gray-600">오늘의 기사를 불러오는 중입니다...</p></div>
     <main id="content-area" class="hidden">
-      <section class="soft-card mb-6 p-5">
-        <div class="mb-3 flex items-center gap-2 text-sm font-bold text-blue-600"><span>🌟</span><span>Today's Article</span></div>
-        <h2 id="article-title" class="mb-4 text-xl font-extrabold leading-snug text-slate-800"></h2>
-        <div class="flex flex-col gap-3">
-          <span id="article-date" class="inline-flex items-center gap-1 text-xs font-medium text-gray-500"></span>
-          <a id="article-link" href="#" target="_blank" rel="noopener noreferrer" class="rounded-2xl bg-slate-800 px-4 py-3 text-center text-sm font-bold text-white shadow-md transition hover:bg-slate-700 active:scale-[.99]">🔗 원문 기사 읽으러 가기</a>
-        </div>
-      </section>
-
-      <section class="mb-6 rounded-[22px] border border-blue-100 bg-gradient-to-br from-blue-50 to-indigo-50 p-5 shadow-sm">
-        <div class="section-title text-blue-900"><span class="section-icon bg-white">🤖</span><span>AI Summary</span></div>
-        <p id="article-summary" class="text-[15px] font-medium leading-7 text-gray-700"></p>
-      </section>
-
-      <section class="mb-7">
-        <div class="section-title text-emerald-800"><span class="section-icon bg-emerald-100">🧩</span><span>Vocabulary</span></div>
-        <ul id="vocab-list" class="space-y-3 text-[15px]"></ul>
-      </section>
-
-      <section class="mb-7">
-        <div class="section-title text-violet-800"><span class="section-icon bg-violet-100">🎧</span><span>Shadowing Practice</span></div>
-        <div class="mb-4 rounded-2xl border border-violet-100 bg-violet-50 p-3.5 text-xs leading-5 text-violet-700">📱 문장을 길게 눌러 전체 선택한 뒤, 휴대폰의 <b>읽어주기</b>로 듣고 따라 읽으세요. 한 번 연습할 때마다 버튼을 눌러 총 10회를 채워주세요.</div>
-        <div id="shadowing-list" class="space-y-4"></div>
-      </section>
-
-      <section class="mb-7 rounded-[22px] border border-amber-100 bg-gradient-to-br from-amber-50 to-yellow-50 p-5 shadow-sm">
-        <div class="section-title text-amber-800"><span class="section-icon bg-white">🧠</span><span>Comprehension Quiz</span></div>
-        <div id="quiz-list" class="space-y-5"></div>
-      </section>
-
-      <section class="mb-10">
-        <div class="section-title text-rose-800"><span class="section-icon bg-rose-100">✍️</span><span>Rephrasing Practice</span></div>
-        <p class="mb-4 text-xs text-gray-500">💭 아래 문장을 나만의 영어 표현으로 바꿔 써보세요.</p>
-        <div id="rephrase-container" class="space-y-5"></div>
-      </section>
+      <section class="soft-card mb-6 p-5"><div class="mb-3 flex items-center gap-2 text-sm font-bold text-blue-600"><span>🌟</span><span>Today's Article</span></div><h2 id="article-title" class="mb-4 text-xl font-extrabold leading-snug text-slate-800"></h2><div class="flex flex-col gap-3"><span id="article-date" class="text-xs font-medium text-gray-500"></span><a id="article-link" href="#" target="_blank" rel="noopener noreferrer" class="rounded-2xl bg-slate-800 px-4 py-3 text-center text-sm font-bold text-white shadow-md">🔗 원문 기사 읽으러 가기</a></div></section>
+      <section class="mb-6 rounded-[22px] border border-blue-100 bg-gradient-to-br from-blue-50 to-indigo-50 p-5 shadow-sm"><div class="section-title text-blue-900"><span class="section-icon bg-white">🤖</span><span>AI Summary</span></div><p id="article-summary" class="text-[15px] font-medium leading-7 text-gray-700"></p></section>
+      <section class="mb-7"><div class="section-title text-emerald-800"><span class="section-icon bg-emerald-100">🧩</span><span>Vocabulary</span></div><ul id="vocab-list" class="space-y-3 text-[15px]"></ul></section>
+      <section class="mb-7"><div class="section-title text-violet-800"><span class="section-icon bg-violet-100">🎧</span><span>Shadowing Practice</span></div><div class="mb-4 rounded-2xl border border-violet-100 bg-violet-50 p-3.5 text-xs leading-5 text-violet-700">📱 문장을 길게 눌러 전체 선택한 뒤, 휴대폰의 <b>읽어주기</b>로 듣고 따라 읽으세요. 한 번 연습할 때마다 버튼을 눌러 총 10회를 채워주세요.</div><div id="shadowing-list" class="space-y-4"></div></section>
+      <section class="mb-7 rounded-[22px] border border-amber-100 bg-gradient-to-br from-amber-50 to-yellow-50 p-5 shadow-sm"><div class="section-title text-amber-800"><span class="section-icon bg-white">🧠</span><span>Comprehension Quiz</span></div><div id="quiz-list" class="space-y-5"></div></section>
+      <section class="mb-10"><div class="section-title text-rose-800"><span class="section-icon bg-rose-100">✍️</span><span>Rephrasing Practice</span></div><p class="mb-4 text-xs text-gray-500">💭 아래 문장을 나만의 영어 표현으로 바꿔 써보세요.</p><div id="rephrase-container" class="space-y-5"></div></section>
     </main>
+
+    <!-- Footer -->
+    <footer class="mt-10 pb-5 text-center">
+      <div class="mb-5 flex items-center justify-center gap-3">
+        <div class="h-px w-16 bg-gradient-to-r from-transparent to-violet-200"></div>
+        <span class="inline-flex h-8 w-8 items-center justify-center rounded-full bg-gradient-to-br from-violet-100 to-pink-100 text-sm shadow-sm">✨</span>
+        <div class="h-px w-16 bg-gradient-to-l from-transparent to-pink-200"></div>
+      </div>
+
+      <div class="relative mx-auto max-w-[310px] overflow-hidden rounded-[22px] border border-violet-100 bg-gradient-to-r from-violet-50 via-white to-pink-50 px-5 py-4 shadow-sm">
+        <div class="absolute -right-5 -top-7 h-16 w-16 rounded-full bg-violet-200/30"></div>
+        <div class="absolute -bottom-7 -left-5 h-16 w-16 rounded-full bg-pink-200/30"></div>
+
+        <div class="relative flex items-center justify-center gap-2">
+          <span class="text-sm font-semibold text-gray-500">Designed with</span>
+          <span class="inline-flex h-8 w-8 items-center justify-center rounded-xl bg-gradient-to-br from-violet-500 to-pink-500 text-sm text-white shadow-md shadow-violet-200">💜</span>
+          <span class="bg-gradient-to-r from-violet-600 to-pink-500 bg-clip-text text-sm font-extrabold text-transparent">by Luna Kim</span>
+        </div>
+      </div>
+
+      <p class="mt-4 text-[10px] font-medium tracking-wide text-gray-300">© 2026 Daily English Study</p>
+    </footer>
   </div>
-
-  <script>
-    let currentData = null;
-    let shadowProgress = {};
-    const MAX_PRACTICE_COUNT = 10;
-
-    const today = new Date();
-    const topics = ['Weekly Review', 'Business', 'Travel', 'AI', 'Food', 'Economy', 'Culture'];
-    const topicEmojis = ['🗓️', '💼', '✈️', '🤖', '🍽️', '📈', '🎨'];
-    document.getElementById('topic-title').innerText = `${topicEmojis[today.getDay()]} ${topics[today.getDay()]} Day`;
-    document.getElementById('date-display').innerText = today.toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' });
-
-    fetch('./today_news.json', { cache: 'no-store' })
-      .then(response => {
-        if (!response.ok) throw new Error(`today_news.json 오류: ${response.status}`);
-        return response.json();
-      })
-      .then(data => {
-        currentData = data;
-        loadShadowProgress();
-        document.getElementById('loading').classList.add('hidden');
-        document.getElementById('content-area').classList.remove('hidden');
-        renderContent(data);
-      })
-      .catch(error => {
-        console.error(error);
-        document.getElementById('loading').innerHTML = '<div class="mb-3 text-4xl">🥲</div><p class="font-bold text-gray-700">데이터를 불러오지 못했습니다.</p><p class="mt-2 text-sm text-gray-500">GitHub Actions가 실행되었는지 확인해주세요.</p>';
-      });
-
-    function renderContent(data) {
-      document.getElementById('article-title').innerText = data.title;
-      document.getElementById('article-date').innerText = `📅 기사 발행일: ${data.date}`;
-      const articleLink =
-        document.getElementById('article-link');
-      
-      if (data.isWeeklyReview) {
-        articleLink.classList.add('hidden');
-      } else {
-        articleLink.href = data.link;
-        articleLink.classList.remove('hidden');
-      }
-      document.getElementById('article-summary').innerText = data.summary;
-      renderVocabulary(data.vocab || []);
-      renderShadowing(data.shadowing || []);
-      renderQuizzes(data.quizzes || (data.quiz ? [data.quiz] : []));
-      renderRephrasing(data.rephraseTarget || []);
-    }
-
-    function renderVocabulary(vocab) {
-      const list = document.getElementById('vocab-list');
-      list.innerHTML = '';
-      const colors = ['from-emerald-50 to-teal-50 border-emerald-100', 'from-sky-50 to-blue-50 border-sky-100', 'from-pink-50 to-rose-50 border-pink-100', 'from-orange-50 to-amber-50 border-orange-100', 'from-violet-50 to-purple-50 border-violet-100'];
-      vocab.forEach((v, index) => {
-        const li = document.createElement('li');
-        li.className = `rounded-2xl border bg-gradient-to-br ${colors[index % colors.length]} p-4 shadow-sm`;
-        const word = document.createElement('div');
-        word.className = 'mb-1 flex items-center gap-2 font-extrabold text-slate-800';
-        word.innerHTML = `<span class="text-lg">${['🌱','💎','🪄','🍀','⭐'][index % 5]}</span>`;
-        const wordText = document.createElement('span');
-        wordText.textContent = v.word;
-        word.appendChild(wordText);
-        const meaning = document.createElement('p');
-        meaning.className = 'pl-7 text-sm leading-6 text-gray-600';
-        meaning.textContent = v.meaning;
-        li.append(word, meaning);
-        list.appendChild(li);
-      });
-    }
-
-    function normalizeShadowItem(item) {
-      return typeof item === 'string' ? item : (item.text || '');
-    }
-
-    function renderShadowing(shadowing) {
-      const list = document.getElementById('shadowing-list');
-      list.innerHTML = '';
-      shadowing.forEach((item, index) => {
-        const sentence = normalizeShadowItem(item);
-        const progress = getShadowProgress(index);
-        const card = document.createElement('div');
-        card.className = 'soft-card overflow-hidden p-4';
-
-        const top = document.createElement('div');
-        top.className = 'mb-3 flex items-center justify-between';
-        top.innerHTML = `<span class="rounded-full bg-violet-100 px-3 py-1 text-xs font-extrabold text-violet-700">💬 Sentence ${index + 1}</span><span id="status-${index}" class="text-xs font-bold text-gray-400"></span>`;
-
-        const text = document.createElement('p');
-        text.className = 'shadow-text mb-3 rounded-2xl border border-violet-100 bg-gradient-to-br from-violet-50 to-fuchsia-50 p-4 text-[15px] font-semibold leading-7 text-gray-800';
-        text.textContent = sentence;
-
-        const tip = document.createElement('p');
-        tip.className = 'mb-3 text-[11px] font-medium text-gray-400';
-        tip.textContent = '👆 문장을 길게 눌러 전체 선택하세요';
-
-        const button = document.createElement('button');
-        button.id = `practice-button-${index}`;
-        button.type = 'button';
-        button.className = 'practice-button w-full rounded-2xl bg-gradient-to-r from-violet-500 to-fuchsia-500 py-3 text-sm font-extrabold text-white shadow-md shadow-violet-100';
-        button.addEventListener('click', () => practiceSentence(index));
-
-        const progressBox = document.createElement('div');
-        progressBox.className = 'mt-4';
-        progressBox.innerHTML = `<div class="mb-2 flex items-center justify-between"><span class="text-xs font-bold text-gray-500">🌈 Practice Progress</span><span id="count-${index}" class="text-sm font-extrabold text-violet-700"></span></div><div id="dots-${index}" class="flex items-center justify-between gap-1"></div>`;
-
-        card.append(top, text, tip, button, progressBox);
-        list.appendChild(card);
-
-        const dots = document.getElementById(`dots-${index}`);
-        for (let i = 0; i < MAX_PRACTICE_COUNT; i++) {
-          const dot = document.createElement('span');
-          dot.className = i < progress ? 'practice-dot completed' : 'practice-dot';
-          dots.appendChild(dot);
-        }
-        updateShadowCard(index);
-      });
-    }
-
-    function getStorageKey() {
-      const date = currentData && currentData.date ? currentData.date : getLocalDateKey();
-      return `shadow-progress-${date}`;
-    }
-    function getLocalDateKey() {
-      const now = new Date();
-      return `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`;
-    }
-    function loadShadowProgress() {
-      try { shadowProgress = JSON.parse(localStorage.getItem(getStorageKey()) || '{}'); }
-      catch { shadowProgress = {}; }
-    }
-    function saveShadowProgress() {
-      try { localStorage.setItem(getStorageKey(), JSON.stringify(shadowProgress)); } catch (e) { console.error(e); }
-    }
-    function getShadowProgress(index) {
-      return Math.min(Math.max(Number(shadowProgress[index] || 0), 0), MAX_PRACTICE_COUNT);
-    }
-    function practiceSentence(index) {
-      const current = getShadowProgress(index);
-      if (current >= MAX_PRACTICE_COUNT) return;
-      shadowProgress[index] = current + 1;
-      saveShadowProgress();
-      updateShadowCard(index);
-    }
-    function updateShadowCard(index) {
-      const progress = getShadowProgress(index);
-      const count = document.getElementById(`count-${index}`);
-      const button = document.getElementById(`practice-button-${index}`);
-      const dots = document.querySelectorAll(`#dots-${index} .practice-dot`);
-      const status = document.getElementById(`status-${index}`);
-      if (!count || !button) return;
-      count.textContent = `${progress} / ${MAX_PRACTICE_COUNT}`;
-      dots.forEach((dot, i) => dot.classList.toggle('completed', i < progress));
-      if (progress >= MAX_PRACTICE_COUNT) {
-        button.textContent = '🎉 10회 연습 완료!';
-        button.disabled = true;
-        button.className = 'practice-button w-full rounded-2xl bg-gradient-to-r from-emerald-400 to-teal-500 py-3 text-sm font-extrabold text-white shadow-md shadow-emerald-100';
-        status.textContent = '✅ Complete';
-        status.className = 'text-xs font-extrabold text-emerald-600';
-      } else {
-        button.textContent = `🎙️ 연습했어요!  ${progress} / ${MAX_PRACTICE_COUNT}`;
-        button.disabled = false;
-        status.textContent = progress === 0 ? 'Ready 💜' : `${progress}번 했어요 ✨`;
-      }
-    }
-
-    function renderQuizzes(quizzes) {
-      const list = document.getElementById('quiz-list');
-      list.innerHTML = '';
-
-      quizzes.slice(0, 3).forEach((quiz, quizIndex) => {
-        const card = document.createElement('div');
-        card.className = 'rounded-2xl border border-amber-100 bg-white/80 p-4 shadow-sm';
-
-        const question = document.createElement('p');
-        question.className = 'mb-3 text-[15px] font-bold leading-6 text-gray-800';
-        question.textContent = `❓ Quiz ${quizIndex + 1}. ${quiz.question}`;
-
-        const options = document.createElement('div');
-        options.className = 'space-y-2.5 text-[15px]';
-
-        quiz.options.forEach((option, optionIndex) => {
-          const button = document.createElement('button');
-          button.type = 'button';
-          button.className = 'w-full rounded-2xl border border-amber-100 bg-white p-3.5 text-left font-semibold text-gray-700 shadow-sm transition hover:bg-amber-50 active:scale-[.99]';
-          button.textContent = `${['①','②','③','④'][optionIndex] || `${optionIndex + 1}.`} ${option}`;
-          button.addEventListener('click', () => checkQuiz(quizIndex, optionIndex, quiz.answer));
-          options.appendChild(button);
-        });
-
-        const feedback = document.createElement('div');
-        feedback.id = `quiz-feedback-${quizIndex}`;
-        feedback.className = 'mt-4 hidden rounded-xl p-3 text-sm font-bold';
-
-        card.append(question, options, feedback);
-        list.appendChild(card);
-      });
-    }
-
-    function checkQuiz(quizIndex, selected, correct) {
-      const feedback = document.getElementById(`quiz-feedback-${quizIndex}`);
-      feedback.classList.remove('hidden');
-      if (selected === Number(correct)) {
-        feedback.textContent = '🎉 정답입니다! 정말 잘했어요 💛';
-        feedback.className = 'mt-4 rounded-xl bg-emerald-100 p-3 text-sm font-bold text-emerald-700';
-      } else {
-        feedback.textContent = '🌱 아쉬워요! 한 번 더 도전해보세요.';
-        feedback.className = 'mt-4 rounded-xl bg-rose-100 p-3 text-sm font-bold text-rose-700';
-      }
-    }
-
-    function renderRephrasing(items) {
-      const box = document.getElementById('rephrase-container');
-      box.innerHTML = '';
-      items.forEach((item, index) => {
-        const card = document.createElement('div');
-        card.className = 'soft-card p-4';
-        const label = document.createElement('p');
-        label.className = 'mb-2 text-sm font-extrabold text-rose-600';
-        label.textContent = `🌸 Original ${index + 1}`;
-        const original = document.createElement('p');
-        original.className = 'mb-3 rounded-2xl border border-rose-100 bg-rose-50 p-3 text-[15px] italic leading-6 text-gray-700';
-        original.textContent = `“${item.original}”`;
-        const textarea = document.createElement('textarea');
-        textarea.className = 'mb-3 w-full resize-none rounded-2xl border border-gray-200 bg-white p-3 text-[15px] outline-none transition focus:border-rose-300 focus:ring-4 focus:ring-rose-100';
-        textarea.rows = 3;
-        textarea.placeholder = '✏️ 이곳에 영어로 바꿔 써보세요...';
-        const button = document.createElement('button');
-        button.type = 'button';
-        button.className = 'w-full rounded-2xl bg-gradient-to-r from-rose-400 to-pink-500 py-3 text-sm font-extrabold text-white shadow-md shadow-rose-100 transition active:scale-[.99]';
-        button.textContent = '💡 AI 추천 모범 답안 보기';
-        const feedback = document.createElement('div');
-        feedback.id = `feedback-${index}`;
-        feedback.className = 'mt-3 hidden rounded-2xl border border-emerald-100 bg-emerald-50 p-3 text-sm leading-6';
-        const title = document.createElement('b');
-        title.className = 'mb-1 block text-emerald-700';
-        title.textContent = '✨ AI Suggested Rephrasing';
-        const suggestion = document.createElement('span');
-        suggestion.textContent = item.ai_suggestion;
-        feedback.append(title, suggestion);
-        button.addEventListener('click', () => feedback.classList.remove('hidden'));
-        card.append(label, original, textarea, button, feedback);
-        box.appendChild(card);
-      });
-    }
-  </script>
+<script>
+let currentData=null;let shadowProgress={};const MAX_PRACTICE_COUNT=10;const WORKER_URL="https://daily-english-corrector.skyyks00.workers.dev/";
+const today=new Date(),topics=['Weekly Review','Business','Travel','AI','Food','Economy','Culture'],topicEmojis=['🗓️','💼','✈️','🤖','🍽️','📈','🎨'];document.getElementById('topic-title').innerText=`${topicEmojis[today.getDay()]} ${topics[today.getDay()]} Day`;document.getElementById('date-display').innerText=today.toLocaleDateString('ko-KR',{year:'numeric',month:'long',day:'numeric',weekday:'long'});
+fetch('./today_news.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(`today_news.json 오류: ${r.status}`);return r.json()}).then(data=>{currentData=data;loadShadowProgress();document.getElementById('loading').classList.add('hidden');document.getElementById('content-area').classList.remove('hidden');renderContent(data)}).catch(e=>{console.error(e);document.getElementById('loading').innerHTML='<div class="mb-3 text-4xl">🥲</div><p class="font-bold text-gray-700">데이터를 불러오지 못했습니다.</p><p class="mt-2 text-sm text-gray-500">GitHub Actions가 실행되었는지 확인해주세요.</p>'});
+function renderContent(d){document.getElementById('article-title').innerText=d.title;document.getElementById('article-date').innerText=`📅 기사 발행일: ${d.date}`;const a=document.getElementById('article-link');if(d.isWeeklyReview)a.classList.add('hidden');else{a.href=d.link;a.classList.remove('hidden')}document.getElementById('article-summary').innerText=d.summary;renderVocabulary(d.vocab||[]);renderShadowing(d.shadowing||[]);renderQuizzes(d.quizzes||(d.quiz?[d.quiz]:[]));renderRephrasing(d.rephraseTarget||[])}
+function renderVocabulary(vocab){const list=document.getElementById('vocab-list');list.innerHTML='';const colors=['from-emerald-50 to-teal-50 border-emerald-100','from-sky-50 to-blue-50 border-sky-100','from-pink-50 to-rose-50 border-pink-100','from-orange-50 to-amber-50 border-orange-100','from-violet-50 to-purple-50 border-violet-100'];vocab.forEach((v,i)=>{const li=document.createElement('li');li.className=`rounded-2xl border bg-gradient-to-br ${colors[i%colors.length]} p-4 shadow-sm`;const w=document.createElement('div');w.className='mb-1 flex items-center gap-2 font-extrabold text-slate-800';w.textContent=`${['🌱','💎','🪄','🍀','⭐'][i%5]} ${v.word}`;const m=document.createElement('p');m.className='pl-7 text-sm leading-6 text-gray-600';m.textContent=v.meaning;li.append(w,m);list.appendChild(li)})}
+function normalizeShadowItem(x){return typeof x==='string'?x:(x.text||'')}
+function renderShadowing(items){const list=document.getElementById('shadowing-list');list.innerHTML='';items.forEach((item,i)=>{const p=getShadowProgress(i),card=document.createElement('div');card.className='soft-card p-4';card.innerHTML=`<div class="mb-3 flex items-center justify-between"><span class="rounded-full bg-violet-100 px-3 py-1 text-xs font-extrabold text-violet-700">💬 Sentence ${i+1}</span><span id="status-${i}" class="text-xs font-bold text-gray-400"></span></div><p class="shadow-text mb-3 rounded-2xl border border-violet-100 bg-gradient-to-br from-violet-50 to-fuchsia-50 p-4 text-[15px] font-semibold leading-7 text-gray-800"></p><p class="mb-3 text-[11px] text-gray-400">👆 문장을 길게 눌러 전체 선택하세요</p><button id="practice-button-${i}" class="practice-button w-full rounded-2xl bg-gradient-to-r from-violet-500 to-fuchsia-500 py-3 text-sm font-extrabold text-white"></button><div class="mt-4"><div class="mb-2 flex justify-between"><span class="text-xs font-bold text-gray-500">🌈 Practice Progress</span><span id="count-${i}" class="text-sm font-extrabold text-violet-700"></span></div><div id="dots-${i}" class="flex justify-between gap-1"></div></div>`;card.querySelector('.shadow-text').textContent=normalizeShadowItem(item);card.querySelector('button').onclick=()=>practiceSentence(i);list.appendChild(card);const dots=document.getElementById(`dots-${i}`);for(let n=0;n<10;n++){const d=document.createElement('span');d.className=n<p?'practice-dot completed':'practice-dot';dots.appendChild(d)}updateShadowCard(i)})}
+function getStorageKey(){return `shadow-progress-${currentData&&currentData.date?currentData.date:getLocalDateKey()}`}function getLocalDateKey(){const n=new Date();return `${n.getFullYear()}-${String(n.getMonth()+1).padStart(2,'0')}-${String(n.getDate()).padStart(2,'0')}`}function loadShadowProgress(){try{shadowProgress=JSON.parse(localStorage.getItem(getStorageKey())||'{}')}catch{shadowProgress={}}}function saveShadowProgress(){localStorage.setItem(getStorageKey(),JSON.stringify(shadowProgress))}function getShadowProgress(i){return Math.min(Math.max(Number(shadowProgress[i]||0),0),10)}function practiceSentence(i){const p=getShadowProgress(i);if(p>=10)return;shadowProgress[i]=p+1;saveShadowProgress();updateShadowCard(i)}function updateShadowCard(i){const p=getShadowProgress(i),count=document.getElementById(`count-${i}`),btn=document.getElementById(`practice-button-${i}`),status=document.getElementById(`status-${i}`);count.textContent=`${p} / 10`;document.querySelectorAll(`#dots-${i} .practice-dot`).forEach((d,n)=>d.classList.toggle('completed',n<p));if(p>=10){btn.textContent='🎉 10회 연습 완료!';btn.disabled=true;btn.className='w-full rounded-2xl bg-gradient-to-r from-emerald-400 to-teal-500 py-3 text-sm font-extrabold text-white';status.textContent='✅ Complete';status.className='text-xs font-extrabold text-emerald-600'}else{btn.textContent=`🎙️ 연습했어요! ${p} / 10`;status.textContent=p===0?'Ready 💜':`${p}번 했어요 ✨`}}
+function renderQuizzes(quizzes){const list=document.getElementById('quiz-list');list.innerHTML='';quizzes.slice(0,3).forEach((q,qi)=>{const card=document.createElement('div');card.className='rounded-2xl border border-amber-100 bg-white/80 p-4 shadow-sm';const question=document.createElement('p');question.className='mb-3 text-[15px] font-bold';question.textContent=`❓ Quiz ${qi+1}. ${q.question}`;const opts=document.createElement('div');opts.className='space-y-2.5';q.options.forEach((o,oi)=>{const b=document.createElement('button');b.className='w-full rounded-2xl border border-amber-100 bg-white p-3.5 text-left font-semibold';b.textContent=`${['①','②','③','④'][oi]||oi+1} ${o}`;b.onclick=()=>checkQuiz(qi,oi,q.answer);opts.appendChild(b)});const f=document.createElement('div');f.id=`quiz-feedback-${qi}`;f.className='mt-4 hidden rounded-xl p-3 text-sm font-bold';card.append(question,opts,f);list.appendChild(card)})}function checkQuiz(qi,s,c){const f=document.getElementById(`quiz-feedback-${qi}`);f.classList.remove('hidden');if(s===Number(c)){f.textContent='🎉 정답입니다! 정말 잘했어요 💛';f.className='mt-4 rounded-xl bg-emerald-100 p-3 text-sm font-bold text-emerald-700'}else{f.textContent='🌱 아쉬워요! 한 번 더 도전해보세요.';f.className='mt-4 rounded-xl bg-rose-100 p-3 text-sm font-bold text-rose-700'}}
+function rephraseKey(i){return `rephrase-${currentData?.date||'unknown'}-${i}`}
+function renderRephrasing(items){const box=document.getElementById('rephrase-container');box.innerHTML='';items.forEach((item,i)=>{const card=document.createElement('div');card.className='soft-card p-4';const label=document.createElement('p');label.className='mb-2 text-sm font-extrabold text-rose-600';label.textContent=`🌸 Original ${i+1}`;const original=document.createElement('p');original.className='mb-3 rounded-2xl border border-rose-100 bg-rose-50 p-3 text-[15px] italic leading-6';original.textContent=`“${item.original}”`;const ta=document.createElement('textarea');ta.id=`rephrase-input-${i}`;ta.className='mb-3 w-full resize-none rounded-2xl border border-gray-200 p-3 text-[15px] outline-none focus:ring-4 focus:ring-rose-100';ta.rows=3;ta.placeholder='✏️ 이곳에 영어로 바꿔 써보세요...';ta.value=localStorage.getItem(rephraseKey(i))||'';ta.oninput=()=>localStorage.setItem(rephraseKey(i),ta.value);const correct=document.createElement('button');correct.id=`correction-button-${i}`;correct.className='mb-2 w-full rounded-2xl bg-gradient-to-r from-violet-500 to-indigo-500 py-3 text-sm font-extrabold text-white';correct.textContent='✨ 내가 쓴 문장 교정받기';correct.onclick=()=>correctMySentence(i,item.original,item.ai_suggestion);const suggest=document.createElement('button');suggest.className='w-full rounded-2xl bg-gradient-to-r from-rose-400 to-pink-500 py-3 text-sm font-extrabold text-white';suggest.textContent='💡 추천 모범답안 보기';const result=document.createElement('div');result.id=`correction-result-${i}`;result.className='mt-3 hidden rounded-2xl border border-violet-100 bg-violet-50 p-4 text-sm leading-6';const feedback=document.createElement('div');feedback.className='mt-3 hidden rounded-2xl border border-emerald-100 bg-emerald-50 p-3 text-sm leading-6';const title=document.createElement('b');title.className='mb-1 block text-emerald-700';title.textContent='✨ AI Suggested Rephrasing';const text=document.createElement('span');text.textContent=item.ai_suggestion;feedback.append(title,text);suggest.onclick=()=>{feedback.classList.toggle('hidden');suggest.textContent=feedback.classList.contains('hidden')?'💡 추천 모범답안 보기':'🙈 추천 모범답안 숨기기'};card.append(label,original,ta,correct,suggest,result,feedback);box.appendChild(card)})}
+async function correctMySentence(i,originalSentence,suggestedAnswer){const ta=document.getElementById(`rephrase-input-${i}`),btn=document.getElementById(`correction-button-${i}`),box=document.getElementById(`correction-result-${i}`),sentence=ta.value.trim();box.classList.remove('hidden');if(!sentence){box.className='mt-3 rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm font-bold text-amber-700';box.textContent='✏️ 먼저 영어 문장을 작성해주세요.';ta.focus();return}btn.disabled=true;btn.textContent='⏳ AI가 문장을 교정하고 있어요...';box.className='mt-3 rounded-2xl border border-violet-100 bg-violet-50 p-4 text-sm text-violet-700';box.textContent='✨ 문장을 확인하고 있어요...';try{const r=await fetch(WORKER_URL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({userSentence:sentence,originalSentence,suggestedAnswer})});const data=await r.json();if(!r.ok)throw new Error(data.error||`교정 요청 실패: ${r.status}`);displayCorrectionResult(i,data)}catch(e){console.error(e);box.className='mt-3 rounded-2xl border border-rose-200 bg-rose-50 p-4 text-sm text-rose-700';box.textContent=`🥲 ${e.message}`}finally{btn.disabled=false;btn.textContent='✨ 내가 쓴 문장 교정받기'}}
+function displayCorrectionResult(i,r){const box=document.getElementById(`correction-result-${i}`);box.className='mt-3 rounded-2xl border border-violet-100 bg-gradient-to-br from-violet-50 to-blue-50 p-4 text-sm leading-6';box.innerHTML='';box.append(createSection('✅ Corrected Sentence',r.correctedSentence,'text-violet-700'),createSection('💬 More Natural Version',r.naturalVersion,'text-blue-700'),createSection('📝 교정 설명',r.feedbackKorean,'text-rose-700'),createSection('🌱 잘한 점',r.strengthsKorean,'text-emerald-700'))}function createSection(title,content,color){const w=document.createElement('div');w.className='mb-4 last:mb-0';const h=document.createElement('p');h.className=`mb-1 font-extrabold ${color}`;h.textContent=title;const p=document.createElement('p');p.className='rounded-xl bg-white p-3 text-gray-800 shadow-sm';p.textContent=content||'결과가 없습니다.';w.append(h,p);return w}
+</script>
 </body>
 </html>
