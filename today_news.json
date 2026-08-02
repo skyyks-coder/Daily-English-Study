@@ -1,29 +1,74 @@
-"quizzes": [
-  {
-    "question": "Why are companies using artificial intelligence?",
-    "options": [
-      "To improve productivity",
-      "To reduce internet access",
-      "To avoid making decisions"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "What do experts emphasize about AI?",
-    "options": [
-      "It should only be used at home",
-      "Responsible use is important",
-      "It will disappear soon"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "What is AI expected to continue influencing?",
-    "options": [
-      "Workplaces around the world",
-      "Only social media",
-      "Weather forecasts"
-    ],
-    "answer": 0
-  }
-],
+{
+  "title": "AI Is Changing the Way Businesses Work",
+  "date": "2026-08-02",
+  "link": "https://www.cnbc.com/",
+  "summary": "Artificial intelligence is changing the way businesses operate. Companies are using AI to improve productivity and make faster decisions. Experts also emphasize the importance of responsible use. The technology is expected to continue influencing workplaces around the world.",
+  "vocab": [
+    {
+      "word": "operate",
+      "meaning": "운영되다, 작동하다"
+    },
+    {
+      "word": "productivity",
+      "meaning": "생산성"
+    },
+    {
+      "word": "guideline",
+      "meaning": "지침, 가이드라인"
+    },
+    {
+      "word": "responsible",
+      "meaning": "책임감 있는"
+    },
+    {
+      "word": "influence",
+      "meaning": "영향을 미치다"
+    }
+  ],
+  "shadowing": [
+    "Artificial intelligence is changing the way businesses operate.",
+    "Companies are using AI to improve productivity.",
+    "The technology helps businesses make faster decisions.",
+    "Experts recommend clear guidelines for responsible AI use.",
+    "AI will continue to influence workplaces around the world."
+  ],
+  "quizzes": [
+    {
+      "question": "Why are companies using artificial intelligence?",
+      "options": [
+        "To improve productivity",
+        "To reduce internet access",
+        "To avoid making decisions"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What do experts emphasize about AI?",
+      "options": [
+        "It should only be used at home",
+        "Responsible use is important",
+        "It will disappear soon"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is AI expected to continue influencing?",
+      "options": [
+        "Workplaces around the world",
+        "Only social media",
+        "Weather forecasts"
+      ],
+      "answer": 0
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "Companies are using AI to improve productivity.",
+      "ai_suggestion": "Businesses are adopting artificial intelligence to work more efficiently."
+    },
+    {
+      "original": "AI will continue to influence workplaces around the world.",
+      "ai_suggestion": "Artificial intelligence will keep transforming workplaces globally."
+    }
+  ]
+}
