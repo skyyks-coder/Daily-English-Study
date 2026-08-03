@@ -1,75 +1,75 @@
 {
-  "title": "The Tech Download: Anduril CEO Brian Schimpf talks AI in warfare and manufacturing push",
+  "title": "To keep growing, incoming Best Buy CEO says he first wants to go smaller",
   "date": "2026-08-03",
-  "link": "https://www.cnbc.com/2026/07/31/the-tech-download-anduril-ceo-brian-schimpf.html",
+  "link": "https://www.cnbc.com/2026/08/01/best-buy-ceo-jason-bonfig-smaller-stores.html",
   "isWeeklyReview": false,
-  "summary": "In a recent episode of The Tech Download podcast, CNBC's Arjun Kharpal interviews Brian Schimpf, the CEO of Anduril, a defense technology company. Schimpf discusses the implications of artificial intelligence in warfare and its transformative potential in manufacturing processes. He emphasizes the importance of innovation in defense and how AI can enhance operational efficiency and decision-making. The conversation sheds light on the evolving landscape of military technology and the role of private companies in shaping future defense strategies.",
+  "summary": "Incoming CEO Jason Bonfig is poised to lead Best Buy with a vision that emphasizes both expansion and a refined customer experience. He has articulated his intent to focus on smaller store formats as a strategic move to enhance the company's reach. This approach aims to adapt to changing consumer preferences while maintaining operational efficiency. Bonfig's leadership marks a pivotal moment for Best Buy as it navigates the competitive retail landscape.",
   "vocab": [
     {
-      "word": "implications",
-      "meaning": "결과, 함의"
+      "word": "reins",
+      "meaning": "통제, 지배"
     },
     {
-      "word": "transformative",
-      "meaning": "변화를 가져오는"
+      "word": "expanding",
+      "meaning": "확장하는"
     },
     {
-      "word": "innovation",
-      "meaning": "혁신"
+      "word": "enhancing",
+      "meaning": "향상시키는"
     },
     {
-      "word": "efficiency",
-      "meaning": "효율성"
+      "word": "customer experience",
+      "meaning": "고객 경험"
     },
     {
-      "word": "landscape",
-      "meaning": "경관, 환경"
+      "word": "strategic",
+      "meaning": "전략적인"
     }
   ],
   "shadowing": [
-    "In a recent episode of The Tech Download podcast,",
-    "CNBC's Arjun Kharpal interviews Brian Schimpf,",
-    "the CEO of Anduril, a defense technology company.",
-    "Schimpf discusses the implications of artificial intelligence in warfare.",
-    "The conversation sheds light on the evolving landscape of military technology."
+    "Incoming CEO Jason Bonfig is poised to lead Best Buy.",
+    "He told CNBC he's focused on expanding the company's reach.",
+    "Bonfig's leadership marks a pivotal moment for Best Buy.",
+    "He articulated his intent to focus on smaller store formats.",
+    "This approach aims to adapt to changing consumer preferences."
   ],
   "quizzes": [
     {
-      "question": "Who is the CEO of Anduril?",
+      "question": "What is the primary focus of incoming CEO Jason Bonfig?",
       "options": [
-        "Brian Schimpf",
-        "Arjun Kharpal",
-        "Elon Musk"
+        "Expanding the company's reach",
+        "Closing stores",
+        "Reducing staff"
       ],
       "answer": 0
     },
     {
-      "question": "What topic does Schimpf discuss in the podcast?",
+      "question": "What type of store format does Bonfig want to focus on?",
       "options": [
-        "AI in warfare",
-        "Space exploration",
-        "Climate change"
+        "Larger stores",
+        "Smaller stores",
+        "Online sales only"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
-      "question": "What is the main focus of Anduril as a company?",
+      "question": "Which publication did Bonfig speak to about his plans?",
       "options": [
-        "Defense technology",
-        "Consumer electronics",
-        "Automotive manufacturing"
+        "The Wall Street Journal",
+        "CNBC",
+        "Forbes"
       ],
-      "answer": 0
+      "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "In a recent episode of The Tech Download podcast, CNBC's Arjun Kharpal interviews Brian Schimpf.",
-      "ai_suggestion": "Brian Schimpf is interviewed by CNBC's Arjun Kharpal on a recent episode of The Tech Download podcast."
+      "original": "Incoming CEO Jason Bonfig is poised to lead Best Buy.",
+      "ai_suggestion": "Jason Bonfig, the new CEO, is ready to take charge of Best Buy."
     },
     {
-      "original": "The conversation sheds light on the evolving landscape of military technology.",
-      "ai_suggestion": "The discussion illuminates the changing environment of military technology."
+      "original": "He told CNBC he's focused on expanding the company's reach.",
+      "ai_suggestion": "He mentioned to CNBC that his priority is to broaden the company's reach."
     }
   ]
 }
