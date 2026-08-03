@@ -1,75 +1,75 @@
 {
-  "title": "Here's my power rankings for the big 4 hyperscalers after this earnings season",
+  "title": "As Americans go direct with GLP-1 prescriptions, Walmart, Costco, Amazon will be big weight-loss winners",
   "date": "2026-08-03",
-  "link": "https://www.cnbc.com/2026/08/02/heres-my-power-rankings-for-the-big-4-hyperscalers-after-this-earnings-season.html",
+  "link": "https://www.cnbc.com/2026/08/01/glp-1-prescriptions-weight-loss-walmart-costco-amazon.html",
   "isWeeklyReview": false,
-  "summary": "In his latest column, Jim Cramer ranks the four major hyperscalers following the recent earnings season. He highlights Amazon as his top choice based on its performance in the second quarter. This evaluation reflects the competitive landscape among these tech giants and their financial results. Cramer's insights provide a clear perspective on the strengths of each company during this earnings period.",
+  "summary": "The article discusses the trend of Americans opting for direct prescriptions of GLP-1 weight-loss drugs, which is expected to significantly benefit major retail pharmacy chains such as Walmart, Costco, and Amazon. This shift in consumer behavior towards direct purchasing is likely to reshape the landscape of weight-loss medication distribution. As these retailers capitalize on this trend, they are positioned to become key players in the weight-loss market.",
   "vocab": [
     {
-      "word": "hyperscaler",
-      "meaning": "하이퍼스케일 기업"
+      "word": "prescription",
+      "meaning": "처방전"
     },
     {
-      "word": "earnings",
-      "meaning": "수익"
+      "word": "retail",
+      "meaning": "소매"
     },
     {
-      "word": "rankings",
-      "meaning": "순위"
+      "word": "weight-loss",
+      "meaning": "체중 감소"
     },
     {
-      "word": "column",
-      "meaning": "칼럼"
+      "word": "encouraged",
+      "meaning": "격려받는"
     },
     {
-      "word": "performance",
-      "meaning": "성과"
+      "word": "landscape",
+      "meaning": "환경"
     }
   ],
   "shadowing": [
-    "In his Sunday column, Jim Cramer explains why Amazon is his favorite hyperscaler.",
-    "This earnings season has brought significant insights into the big four.",
-    "Cramer's analysis highlights the competitive nature of the tech industry.",
-    "Amazon's second-quarter performance stood out among its peers.",
-    "The power rankings reflect the financial health of these major companies."
+    "As Americans go direct with GLP-1 prescriptions.",
+    "Retail pharmacy chains are poised to win big.",
+    "This shift in consumer behavior is significant.",
+    "Walmart, Costco, and Amazon will be major players.",
+    "The weight-loss market is evolving rapidly."
   ],
   "quizzes": [
     {
-      "question": "Who is the author of the column?",
+      "question": "What type of drug prescriptions are Americans going direct with?",
       "options": [
-        "Jim Cramer",
-        "Jeff Bezos",
-        "Tim Cook"
+        "GLP-1",
+        "GLP-2",
+        "GLP-3"
       ],
       "answer": 0
     },
     {
-      "question": "Which company does Cramer rank as his favorite?",
+      "question": "Which retailers are mentioned as potential winners in the weight-loss market?",
       "options": [
-        "Google",
-        "Amazon",
-        "Microsoft"
+        "Walmart, Target, Amazon",
+        "Walmart, Costco, Amazon",
+        "Costco, eBay, Amazon"
       ],
       "answer": 1
     },
     {
-      "question": "What is the main focus of the article?",
+      "question": "What is the expected outcome for retail pharmacy chains?",
       "options": [
-        "Earnings of the big four hyperscalers",
-        "Stock market predictions",
-        "Technology innovations"
+        "They will lose customers.",
+        "They will win big.",
+        "They will remain the same."
       ],
-      "answer": 0
+      "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "Amazon is his favorite hyperscaler after second-quarter earnings season.",
-      "ai_suggestion": "After the second-quarter earnings season, Amazon is his top choice among hyperscalers."
+      "original": "As Americans are encouraged to go direct with weight-loss drug prescriptions.",
+      "ai_suggestion": "Americans are being motivated to obtain weight-loss drug prescriptions directly."
     },
     {
-      "original": "In his Sunday column, Jim Cramer explains why Amazon is his favorite hyperscaler.",
-      "ai_suggestion": "Jim Cramer discusses in his Sunday column the reasons Amazon is his preferred hyperscaler."
+      "original": "Retail pharmacy chains are poised to win big.",
+      "ai_suggestion": "Retail pharmacy chains are set to achieve significant success."
     }
   ]
 }
