@@ -67,21 +67,43 @@ BLOCKED_RSS_KEYWORDS = (
 # 페이지 소스에서 확인할 강한 유료 콘텐츠 신호입니다.
 # 단순히 sign in이라는 단어 하나만으로 제외하지 않습니다.
 BLOCKED_PAGE_PATTERNS = (
+    # 구조화된 데이터에서 무료 접근 불가로 명시된 경우
     r'"isAccessibleForFree"\s*:\s*false',
     r'"isAccessibleForFree"\s*:\s*"false"',
     r'"accessibilityForFree"\s*:\s*false',
+
+    # 프리미엄 콘텐츠로 명시된 경우
     r'"premium"\s*:\s*true',
     r'"isPremium"\s*:\s*true',
-    r'"contentClassification"\s*:\s*"(?:PRO|CLUB|PREMIUM)"',
-    r'"contentTier"\s*:\s*"(?:PRO|CLUB|PREMIUM|PAID)"',
-    r'"articleSection"\s*:\s*"(?:CNBC Pro|Investing Club|CNBC Investing Club)"',
-    r'<meta?:CNBC Pro|Investing Club|CNBC Investing Club["\'][^>]*>',
-    r'<meta?:CNBC Pro|Investing Club|CNBC Investing Club["\']',
-    r'sign\s+in\s+to\s+(?:continue|read)\s+(?:this|the)\s+article',
-    r'subscribe\s+to\s+(?:continue|read)\s+(?:this|the)\s+article',
-    r'this\s+article\s+is\s+for\s+(?:club\s+members|pro\s+subscribers)',
-    r'available\s+exclusively\s+to\s+(?:club\s+members|pro\s+subscribers)',
-    r'join\s+the\s+cnbc\s+investing\s+club\s+to\s+(?:continue|read)',
+
+    # 콘텐츠 분류가 유료 등급인 경우
+    r'"contentClassification"\s*:\s*'
+    r'"(?:PRO|CLUB|PREMIUM)"',
+
+    r'"contentTier"\s*:\s*'
+    r'"(?:PRO|CLUB|PREMIUM|PAID)"',
+
+    r'"articleSection"\s*:\s*'
+    r'"(?:CNBC Pro|Investing Club|'
+    r'CNBC Investing Club)"',
+
+    # 실제 로그인 또는 구독 요구 문구
+    r'sign\s+in\s+to\s+'
+    r'(?:continue|read)\s+'
+    r'(?:this|the)\s+article',
+
+    r'subscribe\s+to\s+'
+    r'(?:continue|read)\s+'
+    r'(?:this|the)\s+article',
+
+    r'this\s+article\s+is\s+for\s+'
+    r'(?:club\s+members|pro\s+subscribers)',
+
+    r'available\s+exclusively\s+to\s+'
+    r'(?:club\s+members|pro\s+subscribers)',
+
+    r'join\s+the\s+cnbc\s+investing\s+club\s+'
+    r'to\s+(?:continue|read)',
 )
 
 # 공개 기사임을 확인하는 페이지 구조 신호입니다.
@@ -569,8 +591,30 @@ def pick_article():
             "선택 가능한 CNBC 기사가 없습니다."
         )
 
+try:
     article = select_public_article(
         candidates
+    )
+
+except RuntimeError:
+    print(
+        "주제별 후보에서 공개 기사를 "
+        "찾지 못했습니다."
+    )
+
+    print(
+        "전체 최신 RSS 기사에서 "
+        "다시 검색합니다."
+    )
+
+    fallback_candidates = [
+        entry
+        for entry in entries
+        if entry not in candidates
+    ]
+
+    article = select_public_article(
+        fallback_candidates
     )
 
     title = str(
