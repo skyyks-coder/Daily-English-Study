@@ -34,8 +34,17 @@ BLOCKED_URL_KEYWORDS = (
     "cnbc.com/pro", "cnbc.com/investingclub", "cnbc.com/investing-club",
 )
 BLOCKED_RSS_KEYWORDS = (
-    "cnbc pro", "cnbc investing club", "investing club", "pro subscribers",
-    "club members", "members only", "subscriber only", "subscription required",
+    "cnbc pro",
+    "cnbc investing club",
+    "investing club",
+    "pro subscribers",
+    "club members",
+    "members only",
+    "subscriber only",
+    "subscription required",
+
+    # CNBC Podcast 시리즈 제외
+    "the tech download",
 )
 BLOCKED_PAGE_PATTERNS = (
     r'"isAccessibleForFree"\s*:\s*false',
