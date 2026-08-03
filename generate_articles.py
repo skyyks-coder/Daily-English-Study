@@ -18,7 +18,12 @@ from pydantic import BaseModel
 # =========================================================
 
 # 기존에 사용하던 CNBC RSS 주소를 여기에 넣으세요.
-CNBC_RSS_URL = "여기에_기존_CNBC_RSS_URL"
+CNBC_RSS_URLS = [
+    "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+    "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+    "https://www.cnbc.com/id/15837362/device/rss/rss.html",
+    "https://www.cnbc.com/id/20409666/device/rss/rss.html?x=1",
+]
 
 # OpenRouter 공식 API Base URL
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
@@ -308,6 +313,126 @@ def is_public_cnbc_article(entry):
 # 기사 후보 및 선택
 # =========================================================
 
+def fetch_cnbc_rss_entries():
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 "
+            "(Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 "
+            "(KHTML, like Gecko) "
+            "Chrome/126.0.0.0 Safari/537.36"
+        ),
+        "Accept": (
+            "application/rss+xml,"
+            "application/xml;q=0.9,"
+            "text/xml;q=0.8,"
+            "*/*;q=0.7"
+        ),
+        "Accept-Language": "en-US,en;q=0.9",
+        "Referer": "https://www.cnbc.com/",
+    }
+
+    entries = []
+    seen_links = set()
+
+    for rss_url in CNBC_RSS_URLS:
+        for attempt in range(1, 4):
+            try:
+                print(
+                    f"CNBC RSS 요청: "
+                    f"{rss_url} "
+                    f"(시도 {attempt}/3)"
+                )
+
+                response = requests.get(
+                    rss_url,
+                    headers=headers,
+                    timeout=30,
+                    allow_redirects=True,
+                )
+
+                print(
+                    f"CNBC RSS 응답: "
+                    f"status={response.status_code}, "
+                    f"size={len(response.content)} bytes"
+                )
+
+                response.raise_for_status()
+
+                parsed = feedparser.parse(
+                    response.content
+                )
+
+                if parsed.bozo:
+                    print(
+                        "RSS 파싱 경고:",
+                        parsed.bozo_exception,
+                    )
+
+                if not parsed.entries:
+                    print(
+                        "RSS 기사 항목이 없습니다."
+                    )
+                    break
+
+                added_count = 0
+
+                for entry in parsed.entries:
+                    title = str(
+                        entry.get("title", "")
+                    ).strip()
+
+                    link = str(
+                        entry.get("link", "")
+                    ).strip()
+
+                    if not title or not link:
+                        continue
+
+                    if link in seen_links:
+                        continue
+
+                    seen_links.add(link)
+                    entries.append(entry)
+                    added_count += 1
+
+                print(
+                    f"CNBC RSS 기사 추가: "
+                    f"{added_count}개"
+                )
+
+                break
+
+            except requests.RequestException as error:
+                print(
+                    f"CNBC RSS 요청 실패: "
+                    f"{type(error).__name__}: "
+                    f"{error}"
+                )
+
+                if attempt < 3:
+                    time.sleep(
+                        attempt * 3
+                    )
+
+            except Exception as error:
+                print(
+                    f"CNBC RSS 처리 실패: "
+                    f"{type(error).__name__}: "
+                    f"{error}"
+                )
+                break
+
+        if len(entries) >= MAX_RSS_ENTRIES:
+            break
+
+    print(
+        f"CNBC RSS 최종 수집 기사: "
+        f"{len(entries)}개"
+    )
+
+    return entries
+
 def get_topic_candidates(entries, topic):
     keywords = {
         "Business": [
@@ -421,35 +546,66 @@ def select_public_article(candidates):
         "CNBC 공개 기사를 찾지 못했습니다."
     )
 
-
 def pick_article():
-    feed = feedparser.parse(CNBC_RSS_URL)
+    entries = (
+        fetch_cnbc_rss_entries()
+    )
 
-    if feed.bozo and not feed.entries:
-        raise RuntimeError("CNBC RSS를 불러오지 못했습니다.")
-
-    if not feed.entries:
-        raise RuntimeError("CNBC RSS에 기사가 없습니다.")
+    if not entries:
+        raise RuntimeError(
+            "모든 CNBC RSS 주소에서 "
+            "기사를 불러오지 못했습니다."
+        )
 
     topic = get_today_topic()
-    candidates = get_topic_candidates(feed.entries, topic)
+
+    candidates = get_topic_candidates(
+        entries,
+        topic,
+    )
 
     if not candidates:
-        raise RuntimeError("선택 가능한 CNBC 기사가 없습니다.")
+        raise RuntimeError(
+            "선택 가능한 CNBC 기사가 없습니다."
+        )
 
-    article = select_public_article(candidates)
+    article = select_public_article(
+        candidates
+    )
 
-    title = article.get("title", "").strip()
-    link = article.get("link", "").strip()
-    published = article.get("published", "") or article.get("updated", "")
-    rss_summary = article.get("summary", "") or article.get("description", "")
-    description = clean_html(rss_summary) or title
+    title = str(
+        article.get("title", "")
+    ).strip()
+
+    link = str(
+        article.get("link", "")
+    ).strip()
+
+    published = (
+        article.get("published", "")
+        or article.get("updated", "")
+    )
+
+    rss_summary = (
+        article.get("summary", "")
+        or article.get("description", "")
+    )
+
+    description = (
+        clean_html(rss_summary)
+        or title
+    )
 
     if not title or not link:
-        raise RuntimeError("선택된 기사에 제목 또는 링크가 없습니다.")
+        raise RuntimeError(
+            "선택된 기사에 제목 또는 "
+            "링크가 없습니다."
+        )
 
     if "cnbc.com" not in link.lower():
-        raise RuntimeError("선택된 링크가 CNBC 링크가 아닙니다.")
+        raise RuntimeError(
+            "선택된 링크가 CNBC 링크가 아닙니다."
+        )
 
     return {
         "title": title,
@@ -458,6 +614,7 @@ def pick_article():
         "description": description,
         "topic": topic,
     }
+
 
 
 # =========================================================
