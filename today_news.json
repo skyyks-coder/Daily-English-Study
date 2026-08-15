@@ -1,75 +1,75 @@
 {
-  "title": "How a niche copper trade became a real-time gauge of Trump’s next tariff move",
-  "date": "2026-08-15",
-  "link": "https://www.cnbc.com/2026/08/14/copper-trump-tariffs-metal-commodities-trade-war.html",
-  "isWeeklyReview": false,
-  "summary": "The article discusses how fluctuations in copper prices across different metal exchanges are becoming a significant indicator of potential U.S. tariff changes under the Trump administration. Investors are closely monitoring these price movements to assess the risks associated with tariffs. This niche copper trade reflects broader economic sentiments and the complexities of international trade policies, particularly in the context of ongoing trade tensions.",
+  "title": "Weekly English Review",
+  "date": "2026-08-16",
+  "link": "",
+  "isWeeklyReview": true,
+  "summary": "The recent developments in the business landscape highlight significant challenges and opportunities for major companies like Meta, Nvidia, and Intel. As Meta navigates regulatory scrutiny in India, it faces potential risks to its operational immunity, while Nvidia and Meta strive to enhance their presence in the competitive AI sector dominated by Chinese firms. Meanwhile, Intel's substantial stock offering reflects the insatiable demand for AI technologies, indicating a broader trend of investment in innovation. Additionally, fluctuations in copper prices are emerging as indicators of potential tariff changes, showcasing the intricate relationship between commodities and international trade policies. Overall, these events underscore the dynamic nature of global markets and the strategic responses of corporations to evolving economic conditions.",
   "vocab": [
     {
-      "word": "fluctuation",
-      "meaning": "변동"
+      "word": "scrutiny",
+      "meaning": "세밀한 조사"
     },
     {
-      "word": "indicator",
-      "meaning": "지표"
+      "word": "jeopardize",
+      "meaning": "위험에 처하게 하다"
     },
     {
-      "word": "assess",
-      "meaning": "평가하다"
+      "word": "immunity",
+      "meaning": "면책"
     },
     {
-      "word": "sentiment",
-      "meaning": "정서"
+      "word": "dissent",
+      "meaning": "반대 의견"
     },
     {
-      "word": "tension",
-      "meaning": "긴장"
+      "word": "regulatory",
+      "meaning": "규제의"
     }
   ],
   "shadowing": [
-    "The widening price of copper is significant.",
-    "Investors are looking for gauges of tariff risk.",
-    "Copper prices reflect economic sentiments.",
-    "Trade tensions impact commodity markets.",
-    "Real-time data is crucial for investment decisions."
+    "Meta is facing increasing pressure from Indian regulators.",
+    "The firm risks losing its safe harbor immunity.",
+    "This crisis could upend Meta's business in India.",
+    "Regulators are demanding changes to Meta's operations.",
+    "Public dissent is growing against the company."
   ],
   "quizzes": [
     {
-      "question": "What is the main focus of the article?",
+      "question": "What is the main issue Meta is facing in India?",
       "options": [
-        "The impact of tariffs on copper prices.",
-        "The history of copper trade.",
-        "The benefits of investing in metals."
-      ],
-      "answer": 0
-    },
-    {
-      "question": "Why are investors monitoring copper prices?",
-      "options": [
-        "To predict weather changes.",
-        "To gauge U.S. tariff risks.",
-        "To find new investment opportunities."
+        "Increased competition from local firms",
+        "Demands to revoke its safe harbor immunity",
+        "A decline in user engagement"
       ],
       "answer": 1
     },
     {
-      "question": "What does the article suggest about trade tensions?",
+      "question": "What could be a consequence of losing safe harbor immunity?",
       "options": [
-        "They have no effect on commodities.",
-        "They are a minor concern for investors.",
-        "They significantly impact market dynamics."
+        "Greater legal liability for user content",
+        "Increased advertising revenue",
+        "Expansion of services offered"
       ],
-      "answer": 2
+      "answer": 0
+    },
+    {
+      "question": "What is the amount Intel has increased its stock offering to?",
+      "options": [
+        "$10 billion",
+        "$20 billion",
+        "$30 billion"
+      ],
+      "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "The widening price of copper between two metals exchanges is offering investors a gauge of U.S. tariff risk.",
-      "ai_suggestion": "The increasing price difference of copper across two metal exchanges provides investors with an indicator of potential U.S. tariff risks."
+      "original": "Meta is facing increasing pressure from Indian regulators.",
+      "ai_suggestion": "Indian regulators are putting more pressure on Meta."
     },
     {
-      "original": "This niche copper trade reflects broader economic sentiments and the complexities of international trade policies.",
-      "ai_suggestion": "This specialized copper market represents wider economic feelings and the intricacies of global trade regulations."
+      "original": "This crisis could upend Meta's business in India.",
+      "ai_suggestion": "This situation might disrupt Meta's operations in India."
     }
   ]
 }
