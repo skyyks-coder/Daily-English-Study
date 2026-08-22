@@ -1,75 +1,75 @@
 {
-  "title": "No more doom scrolling or Instagram Stories? A Meta trial loss could end the social media we know",
-  "date": "2026-08-22",
-  "link": "https://www.cnbc.com/2026/08/21/meta-social-media-lawsuit-trial-instagram-facebook.html",
-  "isWeeklyReview": false,
-  "summary": "A recent trial involving Meta, the parent company of Facebook and Instagram, has raised concerns about the future of social media as we know it. Analysts draw parallels between this case and the significant lawsuits against Big Tobacco in the 1990s, suggesting that the outcome could have far-reaching implications for the industry. The potential loss for Meta may lead to a transformation in how social media platforms operate, particularly regarding user engagement and content consumption habits.",
+  "title": "Weekly English Review",
+  "date": "2026-08-23",
+  "link": "",
+  "isWeeklyReview": true,
+  "summary": "This week's news highlights significant developments across various sectors, including technology, education, finance, and social media. Cerebras Systems faced a notable stock decline despite exceeding revenue expectations, reflecting the volatility in the tech market. Meanwhile, families are increasingly relying on financial aid to manage soaring college costs, raising concerns about affordability in higher education. In the financial realm, the Treasury's strategic buybacks of long-term debt have sparked discussions about inflation and the Federal Reserve's independence. Lastly, a trial involving Meta could potentially reshape the social media landscape, drawing parallels to historical legal battles against Big Tobacco.",
   "vocab": [
     {
-      "word": "analogy",
-      "meaning": "유사성"
+      "word": "plunge",
+      "meaning": "급락하다"
+    },
+    {
+      "word": "guidance",
+      "meaning": "지침, 안내"
+    },
+    {
+      "word": "tuition",
+      "meaning": "수업료"
+    },
+    {
+      "word": "leverage",
+      "meaning": "지렛대 효과를 이용하다"
     },
     {
       "word": "implication",
       "meaning": "함의"
-    },
-    {
-      "word": "transform",
-      "meaning": "변형하다"
-    },
-    {
-      "word": "engagement",
-      "meaning": "참여"
-    },
-    {
-      "word": "outcome",
-      "meaning": "결과"
     }
   ],
   "shadowing": [
-    "The trial's outcome could reshape the landscape of social media.",
-    "Many experts are watching closely to see what happens next.",
-    "This case may set a precedent for future legal actions against tech companies.",
-    "Users might experience significant changes in how they interact with platforms.",
-    "The comparison to Big Tobacco highlights the seriousness of the allegations."
+    "Cerebras Systems reported better-than-expected second-quarter revenue.",
+    "Many families struggle to pay for college tuition.",
+    "The Treasury's decision has significant implications.",
+    "Nome is an innovative startup leveraging artificial intelligence.",
+    "The trial's outcome could reshape the landscape of social media."
   ],
   "quizzes": [
     {
-      "question": "What is the main concern regarding the Meta trial?",
+      "question": "What percentage did Cerebras stock drop after the earnings report?",
       "options": [
-        "It may change the way social media operates.",
-        "It will lead to increased user privacy.",
-        "It will have no effect on social media."
+        "10%",
+        "14%",
+        "12%"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
-      "question": "What historical comparison is made in the article?",
+      "question": "What is the annual cost of college mentioned?",
       "options": [
-        "Big Tobacco lawsuits",
-        "Tech company regulations",
-        "Television advertising laws"
+        "$50,000",
+        "$100,000",
+        "$150,000"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
-      "question": "What might users experience if Meta loses the trial?",
+      "question": "What is the main action taken by the Treasury?",
       "options": [
-        "More advertisements",
-        "Changes in engagement with platforms",
-        "Fewer social media options"
+        "Increase interest rates",
+        "Buy back long-term debt",
+        "Sell short-term bonds"
       ],
       "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "A Meta trial loss could end the social media we know.",
-      "ai_suggestion": "The loss of the trial by Meta might signify the end of familiar social media."
+      "original": "Cerebras stock plunges 14% after second earnings report following IPO.",
+      "ai_suggestion": "Cerebras shares fell by 14% following the release of its second earnings report after going public."
     },
     {
-      "original": "These trials are often compared to the Big Tobacco lawsuits of the 90s.",
-      "ai_suggestion": "Such trials are frequently likened to the lawsuits against Big Tobacco in the 1990s."
+      "original": "A Meta trial loss could end the social media we know.",
+      "ai_suggestion": "The loss of the trial by Meta might signify the end of familiar social media."
     }
   ]
 }
