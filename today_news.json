@@ -1,45 +1,54 @@
 {
-  "title": "Mark Walter's TWG Global says there's 'no fraud' amid probe of insurers' disclosures",
-  "date": "2026-08-29",
-  "link": "https://www.cnbc.com/2026/08/26/mark-walter-twg-guggenheim-lakers.html",
-  "isWeeklyReview": false,
-  "summary": "Mark Walter, the billionaire owner of the Los Angeles Dodgers, is currently under scrutiny due to his decision to sell his majority stake in the LA Lakers. Despite the ongoing investigation into insurers' disclosures, Walter asserts that there is 'no fraud' involved. This situation has attracted significant media attention, highlighting the complexities of ownership in high-profile sports franchises. The implications of this sale could have far-reaching effects on both the Lakers and the broader sports culture.",
+  "title": "Weekly English Review",
+  "date": "2026-08-30",
+  "link": "",
+  "isWeeklyReview": true,
+  "summary": "This week's news highlights significant developments across various sectors, including finance, aviation, and international relations. Stripe's acquisition of OpenRouter demonstrates its commitment to integrating artificial intelligence into its services, while United Airlines grapples with the delayed certification of its Boeing 737 Max 10 seats. Additionally, China's dual reliance on U.S. dollars and its efforts to mitigate sanctions reflect the complexities of global economic interactions. The Bank of Korea's recent interest rate hikes aim to address persistent inflation, and Mark Walter's scrutiny over his stake in the LA Lakers underscores the challenges faced by sports franchise owners amidst regulatory investigations.",
   "vocab": [
+    {
+      "word": "acquisition",
+      "meaning": "인수"
+    },
+    {
+      "word": "premium",
+      "meaning": "프리미엄"
+    },
+    {
+      "word": "mitigate",
+      "meaning": "완화하다"
+    },
     {
       "word": "scrutiny",
       "meaning": "면밀한 조사"
     },
     {
-      "word": "disclosures",
-      "meaning": "공개"
-    },
-    {
-      "word": "implications",
-      "meaning": "함의"
-    },
-    {
-      "word": "franchise",
-      "meaning": "프랜차이즈"
-    },
-    {
-      "word": "assert",
-      "meaning": "주장하다"
+      "word": "hike",
+      "meaning": "인상"
     }
   ],
   "shadowing": [
-    "Mark Walter's empire has faced media scrutiny.",
-    "He said he would sell his majority share of the LA Lakers.",
-    "Walter asserts that there is 'no fraud' involved.",
-    "The investigation focuses on insurers' disclosures.",
-    "This situation highlights the complexities of sports ownership."
+    "Stripe's acquisition of OpenRouter marks a significant step.",
+    "United Airlines is facing challenges with its Boeing 737 Max 10 seats.",
+    "China is developing strategies to mitigate the impact of U.S. sanctions.",
+    "The Bank of Korea has implemented consecutive rate hikes.",
+    "Mark Walter asserts that there is 'no fraud' involved in the investigation."
   ],
   "quizzes": [
     {
-      "question": "What is the primary focus of the media scrutiny regarding Mark Walter?",
+      "question": "What company is Stripe acquiring?",
       "options": [
-        "His ownership of the Dodgers",
-        "His decision to sell the Lakers",
-        "His business dealings with insurers"
+        "OpenRouter",
+        "PayPal",
+        "Square"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What type of seats did United Airlines plan to install on the Max 10?",
+      "options": [
+        "Economy seats",
+        "Lie-flat premium seats",
+        "Business class seats"
       ],
       "answer": 1
     },
@@ -51,25 +60,16 @@
         "He is cooperating with the investigation"
       ],
       "answer": 1
-    },
-    {
-      "question": "Which sports team is associated with Mark Walter in this context?",
-      "options": [
-        "LA Lakers",
-        "LA Clippers",
-        "Golden State Warriors"
-      ],
-      "answer": 0
     }
   ],
   "rephraseTarget": [
     {
-      "original": "Mark Walter has faced media scrutiny since he said he would sell his majority share of the LA Lakers.",
-      "ai_suggestion": "Since announcing his intention to sell his majority stake in the LA Lakers, Mark Walter has been under intense media scrutiny."
+      "original": "Stripe said it's acquiring OpenRouter.",
+      "ai_suggestion": "Stripe announced its intention to purchase OpenRouter."
     },
     {
-      "original": "The empire of billionaire Los Angeles Dodgers owner Mark Walter has faced media scrutiny.",
-      "ai_suggestion": "Billionaire Mark Walter, owner of the Los Angeles Dodgers, has come under media scrutiny regarding his business empire."
+      "original": "United Airlines wanted to put lie-flat premium seats on its Max 10 planes once they were certified.",
+      "ai_suggestion": "Once certified, United Airlines aimed to install lie-flat premium seats on its Max 10 aircraft."
     }
   ]
 }
