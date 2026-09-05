@@ -1,39 +1,57 @@
 {
-  "title": "Women accounted for almost all of job gains in August. Here's why",
-  "date": "2026-09-05",
-  "link": "https://www.cnbc.com/2026/09/04/jobs-report-women-payrolls.html",
-  "isWeeklyReview": false,
-  "summary": "In August, women were responsible for nearly all job gains, indicating a significant shift in the labor market dynamics. This trend highlights the increasing influence of women in various sectors, showcasing their growing economic power. The data reflects broader societal changes and the ongoing efforts toward gender equality in the workplace.",
+  "title": "Weekly English Review",
+  "date": "2026-09-06",
+  "link": "",
+  "isWeeklyReview": true,
+  "summary": "In recent weeks, significant developments have emerged across various sectors, highlighting both challenges and opportunities. Goodyear is actively pursuing a turnaround strategy to address its financial liabilities while enhancing its operational efficiency. Meanwhile, Chinese President Xi Jinping's diplomatic engagements underscore China's strategic positioning in global politics. Additionally, GoPro's merger with Starman Optical marks a pivotal shift towards the AI sector, reflecting the company's commitment to innovation. Lastly, the labor market has seen a notable increase in job gains attributed to women, indicating a positive trend towards gender equality in the workplace.",
   "vocab": [
+    {
+      "word": "turnaround",
+      "meaning": "전환, 개선"
+    },
+    {
+      "word": "diplomatic",
+      "meaning": "외교의"
+    },
+    {
+      "word": "merging",
+      "meaning": "합병하다"
+    },
+    {
+      "word": "suspension",
+      "meaning": "정직, 정지"
+    },
     {
       "word": "accounted for",
       "meaning": "차지하다"
-    },
-    {
-      "word": "gains",
-      "meaning": "증가"
-    },
-    {
-      "word": "influence",
-      "meaning": "영향력"
-    },
-    {
-      "word": "dynamics",
-      "meaning": "역학"
-    },
-    {
-      "word": "equality",
-      "meaning": "평등"
     }
   ],
   "shadowing": [
-    "Women accounted for virtually all of August's payroll gains.",
-    "This trend highlights the increasing influence of women.",
-    "The data reflects broader societal changes.",
-    "There is an ongoing effort toward gender equality.",
-    "Women are showcasing their growing economic power."
+    "Goodyear is currently implementing a comprehensive turnaround plan.",
+    "Chinese President Xi Jinping is expected to make his first visit to India.",
+    "GoPro is merging with Starman Optical.",
+    "The NBA has imposed a one-year suspension.",
+    "Women accounted for virtually all of August's payroll gains."
   ],
   "quizzes": [
+    {
+      "question": "What is the main focus of Goodyear's current plan?",
+      "options": [
+        "To increase production capacity",
+        "To restructure and refinance debts",
+        "To expand into new markets"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What was the length of the suspension imposed on Steve Ballmer?",
+      "options": [
+        "One year",
+        "Six months",
+        "Two years"
+      ],
+      "answer": 0
+    },
     {
       "question": "What percentage of job gains in August were accounted for by women?",
       "options": [
@@ -42,34 +60,16 @@
         "A quarter"
       ],
       "answer": 0
-    },
-    {
-      "question": "What does the trend indicate about women's roles in the labor market?",
-      "options": [
-        "Decreasing influence",
-        "Growing power",
-        "No change"
-      ],
-      "answer": 1
-    },
-    {
-      "question": "What is one of the broader implications of this data?",
-      "options": [
-        "Increased unemployment",
-        "Societal changes",
-        "Less job availability"
-      ],
-      "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "Women accounted for virtually all of August's payroll gains.",
-      "ai_suggestion": "Almost all job gains in August were attributed to women."
+      "original": "The tire maker has an ongoing turnaround plan.",
+      "ai_suggestion": "The tire manufacturer is currently executing a turnaround strategy."
     },
     {
-      "original": "This trend highlights the increasing influence of women in various sectors.",
-      "ai_suggestion": "This pattern emphasizes the growing impact of women across different industries."
+      "original": "Women accounted for virtually all of August's payroll gains.",
+      "ai_suggestion": "Almost all job gains in August were attributed to women."
     }
   ]
 }
