@@ -1,75 +1,75 @@
 {
-  "title": "NFL Commissioner Roger Goodell says league could rework TV packages in next media deal",
-  "date": "2026-09-12",
-  "link": "https://www.cnbc.com/2026/09/10/nfl-roger-goodell-tv-packages-deal.html",
-  "isWeeklyReview": false,
-  "summary": "NFL Commissioner Roger Goodell has indicated that the league is considering the possibility of restructuring its television packages in the upcoming media deal. This comes in light of the NFL's opt-out clause, which allows the league to resell and redistribute its media rights at the conclusion of the 2029-30 season. Such a move could significantly impact how NFL games are broadcasted and monetized in the future, reflecting the evolving landscape of sports media rights.",
+  "title": "Weekly English Review",
+  "date": "2026-09-13",
+  "link": "",
+  "isWeeklyReview": true,
+  "summary": "This week's news highlights significant developments across various sectors, including technology, natural disasters, and economic policies. Tesla's upcoming Cybercab update has generated excitement with its innovative features aimed at reshaping urban transportation. Meanwhile, the eruption of Mount Anak Krakatau has disrupted air travel in Indonesia, emphasizing the challenges posed by natural disasters. In the financial sector, rising mortgage rates are leading borrowers to seek riskier loan options, while the Trump administration pressures the Federal Reserve regarding interest rates. Lastly, the NFL is considering restructuring its television packages, reflecting the evolving landscape of sports media rights.",
   "vocab": [
     {
-      "word": "Commissioner",
-      "meaning": "위원장"
+      "word": "unveiled",
+      "meaning": "공식적으로 발표하다"
+    },
+    {
+      "word": "anticipation",
+      "meaning": "기대, 예상"
+    },
+    {
+      "word": "bottleneck",
+      "meaning": "병목 현상"
+    },
+    {
+      "word": "pressure",
+      "meaning": "압박"
     },
     {
       "word": "restructure",
       "meaning": "재구성하다"
-    },
-    {
-      "word": "opt-out",
-      "meaning": "탈퇴하다"
-    },
-    {
-      "word": "redistribute",
-      "meaning": "재분배하다"
-    },
-    {
-      "word": "monetize",
-      "meaning": "수익화하다"
     }
   ],
   "shadowing": [
-    "NFL Commissioner Roger Goodell has indicated that the league is considering the possibility of restructuring its television packages.",
-    "This comes in light of the NFL's opt-out clause, which allows the league to resell and redistribute its media rights.",
-    "Such a move could significantly impact how NFL games are broadcasted.",
-    "The evolving landscape of sports media rights is a crucial factor in these discussions.",
-    "The decision could reshape the future of NFL broadcasting."
+    "Tesla's upcoming Cybercab update has generated excitement.",
+    "The eruption of Mount Anak Krakatau has disrupted air travel.",
+    "Borrowers are increasingly turning to riskier loan options.",
+    "The Trump administration is pressuring the Federal Reserve.",
+    "The NFL is considering restructuring its television packages."
   ],
   "quizzes": [
     {
-      "question": "What is the opt-out clause related to?",
+      "question": "What innovative feature is Tesla teasing for the Cybercab?",
       "options": [
-        "Reselling media rights",
-        "Changing the league's name",
-        "Adjusting player contracts"
+        "A new color option",
+        "No steering wheel and no pedals",
+        "Extended battery life"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What caused the disruption of flights in Indonesia?",
+      "options": [
+        "A volcanic eruption",
+        "A severe storm",
+        "Technical issues"
       ],
       "answer": 0
     },
     {
-      "question": "Who is the NFL Commissioner?",
+      "question": "What type of mortgage are more borrowers turning to?",
       "options": [
-        "Roger Goodell",
-        "Roger Federer",
-        "Goodell Roger"
+        "Fixed-rate mortgages",
+        "Adjustable-rate mortgages",
+        "Interest-only mortgages"
       ],
-      "answer": 0
-    },
-    {
-      "question": "When does the opt-out clause take effect?",
-      "options": [
-        "2029-30 season",
-        "2025-26 season",
-        "2030-31 season"
-      ],
-      "answer": 0
+      "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "The NFL has an opt-out clause at the end of the 2029-30 season.",
-      "ai_suggestion": "At the conclusion of the 2029-30 season, the NFL possesses an opt-out clause."
+      "original": "The eruption of Mount Anak Krakatau disrupted hundreds of flights across Indonesia.",
+      "ai_suggestion": "The eruption of Mount Anak Krakatau affected numerous flights throughout Indonesia."
     },
     {
-      "original": "The league could rework TV packages in the next media deal.",
-      "ai_suggestion": "In the upcoming media deal, the league might revise its television packages."
+      "original": "The NFL has an opt-out clause at the end of the 2029-30 season.",
+      "ai_suggestion": "At the conclusion of the 2029-30 season, the NFL possesses an opt-out clause."
     }
   ]
 }
