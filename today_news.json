@@ -1,75 +1,75 @@
 {
-  "title": "Sportsbooks remain king this football season, but upstarts are making a run for the money",
-  "date": "2026-09-19",
-  "link": "https://www.cnbc.com/2026/09/18/sportsbooks-remain-king-this-football-season-but-upstarts-are-making-a-run-for-the-money.html",
-  "isWeeklyReview": false,
-  "summary": "As the current football season unfolds, traditional sportsbooks continue to dominate the betting landscape, yet emerging competitors are beginning to challenge their supremacy. Chris Grove, a partner emeritus at Eilers & Krejcik Gaming, notes that prediction markets are currently enhancing the overall market dynamics. This shift indicates a potential evolution in the betting industry, where innovation may play a crucial role in shaping future trends.",
+  "title": "Weekly English Review",
+  "date": "2026-09-20",
+  "link": "",
+  "isWeeklyReview": true,
+  "summary": "This week's news highlights significant developments in various sectors, including technology, travel, and finance. Amazon's partnership with OpenAI marks a pivotal moment in advertising, allowing advertisers to utilize advanced AI tools. Meanwhile, the U.S. government is easing travel restrictions 25 years after 9/11, reflecting changes in security dynamics. The ongoing debate over AI regulation showcases contrasting views on safety and innovation, while the House advances a bill to manage utility costs for AI data centers. Lastly, the Federal Reserve's interest rate hike reignites discussions about its independence amidst political pressures.",
   "vocab": [
+    {
+      "word": "hesitant",
+      "meaning": "주저하는"
+    },
+    {
+      "word": "relax",
+      "meaning": "완화하다"
+    },
+    {
+      "word": "emerge",
+      "meaning": "나타나다"
+    },
+    {
+      "word": "bipartisan",
+      "meaning": "양당의"
+    },
     {
       "word": "supremacy",
       "meaning": "우월, 지배"
-    },
-    {
-      "word": "emerging",
-      "meaning": "신흥의, 나타나는"
-    },
-    {
-      "word": "dynamics",
-      "meaning": "역학, 동력학"
-    },
-    {
-      "word": "innovation",
-      "meaning": "혁신, 새로움"
-    },
-    {
-      "word": "prediction",
-      "meaning": "예측, 예언"
     }
   ],
   "shadowing": [
-    "Sportsbooks remain king this football season.",
-    "Upstarts are making a run for the money.",
-    "Prediction markets are growing the overall market.",
-    "Chris Grove is a partner emeritus at Eilers & Krejcik Gaming.",
-    "The betting industry is evolving with new trends."
+    "Amazon has been hesitant to open its sprawling webstore.",
+    "The U.S. government is walking back some security screenings.",
+    "Two camps have emerged with opposing views.",
+    "The bipartisan legislation would create a regulatory framework.",
+    "The Federal Reserve raised interest rates unanimously."
   ],
   "quizzes": [
     {
-      "question": "What does Chris Grove suggest about prediction markets?",
+      "question": "What has Amazon recently allowed its advertisers to do?",
       "options": [
-        "They are declining in popularity.",
-        "They are enhancing the overall market.",
-        "They are irrelevant to the betting industry."
+        "Access OpenAI's ChatGPT platform",
+        "Open its webstore to all AI platforms",
+        "Develop its own AI technology"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the main purpose of the bill?",
+      "options": [
+        "To increase energy costs for consumers",
+        "To create a regulatory framework for data centers",
+        "To eliminate data centers altogether"
       ],
       "answer": 1
     },
     {
-      "question": "What is the main focus of the article?",
+      "question": "What recent action did the Federal Reserve take?",
       "options": [
-        "The history of sportsbooks.",
-        "The competition between traditional sportsbooks and new entrants.",
-        "The rules of football betting."
-      ],
-      "answer": 1
-    },
-    {
-      "question": "Who is Chris Grove?",
-      "options": [
-        "A football player.",
-        "A partner emeritus at Eilers & Krejcik Gaming.",
-        "A sportsbook owner."
+        "They lowered interest rates.",
+        "They raised interest rates by a quarter point.",
+        "They kept interest rates unchanged."
       ],
       "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "Sportsbooks remain king this football season.",
-      "ai_suggestion": "This football season, sportsbooks continue to hold a dominant position."
+      "original": "Amazon has been hesitant to open its sprawling webstore to external AI platforms.",
+      "ai_suggestion": "Amazon has shown reluctance in allowing external AI platforms access to its extensive webstore."
     },
     {
-      "original": "Prediction markets are growing the overall market.",
-      "ai_suggestion": "The overall market is being expanded by the growth of prediction markets."
+      "original": "The bipartisan legislation would create a regulatory framework.",
+      "ai_suggestion": "The legislation supported by both parties aims to establish a regulatory structure."
     }
   ]
 }
