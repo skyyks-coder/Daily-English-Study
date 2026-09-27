@@ -1,39 +1,57 @@
 {
-  "title": "White House allows blocked reporters in after judge lifts Trump ban",
-  "date": "2026-09-26",
-  "link": "https://www.cnbc.com/2026/09/24/judge-lifts-trumps-white-house-ban-on-cnn-ms-now-and-politico.html",
-  "isWeeklyReview": false,
-  "summary": "A recent ruling by District Judge Tim Kelly has mandated the immediate restoration of access for CNN, MSNBC, and Politico, which had been barred from the White House following a ban announced by President Trump on September 18. The decision underscores the ongoing tensions between the media and the administration, highlighting the importance of press freedom in a democratic society. This development is seen as a significant victory for journalistic integrity and the rights of the press to report on government activities without undue interference.",
+  "title": "Weekly English Review",
+  "date": "2026-09-27",
+  "link": "",
+  "isWeeklyReview": true,
+  "summary": "This week's news highlights significant developments across various sectors, including economic pressures on American companies due to tariffs and rising costs, as well as advancements in space exploration with SpaceX's new funding from NASA. Additionally, the Taiwanese Taiex index reached a record high, driven by optimism in the technology sector, while Meta's introduction of a consumer AI product has sparked concerns in the financial markets. Furthermore, the Federal Reserve's anticipated interest rate hike and the restoration of press access to major news outlets underscore ongoing tensions in the political landscape.",
   "vocab": [
+    {
+      "word": "tariffs",
+      "meaning": "관세"
+    },
+    {
+      "word": "upheaval",
+      "meaning": "격변"
+    },
+    {
+      "word": "benchmark",
+      "meaning": "기준, 표준"
+    },
     {
       "word": "mandate",
       "meaning": "명령, 지시"
     },
     {
-      "word": "barred",
-      "meaning": "금지된, 차단된"
-    },
-    {
-      "word": "tensions",
-      "meaning": "긴장, 갈등"
-    },
-    {
-      "word": "integrity",
-      "meaning": "정직, 진실성"
-    },
-    {
-      "word": "interference",
-      "meaning": "간섭, 방해"
+      "word": "inflation",
+      "meaning": "인플레이션"
     }
   ],
   "shadowing": [
-    "A recent ruling by District Judge Tim Kelly.",
-    "The immediate restoration of access for CNN, MSNBC, and Politico.",
-    "The ban announced by President Trump on September 18.",
-    "The ongoing tensions between the media and the administration.",
-    "The importance of press freedom in a democratic society."
+    "American companies are facing significant challenges due to tariffs and rising costs.",
+    "SpaceX has secured funding for additional crewed flights to the ISS.",
+    "The Taiex index in Taiwan reached a record intraday high driven by tech gains.",
+    "Meta's new AI product has triggered upheaval in the financial markets.",
+    "The market anticipates a Federal Reserve interest rate hike in October."
   ],
   "quizzes": [
+    {
+      "question": "What is one major factor squeezing American companies?",
+      "options": [
+        "Increased competition",
+        "Soaring fuel costs",
+        "Technological advancements"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "How much funding did SpaceX receive from NASA?",
+      "options": [
+        "$950 million",
+        "$500 million",
+        "$1 billion"
+      ],
+      "answer": 0
+    },
     {
       "question": "Who lifted the ban on the reporters?",
       "options": [
@@ -42,30 +60,12 @@
         "CNN"
       ],
       "answer": 0
-    },
-    {
-      "question": "Which outlets had their access restored?",
-      "options": [
-        "CNN, MSNBC, and Politico",
-        "Fox News, ABC, and CBS",
-        "The New York Times, The Guardian, and Reuters"
-      ],
-      "answer": 0
-    },
-    {
-      "question": "When was the ban announced?",
-      "options": [
-        "September 18",
-        "September 24",
-        "October 1"
-      ],
-      "answer": 0
     }
   ],
   "rephraseTarget": [
     {
-      "original": "The three outlets should have their access immediately restored.",
-      "ai_suggestion": "Access for the three outlets must be restored without delay."
+      "original": "American companies are currently facing significant challenges due to a combination of tariffs, soaring fuel costs, and rising interest rates.",
+      "ai_suggestion": "American companies are encountering considerable difficulties stemming from tariffs, escalating fuel prices, and increasing interest rates."
     },
     {
       "original": "This development is seen as a significant victory for journalistic integrity.",
