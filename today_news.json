@@ -1,39 +1,57 @@
 {
-  "title": "YouTube sports strategy targets more live rights -- but not necessarily events",
-  "date": "2026-10-03",
-  "link": "https://www.cnbc.com/2026/10/02/youtube-sports-strategy-targets-more-live-rights-but-not-necessarily-events.html",
-  "isWeeklyReview": false,
-  "summary": "YouTube is intensifying its focus on acquiring live sports rights, aiming to enhance its offerings in this competitive market. However, the platform is more inclined to purchase games in bulk, provided there is a compelling consumer proposition associated with these rights. This strategic approach reflects YouTube's desire to create a more engaging and valuable experience for its audience, rather than simply amassing a collection of events.",
+  "title": "Weekly English Review",
+  "date": "2026-10-04",
+  "link": "",
+  "isWeeklyReview": true,
+  "summary": "This week's news highlights significant developments across various sectors, including the automotive industry, air travel disruptions, federal funding regulations, economic indicators, espionage concerns, and sports broadcasting strategies. Hyundai is expected to outperform Ford in sales due to a lack of hybrid options from Detroit automakers. A Nor'easter has caused widespread flight delays, prompting airlines to waive change fees for affected passengers. In legal news, a judge ruled that the federal government cannot withhold counterterrorism funds to enforce election administration changes. Meanwhile, YouTube is focusing on acquiring live sports rights to enhance its offerings in a competitive market.",
   "vocab": [
+    {
+      "word": "outsell",
+      "meaning": "더 많이 판매하다"
+    },
+    {
+      "word": "disruption",
+      "meaning": "혼란, 중단"
+    },
+    {
+      "word": "withhold",
+      "meaning": "보류하다"
+    },
+    {
+      "word": "espionage",
+      "meaning": "간첩 활동"
+    },
     {
       "word": "proposition",
       "meaning": "제안"
-    },
-    {
-      "word": "intensifying",
-      "meaning": "강화하는"
-    },
-    {
-      "word": "acquire",
-      "meaning": "획득하다"
-    },
-    {
-      "word": "strategic",
-      "meaning": "전략적인"
-    },
-    {
-      "word": "engaging",
-      "meaning": "흥미로운"
     }
   ],
   "shadowing": [
-    "YouTube is intensifying its focus on acquiring live sports rights.",
-    "The platform is more inclined to purchase games in bulk.",
-    "There is a compelling consumer proposition associated with these rights.",
-    "This strategic approach reflects YouTube's desire to create a more engaging experience.",
+    "Hyundai is expected to outsell Ford.",
+    "A Nor'easter has caused significant disruptions to air travel.",
+    "The judge ruled against the federal government's actions.",
+    "The investigation reveals critical insights into foreign espionage.",
     "YouTube aims to enhance its offerings in this competitive market."
   ],
   "quizzes": [
+    {
+      "question": "Which company is expected to outsell Ford?",
+      "options": [
+        "General Motors",
+        "Hyundai",
+        "Toyota"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What has caused the flight disruptions in Boston?",
+      "options": [
+        "A hurricane",
+        "A Nor'easter",
+        "Heavy rain"
+      ],
+      "answer": 1
+    },
     {
       "question": "What is YouTube's primary focus regarding sports rights?",
       "options": [
@@ -42,34 +60,16 @@
         "Broadcasting recorded games"
       ],
       "answer": 0
-    },
-    {
-      "question": "What does YouTube prefer when purchasing games?",
-      "options": [
-        "Individual events",
-        "Games in bulk",
-        "Only popular games"
-      ],
-      "answer": 1
-    },
-    {
-      "question": "What is a key factor in YouTube's strategy for acquiring rights?",
-      "options": [
-        "Consumer proposition",
-        "Cost of rights",
-        "Number of events available"
-      ],
-      "answer": 0
     }
   ],
   "rephraseTarget": [
     {
-      "original": "YouTube is targeting more live sports rights.",
-      "ai_suggestion": "YouTube aims to acquire additional live sports rights."
+      "original": "Hyundai is projected to surpass Ford in sales during the third quarter of 2026.",
+      "ai_suggestion": "It is anticipated that Hyundai will exceed Ford in sales in the third quarter of 2026."
     },
     {
-      "original": "It's more likely to buy games in bulk if there's a clear consumer proposition underlying the rights.",
-      "ai_suggestion": "It is more probable that they will purchase games in bulk when a distinct consumer proposition supports the rights."
+      "original": "Travelers are advised to check their flight statuses regularly.",
+      "ai_suggestion": "Passengers are recommended to frequently verify their flight statuses."
     }
   ]
 }
