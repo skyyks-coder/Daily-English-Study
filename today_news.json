@@ -1,75 +1,75 @@
 {
-  "title": "ICE won't pause enforcement in NY after Bronx shooting, DHS' Mullin says",
-  "date": "2026-10-10",
-  "link": "https://www.cnbc.com/2026/10/09/ice-bronx-shooting-mamdani-dhs.html",
-  "isWeeklyReview": false,
-  "summary": "Following a recent shooting incident in the Bronx, New York Governor Kathy Hochul has urged Homeland Security Secretary Mullin and President Donald Trump to suspend ICE operations within the state. This request highlights ongoing tensions regarding immigration enforcement and public safety. Despite these appeals, DHS officials have indicated that ICE will continue its enforcement activities as planned, raising concerns among local communities about the implications for immigrant residents.",
+  "title": "Weekly English Review",
+  "date": "2026-10-11",
+  "link": "",
+  "isWeeklyReview": true,
+  "summary": "This week, several significant events unfolded, highlighting the complexities of the current economic and social landscape. Tesla's stock surged by 5% due to better-than-expected vehicle deliveries, despite facing intense competition from emerging electric vehicle manufacturers. Meanwhile, inflation concerns are rising as consumer expectations indicate a median outlook of 3.9% for the next year, the highest since May 2023. Additionally, the impact of tariffs on everyday consumer goods has been underscored by research from the New York Federal Reserve, revealing a substantial contribution to inflation. Lastly, tensions regarding immigration enforcement in New York have escalated following a shooting incident, with local officials urging a suspension of ICE operations.",
   "vocab": [
     {
-      "word": "enforcement",
-      "meaning": "집행"
+      "word": "surge",
+      "meaning": "급증"
     },
     {
-      "word": "operations",
-      "meaning": "작전"
+      "word": "competition",
+      "meaning": "경쟁"
     },
     {
-      "word": "suspend",
-      "meaning": "중단하다"
+      "word": "inflation",
+      "meaning": "인플레이션"
     },
     {
       "word": "tensions",
       "meaning": "긴장"
     },
     {
-      "word": "implications",
-      "meaning": "함의"
+      "word": "impact",
+      "meaning": "영향"
     }
   ],
   "shadowing": [
-    "ICE will continue its enforcement activities.",
-    "Governor Kathy Hochul has urged to suspend operations.",
-    "DHS officials have indicated their stance.",
-    "The shooting incident raised concerns.",
-    "Local communities are worried about safety."
+    "Tesla's stock surged by 5% this week.",
+    "Inflation concerns are on the rise.",
+    "The median outlook for inflation is 3.9%.",
+    "Tariffs have significantly impacted consumer prices.",
+    "Tensions regarding immigration enforcement have escalated."
   ],
   "quizzes": [
     {
-      "question": "What did Governor Hochul request from DHS officials?",
+      "question": "What was the percentage increase in Tesla's stock?",
       "options": [
-        "To increase ICE operations",
-        "To suspend ICE operations",
-        "To relocate ICE headquarters"
+        "3%",
+        "5%",
+        "7%"
       ],
       "answer": 1
     },
     {
-      "question": "What is the main topic of the article?",
+      "question": "What is the median outlook for inflation over the next year?",
       "options": [
-        "Public safety in New York",
-        "Immigration enforcement",
-        "Political tensions"
+        "3.5%",
+        "3.9%",
+        "4.2%"
       ],
       "answer": 1
     },
     {
-      "question": "Who is the Homeland Security Secretary mentioned?",
+      "question": "What did the New York Federal Reserve research indicate about tariffs?",
       "options": [
-        "Donald Trump",
-        "Kathy Hochul",
-        "Mullin"
+        "They have no effect on prices",
+        "They contribute to inflation",
+        "They lower consumer costs"
       ],
-      "answer": 2
+      "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "ICE will continue its enforcement activities as planned.",
-      "ai_suggestion": "ICE will maintain its enforcement operations as scheduled."
+      "original": "Inflation concerns are rising as consumer expectations indicate a median outlook of 3.9%.",
+      "ai_suggestion": "Concerns about inflation are increasing, with consumer expectations showing a median forecast of 3.9%."
     },
     {
-      "original": "Governor Hochul has urged to suspend operations.",
-      "ai_suggestion": "Governor Hochul has called for a halt to operations."
+      "original": "Tensions regarding immigration enforcement in New York have escalated following a shooting incident.",
+      "ai_suggestion": "Following a shooting incident, tensions surrounding immigration enforcement in New York have intensified."
     }
   ]
 }
