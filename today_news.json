@@ -1,75 +1,75 @@
 {
-  "title": "Weekly English Review",
-  "date": "2026-10-11",
-  "link": "",
-  "isWeeklyReview": true,
-  "summary": "This week, several significant events unfolded, highlighting the complexities of the current economic and social landscape. Tesla's stock surged by 5% due to better-than-expected vehicle deliveries, despite facing intense competition from emerging electric vehicle manufacturers. Meanwhile, inflation concerns are rising as consumer expectations indicate a median outlook of 3.9% for the next year, the highest since May 2023. Additionally, the impact of tariffs on everyday consumer goods has been underscored by research from the New York Federal Reserve, revealing a substantial contribution to inflation. Lastly, tensions regarding immigration enforcement in New York have escalated following a shooting incident, with local officials urging a suspension of ICE operations.",
+  "title": "AI may change the price of your Big Mac and groceries — what this means for shoppers",
+  "date": "2026-10-12",
+  "link": "https://www.cnbc.com/2026/10/11/ai-dynamic-pricing-shoppers-groceries.html",
+  "isWeeklyReview": false,
+  "summary": "The article discusses the potential impact of artificial intelligence on pricing strategies for products like Big Macs and groceries. As retailers increasingly adopt AI tools to enhance their operations, there is a growing concern about the implications of more detailed consumer data collection. Experts caution that this trend may lead to personalized pricing, which could affect shoppers' purchasing decisions and overall market dynamics. The shift towards AI-driven pricing models raises questions about fairness and transparency in the retail sector. Ultimately, consumers may need to navigate a landscape where prices are tailored to their individual shopping behaviors.",
   "vocab": [
     {
-      "word": "surge",
-      "meaning": "급증"
+      "word": "streamline",
+      "meaning": "효율적으로 만들다"
     },
     {
-      "word": "competition",
-      "meaning": "경쟁"
+      "word": "implications",
+      "meaning": "함축, 암시"
     },
     {
-      "word": "inflation",
-      "meaning": "인플레이션"
+      "word": "personalized",
+      "meaning": "개인화된"
     },
     {
-      "word": "tensions",
-      "meaning": "긴장"
+      "word": "transparency",
+      "meaning": "투명성"
     },
     {
-      "word": "impact",
-      "meaning": "영향"
+      "word": "dynamics",
+      "meaning": "역학, 변화"
     }
   ],
   "shadowing": [
-    "Tesla's stock surged by 5% this week.",
-    "Inflation concerns are on the rise.",
-    "The median outlook for inflation is 3.9%.",
-    "Tariffs have significantly impacted consumer prices.",
-    "Tensions regarding immigration enforcement have escalated."
+    "As retailers turn to AI tools to streamline operations,",
+    "experts warn that collecting more detailed consumer data",
+    "increases the risk of personalized pricing.",
+    "This trend may lead to significant changes in consumer behavior.",
+    "Ultimately, consumers may need to navigate a landscape where prices are tailored."
   ],
   "quizzes": [
     {
-      "question": "What was the percentage increase in Tesla's stock?",
+      "question": "What is a potential risk mentioned in the article regarding AI and pricing?",
       "options": [
-        "3%",
-        "5%",
-        "7%"
+        "Increased product quality",
+        "Personalized pricing",
+        "Lower prices for all consumers"
       ],
       "answer": 1
     },
     {
-      "question": "What is the median outlook for inflation over the next year?",
+      "question": "What do experts caution about the collection of consumer data?",
       "options": [
-        "3.5%",
-        "3.9%",
-        "4.2%"
+        "It is always beneficial.",
+        "It may lead to unfair pricing practices.",
+        "It has no impact on retail operations."
       ],
       "answer": 1
     },
     {
-      "question": "What did the New York Federal Reserve research indicate about tariffs?",
+      "question": "What is one of the main topics of the article?",
       "options": [
-        "They have no effect on prices",
-        "They contribute to inflation",
-        "They lower consumer costs"
+        "The history of Big Macs.",
+        "The role of AI in retail pricing.",
+        "The benefits of grocery shopping."
       ],
       "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "Inflation concerns are rising as consumer expectations indicate a median outlook of 3.9%.",
-      "ai_suggestion": "Concerns about inflation are increasing, with consumer expectations showing a median forecast of 3.9%."
+      "original": "As retailers turn to AI tools to streamline operations, experts warn that collecting more detailed consumer data increases the risk of personalized pricing.",
+      "ai_suggestion": "Experts caution that as retailers adopt AI tools to improve efficiency, the collection of more detailed consumer data may lead to personalized pricing risks."
     },
     {
-      "original": "Tensions regarding immigration enforcement in New York have escalated following a shooting incident.",
-      "ai_suggestion": "Following a shooting incident, tensions surrounding immigration enforcement in New York have intensified."
+      "original": "The shift towards AI-driven pricing models raises questions about fairness and transparency in the retail sector.",
+      "ai_suggestion": "The transition to AI-based pricing strategies prompts concerns regarding fairness and transparency within the retail industry."
     }
   ]
 }

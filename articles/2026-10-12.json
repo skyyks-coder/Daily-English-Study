@@ -1,0 +1,75 @@
+{
+  "title": "AI may change the price of your Big Mac and groceries — what this means for shoppers",
+  "date": "2026-10-12",
+  "link": "https://www.cnbc.com/2026/10/11/ai-dynamic-pricing-shoppers-groceries.html",
+  "isWeeklyReview": false,
+  "summary": "The article discusses the potential impact of artificial intelligence on pricing strategies for products like Big Macs and groceries. As retailers increasingly adopt AI tools to enhance their operations, there is a growing concern about the implications of more detailed consumer data collection. Experts caution that this trend may lead to personalized pricing, which could affect shoppers' purchasing decisions and overall market dynamics. The shift towards AI-driven pricing models raises questions about fairness and transparency in the retail sector. Ultimately, consumers may need to navigate a landscape where prices are tailored to their individual shopping behaviors.",
+  "vocab": [
+    {
+      "word": "streamline",
+      "meaning": "효율적으로 만들다"
+    },
+    {
+      "word": "implications",
+      "meaning": "함축, 암시"
+    },
+    {
+      "word": "personalized",
+      "meaning": "개인화된"
+    },
+    {
+      "word": "transparency",
+      "meaning": "투명성"
+    },
+    {
+      "word": "dynamics",
+      "meaning": "역학, 변화"
+    }
+  ],
+  "shadowing": [
+    "As retailers turn to AI tools to streamline operations,",
+    "experts warn that collecting more detailed consumer data",
+    "increases the risk of personalized pricing.",
+    "This trend may lead to significant changes in consumer behavior.",
+    "Ultimately, consumers may need to navigate a landscape where prices are tailored."
+  ],
+  "quizzes": [
+    {
+      "question": "What is a potential risk mentioned in the article regarding AI and pricing?",
+      "options": [
+        "Increased product quality",
+        "Personalized pricing",
+        "Lower prices for all consumers"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What do experts caution about the collection of consumer data?",
+      "options": [
+        "It is always beneficial.",
+        "It may lead to unfair pricing practices.",
+        "It has no impact on retail operations."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is one of the main topics of the article?",
+      "options": [
+        "The history of Big Macs.",
+        "The role of AI in retail pricing.",
+        "The benefits of grocery shopping."
+      ],
+      "answer": 1
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "As retailers turn to AI tools to streamline operations, experts warn that collecting more detailed consumer data increases the risk of personalized pricing.",
+      "ai_suggestion": "Experts caution that as retailers adopt AI tools to improve efficiency, the collection of more detailed consumer data may lead to personalized pricing risks."
+    },
+    {
+      "original": "The shift towards AI-driven pricing models raises questions about fairness and transparency in the retail sector.",
+      "ai_suggestion": "The transition to AI-based pricing strategies prompts concerns regarding fairness and transparency within the retail industry."
+    }
+  ]
+}
