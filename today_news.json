@@ -1,75 +1,75 @@
 {
-  "title": "AI may change the price of your Big Mac and groceries — what this means for shoppers",
-  "date": "2026-10-12",
-  "link": "https://www.cnbc.com/2026/10/11/ai-dynamic-pricing-shoppers-groceries.html",
+  "title": "Delta CEO: 'Safety is going to make the call' on launching Saudi Arabia flight",
+  "date": "2026-10-13",
+  "link": "https://www.cnbc.com/2026/10/09/delta-riyadh-flight-safety-houthi-attacks.html",
   "isWeeklyReview": false,
-  "summary": "The article discusses the potential impact of artificial intelligence on pricing strategies for products like Big Macs and groceries. As retailers increasingly adopt AI tools to enhance their operations, there is a growing concern about the implications of more detailed consumer data collection. Experts caution that this trend may lead to personalized pricing, which could affect shoppers' purchasing decisions and overall market dynamics. The shift towards AI-driven pricing models raises questions about fairness and transparency in the retail sector. Ultimately, consumers may need to navigate a landscape where prices are tailored to their individual shopping behaviors.",
+  "summary": "Delta Airlines is currently deliberating the launch of its new flight service to Riyadh, Saudi Arabia, amidst safety concerns. The CEO emphasized that the decision will primarily hinge on safety considerations, particularly in light of recent Houthi attacks in the region. This cautious approach reflects the airline's commitment to passenger safety and operational integrity as it navigates the complexities of international travel.",
   "vocab": [
     {
-      "word": "streamline",
-      "meaning": "효율적으로 만들다"
+      "word": "deliberating",
+      "meaning": "신중하게 고려하다"
     },
     {
-      "word": "implications",
-      "meaning": "함축, 암시"
+      "word": "emphasized",
+      "meaning": "강조하다"
     },
     {
-      "word": "personalized",
-      "meaning": "개인화된"
+      "word": "hinge",
+      "meaning": "의존하다"
     },
     {
-      "word": "transparency",
-      "meaning": "투명성"
+      "word": "concerns",
+      "meaning": "우려"
     },
     {
-      "word": "dynamics",
-      "meaning": "역학, 변화"
+      "word": "integrity",
+      "meaning": "완전성"
     }
   ],
   "shadowing": [
-    "As retailers turn to AI tools to streamline operations,",
-    "experts warn that collecting more detailed consumer data",
-    "increases the risk of personalized pricing.",
-    "This trend may lead to significant changes in consumer behavior.",
-    "Ultimately, consumers may need to navigate a landscape where prices are tailored."
+    "Delta Airlines is currently deliberating the launch of its new flight service.",
+    "The CEO emphasized that the decision will primarily hinge on safety considerations.",
+    "Recent Houthi attacks have raised significant safety concerns.",
+    "This cautious approach reflects the airline's commitment to passenger safety.",
+    "Navigating the complexities of international travel requires careful planning."
   ],
   "quizzes": [
     {
-      "question": "What is a potential risk mentioned in the article regarding AI and pricing?",
+      "question": "What is Delta Airlines considering regarding its flight to Riyadh?",
       "options": [
-        "Increased product quality",
-        "Personalized pricing",
-        "Lower prices for all consumers"
+        "To launch the flight as planned",
+        "To delay the flight indefinitely",
+        "To cancel the flight altogether"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What factor is influencing Delta's decision on the Riyadh flight?",
+      "options": [
+        "Profit margins",
+        "Safety concerns",
+        "Customer demand"
       ],
       "answer": 1
     },
     {
-      "question": "What do experts caution about the collection of consumer data?",
+      "question": "Who emphasized the importance of safety in the decision-making process?",
       "options": [
-        "It is always beneficial.",
-        "It may lead to unfair pricing practices.",
-        "It has no impact on retail operations."
-      ],
-      "answer": 1
-    },
-    {
-      "question": "What is one of the main topics of the article?",
-      "options": [
-        "The history of Big Macs.",
-        "The role of AI in retail pricing.",
-        "The benefits of grocery shopping."
+        "The airline's marketing team",
+        "The CEO",
+        "The flight crew"
       ],
       "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "As retailers turn to AI tools to streamline operations, experts warn that collecting more detailed consumer data increases the risk of personalized pricing.",
-      "ai_suggestion": "Experts caution that as retailers adopt AI tools to improve efficiency, the collection of more detailed consumer data may lead to personalized pricing risks."
+      "original": "Delta is weighing whether to continue with its Riyadh, Saudi Arabia flight debut as planned.",
+      "ai_suggestion": "Delta는 계획대로 리야드, 사우디아라비아 행 비행을 계속할지 고민하고 있다."
     },
     {
-      "original": "The shift towards AI-driven pricing models raises questions about fairness and transparency in the retail sector.",
-      "ai_suggestion": "The transition to AI-based pricing strategies prompts concerns regarding fairness and transparency within the retail industry."
+      "original": "Safety is going to make the call on launching Saudi Arabia flight.",
+      "ai_suggestion": "안전성이 사우디아라비아 비행 출발 여부를 결정할 것이다."
     }
   ]
 }

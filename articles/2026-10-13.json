@@ -1,0 +1,75 @@
+{
+  "title": "Delta CEO: 'Safety is going to make the call' on launching Saudi Arabia flight",
+  "date": "2026-10-13",
+  "link": "https://www.cnbc.com/2026/10/09/delta-riyadh-flight-safety-houthi-attacks.html",
+  "isWeeklyReview": false,
+  "summary": "Delta Airlines is currently deliberating the launch of its new flight service to Riyadh, Saudi Arabia, amidst safety concerns. The CEO emphasized that the decision will primarily hinge on safety considerations, particularly in light of recent Houthi attacks in the region. This cautious approach reflects the airline's commitment to passenger safety and operational integrity as it navigates the complexities of international travel.",
+  "vocab": [
+    {
+      "word": "deliberating",
+      "meaning": "신중하게 고려하다"
+    },
+    {
+      "word": "emphasized",
+      "meaning": "강조하다"
+    },
+    {
+      "word": "hinge",
+      "meaning": "의존하다"
+    },
+    {
+      "word": "concerns",
+      "meaning": "우려"
+    },
+    {
+      "word": "integrity",
+      "meaning": "완전성"
+    }
+  ],
+  "shadowing": [
+    "Delta Airlines is currently deliberating the launch of its new flight service.",
+    "The CEO emphasized that the decision will primarily hinge on safety considerations.",
+    "Recent Houthi attacks have raised significant safety concerns.",
+    "This cautious approach reflects the airline's commitment to passenger safety.",
+    "Navigating the complexities of international travel requires careful planning."
+  ],
+  "quizzes": [
+    {
+      "question": "What is Delta Airlines considering regarding its flight to Riyadh?",
+      "options": [
+        "To launch the flight as planned",
+        "To delay the flight indefinitely",
+        "To cancel the flight altogether"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What factor is influencing Delta's decision on the Riyadh flight?",
+      "options": [
+        "Profit margins",
+        "Safety concerns",
+        "Customer demand"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Who emphasized the importance of safety in the decision-making process?",
+      "options": [
+        "The airline's marketing team",
+        "The CEO",
+        "The flight crew"
+      ],
+      "answer": 1
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "Delta is weighing whether to continue with its Riyadh, Saudi Arabia flight debut as planned.",
+      "ai_suggestion": "Delta는 계획대로 리야드, 사우디아라비아 행 비행을 계속할지 고민하고 있다."
+    },
+    {
+      "original": "Safety is going to make the call on launching Saudi Arabia flight.",
+      "ai_suggestion": "안전성이 사우디아라비아 비행 출발 여부를 결정할 것이다."
+    }
+  ]
+}
