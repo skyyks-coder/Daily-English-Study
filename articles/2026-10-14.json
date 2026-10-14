@@ -1,0 +1,75 @@
+{
+  "title": "IMF sees milder global slowdown as AI boom offsets war hit — warns resilience is nearing limits",
+  "date": "2026-10-14",
+  "link": "https://www.cnbc.com/2026/10/12/imf-world-bank-annual-meetings-october-bangkok-asia-.html",
+  "isWeeklyReview": false,
+  "summary": "The International Monetary Fund (IMF) has adjusted its global growth forecast for 2026 to 3.1%, indicating a milder slowdown in the world economy. This adjustment is attributed to the burgeoning impact of artificial intelligence, which is helping to mitigate the adverse effects of ongoing geopolitical conflicts. However, the IMF cautions that the resilience of economies is being tested by energy constraints and potential fiscal risks, suggesting that the current stability may not be sustainable in the long term.",
+  "vocab": [
+    {
+      "word": "forecast",
+      "meaning": "예측"
+    },
+    {
+      "word": "mitigate",
+      "meaning": "완화하다"
+    },
+    {
+      "word": "constraints",
+      "meaning": "제약"
+    },
+    {
+      "word": "resilience",
+      "meaning": "회복력"
+    },
+    {
+      "word": "geopolitical",
+      "meaning": "지정학적"
+    }
+  ],
+  "shadowing": [
+    "The IMF raised its global growth forecast to 3.1%.",
+    "AI is offsetting the impact of geopolitical conflicts.",
+    "Resilience is being tested by energy constraints.",
+    "Looming fiscal risks could threaten economic stability.",
+    "The current economic resilience may not be sustainable."
+  ],
+  "quizzes": [
+    {
+      "question": "What is the revised global growth forecast for 2026 according to the IMF?",
+      "options": [
+        "2.5%",
+        "3.1%",
+        "3.5%"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is one factor helping to offset the global slowdown?",
+      "options": [
+        "Climate change",
+        "Artificial intelligence",
+        "Trade agreements"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does the IMF warn about in relation to economic resilience?",
+      "options": [
+        "It is improving.",
+        "It is nearing its limits.",
+        "It is unaffected by external factors."
+      ],
+      "answer": 1
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "The IMF raised its 2026 global growth forecast to 3.1%.",
+      "ai_suggestion": "The IMF has increased its projection for global growth in 2026 to 3.1%."
+    },
+    {
+      "original": "Resilience is being tested by energy constraints.",
+      "ai_suggestion": "The limits of resilience are being challenged by energy limitations."
+    }
+  ]
+}
