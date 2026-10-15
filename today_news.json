@@ -1,75 +1,75 @@
 {
-  "title": "IMF sees milder global slowdown as AI boom offsets war hit — warns resilience is nearing limits",
-  "date": "2026-10-14",
-  "link": "https://www.cnbc.com/2026/10/12/imf-world-bank-annual-meetings-october-bangkok-asia-.html",
+  "title": "Here's the inflation breakdown for September 2026 — in one chart",
+  "date": "2026-10-15",
+  "link": "https://www.cnbc.com/2026/10/14/cpi-inflation-breakdown-september-2026.html",
   "isWeeklyReview": false,
-  "summary": "The International Monetary Fund (IMF) has adjusted its global growth forecast for 2026 to 3.1%, indicating a milder slowdown in the world economy. This adjustment is attributed to the burgeoning impact of artificial intelligence, which is helping to mitigate the adverse effects of ongoing geopolitical conflicts. However, the IMF cautions that the resilience of economies is being tested by energy constraints and potential fiscal risks, suggesting that the current stability may not be sustainable in the long term.",
+  "summary": "In September 2026, the consumer price index experienced a notable increase of 3.7%, primarily driven by escalating gasoline and energy prices. This surge can be attributed to the ongoing conflict in Iran, which has significantly impacted global energy markets. The inflationary pressures reflect broader economic trends and consumer behaviors in response to geopolitical tensions. Understanding these dynamics is crucial for analyzing future economic forecasts and consumer spending patterns.",
   "vocab": [
     {
-      "word": "forecast",
-      "meaning": "예측"
+      "word": "surge",
+      "meaning": "급증"
     },
     {
-      "word": "mitigate",
-      "meaning": "완화하다"
-    },
-    {
-      "word": "constraints",
-      "meaning": "제약"
-    },
-    {
-      "word": "resilience",
-      "meaning": "회복력"
+      "word": "escalating",
+      "meaning": "증가하는"
     },
     {
       "word": "geopolitical",
-      "meaning": "지정학적"
+      "meaning": "지정학적인"
+    },
+    {
+      "word": "index",
+      "meaning": "지수"
+    },
+    {
+      "word": "consumer",
+      "meaning": "소비자"
     }
   ],
   "shadowing": [
-    "The IMF raised its global growth forecast to 3.1%.",
-    "AI is offsetting the impact of geopolitical conflicts.",
-    "Resilience is being tested by energy constraints.",
-    "Looming fiscal risks could threaten economic stability.",
-    "The current economic resilience may not be sustainable."
+    "The consumer price index rose by 3.7% in September.",
+    "Higher gasoline and energy prices contributed to this increase.",
+    "The rise in prices is largely due to the Iran war.",
+    "Inflationary pressures are affecting economic forecasts.",
+    "Understanding these trends is important for consumer behavior analysis."
   ],
   "quizzes": [
     {
-      "question": "What is the revised global growth forecast for 2026 according to the IMF?",
+      "question": "What was the percentage increase in the consumer price index in September 2026?",
       "options": [
         "2.5%",
-        "3.1%",
-        "3.5%"
+        "3.7%",
+        "4.0%"
       ],
       "answer": 1
     },
     {
-      "question": "What is one factor helping to offset the global slowdown?",
+      "question": "What major factor contributed to the rise in prices?",
       "options": [
-        "Climate change",
-        "Artificial intelligence",
+        "Natural disasters",
+        "Iran war",
         "Trade agreements"
       ],
       "answer": 1
     },
     {
-      "question": "What does the IMF warn about in relation to economic resilience?",
+      "question": "Why is understanding inflationary pressures important?",
       "options": [
-        "It is improving.",
-        "It is nearing its limits.",
-        "It is unaffected by external factors."
+        "For analyzing consumer behavior",
+        "For predicting weather patterns",
+        "For improving technology"
       ],
-      "answer": 1
+      "answer": 0
     }
   ],
   "rephraseTarget": [
     {
-      "original": "The IMF raised its 2026 global growth forecast to 3.1%.",
-      "ai_suggestion": "The IMF has increased its projection for global growth in 2026 to 3.1%."
+      "original": "The consumer price index rose by 3.7% in September.",
+      "ai_suggestion": "In September, there was a 3.7% increase in the consumer price index."
     },
     {
-      "original": "Resilience is being tested by energy constraints.",
-      "ai_suggestion": "The limits of resilience are being challenged by energy limitations."
+      "original": "This surge can be attributed to the ongoing conflict in Iran.",
+      "ai_suggestion": "The ongoing conflict in Iran is responsible for this surge."
     }
   ]
 }

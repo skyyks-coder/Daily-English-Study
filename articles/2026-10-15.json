@@ -1,0 +1,75 @@
+{
+  "title": "Here's the inflation breakdown for September 2026 — in one chart",
+  "date": "2026-10-15",
+  "link": "https://www.cnbc.com/2026/10/14/cpi-inflation-breakdown-september-2026.html",
+  "isWeeklyReview": false,
+  "summary": "In September 2026, the consumer price index experienced a notable increase of 3.7%, primarily driven by escalating gasoline and energy prices. This surge can be attributed to the ongoing conflict in Iran, which has significantly impacted global energy markets. The inflationary pressures reflect broader economic trends and consumer behaviors in response to geopolitical tensions. Understanding these dynamics is crucial for analyzing future economic forecasts and consumer spending patterns.",
+  "vocab": [
+    {
+      "word": "surge",
+      "meaning": "급증"
+    },
+    {
+      "word": "escalating",
+      "meaning": "증가하는"
+    },
+    {
+      "word": "geopolitical",
+      "meaning": "지정학적인"
+    },
+    {
+      "word": "index",
+      "meaning": "지수"
+    },
+    {
+      "word": "consumer",
+      "meaning": "소비자"
+    }
+  ],
+  "shadowing": [
+    "The consumer price index rose by 3.7% in September.",
+    "Higher gasoline and energy prices contributed to this increase.",
+    "The rise in prices is largely due to the Iran war.",
+    "Inflationary pressures are affecting economic forecasts.",
+    "Understanding these trends is important for consumer behavior analysis."
+  ],
+  "quizzes": [
+    {
+      "question": "What was the percentage increase in the consumer price index in September 2026?",
+      "options": [
+        "2.5%",
+        "3.7%",
+        "4.0%"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What major factor contributed to the rise in prices?",
+      "options": [
+        "Natural disasters",
+        "Iran war",
+        "Trade agreements"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Why is understanding inflationary pressures important?",
+      "options": [
+        "For analyzing consumer behavior",
+        "For predicting weather patterns",
+        "For improving technology"
+      ],
+      "answer": 0
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "The consumer price index rose by 3.7% in September.",
+      "ai_suggestion": "In September, there was a 3.7% increase in the consumer price index."
+    },
+    {
+      "original": "This surge can be attributed to the ongoing conflict in Iran.",
+      "ai_suggestion": "The ongoing conflict in Iran is responsible for this surge."
+    }
+  ]
+}
