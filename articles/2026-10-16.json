@@ -1,0 +1,75 @@
+{
+  "title": "'Office' is actually having a scarcity problem",
+  "date": "2026-10-16",
+  "link": "https://www.cnbc.com/2026/10/14/office-is-actually-having-a-scarcity-problem.html",
+  "isWeeklyReview": false,
+  "summary": "The U.S. office market is experiencing a robust recovery, which has led to an unexpected scarcity of available office spaces, particularly those classified as premium. This surge in demand highlights the changing dynamics of the economy as businesses adapt to post-pandemic realities. As companies seek to secure high-quality office environments, the limited supply could pose challenges for growth and expansion in various sectors. The situation underscores the importance of strategic planning in real estate investments and corporate office strategies.",
+  "vocab": [
+    {
+      "word": "scarcity",
+      "meaning": "부족"
+    },
+    {
+      "word": "premium",
+      "meaning": "프리미엄"
+    },
+    {
+      "word": "dynamics",
+      "meaning": "역학"
+    },
+    {
+      "word": "strategic",
+      "meaning": "전략적인"
+    },
+    {
+      "word": "expansion",
+      "meaning": "확장"
+    }
+  ],
+  "shadowing": [
+    "The U.S. office market is roaring back to health.",
+    "Its speedy recovery is resulting in a shortage.",
+    "There is a particular scarcity of premium space.",
+    "Businesses are adapting to new economic realities.",
+    "This situation poses challenges for growth."
+  ],
+  "quizzes": [
+    {
+      "question": "What is causing the scarcity in the U.S. office market?",
+      "options": [
+        "Increased demand for premium spaces",
+        "Decreased number of office buildings",
+        "Economic downturn"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What type of office space is particularly in short supply?",
+      "options": [
+        "Affordable office spaces",
+        "Premium office spaces",
+        "Shared office spaces"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does the recovery of the office market indicate?",
+      "options": [
+        "A shift in business strategies",
+        "A decline in remote work",
+        "An increase in unemployment"
+      ],
+      "answer": 0
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "The U.S. office market is roaring back to health.",
+      "ai_suggestion": "The office market in the U.S. is experiencing a vigorous recovery."
+    },
+    {
+      "original": "Its speedy recovery is resulting in a shortage.",
+      "ai_suggestion": "The rapid rebound is leading to a lack of available spaces."
+    }
+  ]
+}

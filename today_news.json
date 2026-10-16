@@ -1,75 +1,75 @@
 {
-  "title": "Here's the inflation breakdown for September 2026 — in one chart",
-  "date": "2026-10-15",
-  "link": "https://www.cnbc.com/2026/10/14/cpi-inflation-breakdown-september-2026.html",
+  "title": "'Office' is actually having a scarcity problem",
+  "date": "2026-10-16",
+  "link": "https://www.cnbc.com/2026/10/14/office-is-actually-having-a-scarcity-problem.html",
   "isWeeklyReview": false,
-  "summary": "In September 2026, the consumer price index experienced a notable increase of 3.7%, primarily driven by escalating gasoline and energy prices. This surge can be attributed to the ongoing conflict in Iran, which has significantly impacted global energy markets. The inflationary pressures reflect broader economic trends and consumer behaviors in response to geopolitical tensions. Understanding these dynamics is crucial for analyzing future economic forecasts and consumer spending patterns.",
+  "summary": "The U.S. office market is experiencing a robust recovery, which has led to an unexpected scarcity of available office spaces, particularly those classified as premium. This surge in demand highlights the changing dynamics of the economy as businesses adapt to post-pandemic realities. As companies seek to secure high-quality office environments, the limited supply could pose challenges for growth and expansion in various sectors. The situation underscores the importance of strategic planning in real estate investments and corporate office strategies.",
   "vocab": [
     {
-      "word": "surge",
-      "meaning": "급증"
+      "word": "scarcity",
+      "meaning": "부족"
     },
     {
-      "word": "escalating",
-      "meaning": "증가하는"
+      "word": "premium",
+      "meaning": "프리미엄"
     },
     {
-      "word": "geopolitical",
-      "meaning": "지정학적인"
+      "word": "dynamics",
+      "meaning": "역학"
     },
     {
-      "word": "index",
-      "meaning": "지수"
+      "word": "strategic",
+      "meaning": "전략적인"
     },
     {
-      "word": "consumer",
-      "meaning": "소비자"
+      "word": "expansion",
+      "meaning": "확장"
     }
   ],
   "shadowing": [
-    "The consumer price index rose by 3.7% in September.",
-    "Higher gasoline and energy prices contributed to this increase.",
-    "The rise in prices is largely due to the Iran war.",
-    "Inflationary pressures are affecting economic forecasts.",
-    "Understanding these trends is important for consumer behavior analysis."
+    "The U.S. office market is roaring back to health.",
+    "Its speedy recovery is resulting in a shortage.",
+    "There is a particular scarcity of premium space.",
+    "Businesses are adapting to new economic realities.",
+    "This situation poses challenges for growth."
   ],
   "quizzes": [
     {
-      "question": "What was the percentage increase in the consumer price index in September 2026?",
+      "question": "What is causing the scarcity in the U.S. office market?",
       "options": [
-        "2.5%",
-        "3.7%",
-        "4.0%"
+        "Increased demand for premium spaces",
+        "Decreased number of office buildings",
+        "Economic downturn"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What type of office space is particularly in short supply?",
+      "options": [
+        "Affordable office spaces",
+        "Premium office spaces",
+        "Shared office spaces"
       ],
       "answer": 1
     },
     {
-      "question": "What major factor contributed to the rise in prices?",
+      "question": "What does the recovery of the office market indicate?",
       "options": [
-        "Natural disasters",
-        "Iran war",
-        "Trade agreements"
-      ],
-      "answer": 1
-    },
-    {
-      "question": "Why is understanding inflationary pressures important?",
-      "options": [
-        "For analyzing consumer behavior",
-        "For predicting weather patterns",
-        "For improving technology"
+        "A shift in business strategies",
+        "A decline in remote work",
+        "An increase in unemployment"
       ],
       "answer": 0
     }
   ],
   "rephraseTarget": [
     {
-      "original": "The consumer price index rose by 3.7% in September.",
-      "ai_suggestion": "In September, there was a 3.7% increase in the consumer price index."
+      "original": "The U.S. office market is roaring back to health.",
+      "ai_suggestion": "The office market in the U.S. is experiencing a vigorous recovery."
     },
     {
-      "original": "This surge can be attributed to the ongoing conflict in Iran.",
-      "ai_suggestion": "The ongoing conflict in Iran is responsible for this surge."
+      "original": "Its speedy recovery is resulting in a shortage.",
+      "ai_suggestion": "The rapid rebound is leading to a lack of available spaces."
     }
   ]
 }
