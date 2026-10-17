@@ -1,0 +1,75 @@
+{
+  "title": "Here's who Netflix just brought in to run content — and what it means for the streamer",
+  "date": "2026-10-17",
+  "link": "https://www.cnbc.com/2026/10/16/netflix-peter-rice-chief-content-officer.html",
+  "isWeeklyReview": false,
+  "summary": "Peter Rice has been appointed as the chief content officer at Netflix, a move that signifies a strategic shift for the streaming giant. With extensive experience in both scripted and unscripted television, as well as live sports and theatrical distribution, Rice is expected to enhance Netflix's content offerings. His background in prestige television indicates a potential focus on high-quality productions that could attract a broader audience.",
+  "vocab": [
+    {
+      "word": "wealth",
+      "meaning": "풍부함"
+    },
+    {
+      "word": "prestige",
+      "meaning": "명성"
+    },
+    {
+      "word": "theatrical",
+      "meaning": "극장의"
+    },
+    {
+      "word": "distribution",
+      "meaning": "배급"
+    },
+    {
+      "word": "strategic",
+      "meaning": "전략적인"
+    }
+  ],
+  "shadowing": [
+    "Peter Rice has been appointed as the chief content officer.",
+    "This move signifies a strategic shift for the streaming giant.",
+    "His extensive experience includes scripted and unscripted television.",
+    "Rice's background in prestige television indicates a potential focus.",
+    "He is expected to enhance Netflix's content offerings."
+  ],
+  "quizzes": [
+    {
+      "question": "Who has been appointed as the chief content officer at Netflix?",
+      "options": [
+        "Reed Hastings",
+        "Peter Rice",
+        "Ted Sarandos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What type of experience does Peter Rice bring?",
+      "options": [
+        "Only scripted shows",
+        "Live sports and theatrical distribution",
+        "Only unscripted shows"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is a potential focus for Netflix under Peter Rice?",
+      "options": [
+        "Low-budget productions",
+        "High-quality productions",
+        "Reality TV only"
+      ],
+      "answer": 1
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "Peter Rice brings a wealth of experience in TV and film.",
+      "ai_suggestion": "Peter Rice has extensive experience in television and cinema."
+    },
+    {
+      "original": "This signifies a strategic shift for the streaming giant.",
+      "ai_suggestion": "This indicates a strategic change for the streaming powerhouse."
+    }
+  ]
+}
