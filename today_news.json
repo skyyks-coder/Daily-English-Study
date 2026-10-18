@@ -1,75 +1,75 @@
 {
-  "title": "Here's who Netflix just brought in to run content — and what it means for the streamer",
-  "date": "2026-10-17",
-  "link": "https://www.cnbc.com/2026/10/16/netflix-peter-rice-chief-content-officer.html",
-  "isWeeklyReview": false,
-  "summary": "Peter Rice has been appointed as the chief content officer at Netflix, a move that signifies a strategic shift for the streaming giant. With extensive experience in both scripted and unscripted television, as well as live sports and theatrical distribution, Rice is expected to enhance Netflix's content offerings. His background in prestige television indicates a potential focus on high-quality productions that could attract a broader audience.",
+  "title": "Weekly English Review",
+  "date": "2026-10-18",
+  "link": "",
+  "isWeeklyReview": true,
+  "summary": "This week's articles highlight significant developments across various sectors, including retail, aviation, and entertainment. The potential impact of AI on pricing strategies raises concerns about fairness and transparency for consumers. Delta Airlines is prioritizing safety in its decision-making regarding new flight services amid geopolitical tensions. The IMF's revised growth forecast reflects a complex interplay of economic factors, while the U.S. office market experiences a surprising scarcity of premium spaces. Lastly, Netflix's appointment of Peter Rice as chief content officer signals a strategic shift towards high-quality content production.",
   "vocab": [
     {
-      "word": "wealth",
-      "meaning": "풍부함"
+      "word": "streamline",
+      "meaning": "효율적으로 만들다"
     },
     {
-      "word": "prestige",
-      "meaning": "명성"
+      "word": "implications",
+      "meaning": "함축, 암시"
     },
     {
-      "word": "theatrical",
-      "meaning": "극장의"
+      "word": "personalized",
+      "meaning": "개인화된"
     },
     {
-      "word": "distribution",
-      "meaning": "배급"
+      "word": "transparency",
+      "meaning": "투명성"
     },
     {
-      "word": "strategic",
-      "meaning": "전략적인"
+      "word": "dynamics",
+      "meaning": "역학, 변화"
     }
   ],
   "shadowing": [
-    "Peter Rice has been appointed as the chief content officer.",
-    "This move signifies a strategic shift for the streaming giant.",
-    "His extensive experience includes scripted and unscripted television.",
-    "Rice's background in prestige television indicates a potential focus.",
-    "He is expected to enhance Netflix's content offerings."
+    "The potential impact of AI on pricing strategies raises concerns.",
+    "Delta Airlines is prioritizing safety in its decision-making.",
+    "The IMF's revised growth forecast reflects complex economic factors.",
+    "The U.S. office market is experiencing a scarcity of premium spaces.",
+    "Netflix's appointment of Peter Rice signifies a strategic shift."
   ],
   "quizzes": [
     {
-      "question": "Who has been appointed as the chief content officer at Netflix?",
+      "question": "What is a potential risk mentioned in the article regarding AI and pricing?",
       "options": [
-        "Reed Hastings",
-        "Peter Rice",
-        "Ted Sarandos"
+        "Increased product quality",
+        "Personalized pricing",
+        "Lower prices for all consumers"
       ],
       "answer": 1
     },
     {
-      "question": "What type of experience does Peter Rice bring?",
+      "question": "What factor is influencing Delta's decision on the Riyadh flight?",
       "options": [
-        "Only scripted shows",
-        "Live sports and theatrical distribution",
-        "Only unscripted shows"
+        "Profit margins",
+        "Safety concerns",
+        "Customer demand"
       ],
       "answer": 1
     },
     {
-      "question": "What is a potential focus for Netflix under Peter Rice?",
+      "question": "What is one of the main topics of the article?",
       "options": [
-        "Low-budget productions",
-        "High-quality productions",
-        "Reality TV only"
+        "The history of Big Macs.",
+        "The role of AI in retail pricing.",
+        "The benefits of grocery shopping."
       ],
       "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "Peter Rice brings a wealth of experience in TV and film.",
-      "ai_suggestion": "Peter Rice has extensive experience in television and cinema."
+      "original": "Delta is weighing whether to continue with its Riyadh, Saudi Arabia flight debut as planned.",
+      "ai_suggestion": "Delta는 계획대로 리야드, 사우디아라비아 행 비행을 계속할지 고민하고 있다."
     },
     {
-      "original": "This signifies a strategic shift for the streaming giant.",
-      "ai_suggestion": "This indicates a strategic change for the streaming powerhouse."
+      "original": "Peter Rice brings a wealth of experience in TV and film.",
+      "ai_suggestion": "Peter Rice has extensive experience in television and cinema."
     }
   ]
 }
