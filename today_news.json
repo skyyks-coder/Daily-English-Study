@@ -1,75 +1,75 @@
 {
-  "title": "Weekly English Review",
-  "date": "2026-10-18",
-  "link": "",
-  "isWeeklyReview": true,
-  "summary": "This week's articles highlight significant developments across various sectors, including retail, aviation, and entertainment. The potential impact of AI on pricing strategies raises concerns about fairness and transparency for consumers. Delta Airlines is prioritizing safety in its decision-making regarding new flight services amid geopolitical tensions. The IMF's revised growth forecast reflects a complex interplay of economic factors, while the U.S. office market experiences a surprising scarcity of premium spaces. Lastly, Netflix's appointment of Peter Rice as chief content officer signals a strategic shift towards high-quality content production.",
+  "title": "Porsche reveals Mission S concept car that previews new design identity",
+  "date": "2026-10-19",
+  "link": "https://www.cnbc.com/2026/10/15/porsche-mission-s-concept-car.html",
+  "isWeeklyReview": false,
+  "summary": "Porsche has unveiled its Mission S concept car, which signals a new design identity for the brand. This initiative is part of a broader strategy aimed at enhancing profitability through a focus on higher-end products while simultaneously reducing overall sales. The introduction of the Mission S reflects Porsche's commitment to innovation and adaptation in a competitive automotive market.",
   "vocab": [
     {
-      "word": "streamline",
-      "meaning": "효율적으로 만들다"
+      "word": "concept car",
+      "meaning": "컨셉카"
     },
     {
-      "word": "implications",
-      "meaning": "함축, 암시"
+      "word": "turnaround",
+      "meaning": "전환"
     },
     {
-      "word": "personalized",
-      "meaning": "개인화된"
+      "word": "profits",
+      "meaning": "수익"
     },
     {
-      "word": "transparency",
-      "meaning": "투명성"
+      "word": "identity",
+      "meaning": "정체성"
     },
     {
-      "word": "dynamics",
-      "meaning": "역학, 변화"
+      "word": "innovation",
+      "meaning": "혁신"
     }
   ],
   "shadowing": [
-    "The potential impact of AI on pricing strategies raises concerns.",
-    "Delta Airlines is prioritizing safety in its decision-making.",
-    "The IMF's revised growth forecast reflects complex economic factors.",
-    "The U.S. office market is experiencing a scarcity of premium spaces.",
-    "Netflix's appointment of Peter Rice signifies a strategic shift."
+    "Porsche has unveiled its Mission S concept car.",
+    "This initiative is part of a broader strategy.",
+    "The introduction of the Mission S reflects Porsche's commitment.",
+    "The brand aims to enhance profitability through higher-end products.",
+    "Reducing overall sales is also a key focus."
   ],
   "quizzes": [
     {
-      "question": "What is a potential risk mentioned in the article regarding AI and pricing?",
+      "question": "What is the name of the concept car revealed by Porsche?",
       "options": [
-        "Increased product quality",
-        "Personalized pricing",
-        "Lower prices for all consumers"
+        "Mission X",
+        "Mission S",
+        "Mission Z"
       ],
       "answer": 1
     },
     {
-      "question": "What factor is influencing Delta's decision on the Riyadh flight?",
+      "question": "What is a key goal of Porsche's turnaround plan?",
       "options": [
-        "Profit margins",
-        "Safety concerns",
-        "Customer demand"
+        "Increase sales",
+        "Enhance profitability",
+        "Reduce production costs"
       ],
       "answer": 1
     },
     {
-      "question": "What is one of the main topics of the article?",
+      "question": "What does the Mission S concept car signify for Porsche?",
       "options": [
-        "The history of Big Macs.",
-        "The role of AI in retail pricing.",
-        "The benefits of grocery shopping."
+        "A new design identity",
+        "A focus on electric vehicles",
+        "A return to classic models"
       ],
-      "answer": 1
+      "answer": 0
     }
   ],
   "rephraseTarget": [
     {
-      "original": "Delta is weighing whether to continue with its Riyadh, Saudi Arabia flight debut as planned.",
-      "ai_suggestion": "Delta는 계획대로 리야드, 사우디아라비아 행 비행을 계속할지 고민하고 있다."
+      "original": "Porsche revealed a concept car called Mission S.",
+      "ai_suggestion": "Porsche introduced a concept vehicle named Mission S."
     },
     {
-      "original": "Peter Rice brings a wealth of experience in TV and film.",
-      "ai_suggestion": "Peter Rice has extensive experience in television and cinema."
+      "original": "This initiative is part of a turnaround plan.",
+      "ai_suggestion": "This project is included in a strategy for recovery."
     }
   ]
 }

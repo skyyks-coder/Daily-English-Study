@@ -1,0 +1,75 @@
+{
+  "title": "Porsche reveals Mission S concept car that previews new design identity",
+  "date": "2026-10-19",
+  "link": "https://www.cnbc.com/2026/10/15/porsche-mission-s-concept-car.html",
+  "isWeeklyReview": false,
+  "summary": "Porsche has unveiled its Mission S concept car, which signals a new design identity for the brand. This initiative is part of a broader strategy aimed at enhancing profitability through a focus on higher-end products while simultaneously reducing overall sales. The introduction of the Mission S reflects Porsche's commitment to innovation and adaptation in a competitive automotive market.",
+  "vocab": [
+    {
+      "word": "concept car",
+      "meaning": "컨셉카"
+    },
+    {
+      "word": "turnaround",
+      "meaning": "전환"
+    },
+    {
+      "word": "profits",
+      "meaning": "수익"
+    },
+    {
+      "word": "identity",
+      "meaning": "정체성"
+    },
+    {
+      "word": "innovation",
+      "meaning": "혁신"
+    }
+  ],
+  "shadowing": [
+    "Porsche has unveiled its Mission S concept car.",
+    "This initiative is part of a broader strategy.",
+    "The introduction of the Mission S reflects Porsche's commitment.",
+    "The brand aims to enhance profitability through higher-end products.",
+    "Reducing overall sales is also a key focus."
+  ],
+  "quizzes": [
+    {
+      "question": "What is the name of the concept car revealed by Porsche?",
+      "options": [
+        "Mission X",
+        "Mission S",
+        "Mission Z"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is a key goal of Porsche's turnaround plan?",
+      "options": [
+        "Increase sales",
+        "Enhance profitability",
+        "Reduce production costs"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does the Mission S concept car signify for Porsche?",
+      "options": [
+        "A new design identity",
+        "A focus on electric vehicles",
+        "A return to classic models"
+      ],
+      "answer": 0
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "Porsche revealed a concept car called Mission S.",
+      "ai_suggestion": "Porsche introduced a concept vehicle named Mission S."
+    },
+    {
+      "original": "This initiative is part of a turnaround plan.",
+      "ai_suggestion": "This project is included in a strategy for recovery."
+    }
+  ]
+}
