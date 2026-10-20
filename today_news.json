@@ -1,75 +1,75 @@
 {
-  "title": "Porsche reveals Mission S concept car that previews new design identity",
-  "date": "2026-10-19",
-  "link": "https://www.cnbc.com/2026/10/15/porsche-mission-s-concept-car.html",
+  "title": "Brent oil tops $109 after Houthi militants claim they attacked Saudi airports and Aramco facilities",
+  "date": "2026-10-20",
+  "link": "https://www.cnbc.com/2026/10/18/oil-price-today-ukraine-russia-iran-strait-hormuz.html",
   "isWeeklyReview": false,
-  "summary": "Porsche has unveiled its Mission S concept car, which signals a new design identity for the brand. This initiative is part of a broader strategy aimed at enhancing profitability through a focus on higher-end products while simultaneously reducing overall sales. The introduction of the Mission S reflects Porsche's commitment to innovation and adaptation in a competitive automotive market.",
+  "summary": "Crude oil prices experienced a significant increase on Monday, surpassing $109 per barrel. This rise was attributed to claims made by Iran-backed Houthi militants regarding attacks on key Saudi Arabian airports and Aramco facilities. Additionally, ongoing tensions were exacerbated by Ukraine's strikes on oil installations in Russia, further impacting the global oil market. The geopolitical landscape continues to influence oil prices, highlighting the interconnectedness of regional conflicts and energy supply. Investors remain vigilant as developments unfold in this volatile environment.",
   "vocab": [
     {
-      "word": "concept car",
-      "meaning": "컨셉카"
+      "word": "surpass",
+      "meaning": "초과하다"
     },
     {
-      "word": "turnaround",
-      "meaning": "전환"
+      "word": "exacerbate",
+      "meaning": "악화시키다"
     },
     {
-      "word": "profits",
-      "meaning": "수익"
+      "word": "interconnectedness",
+      "meaning": "상호연결성"
     },
     {
-      "word": "identity",
-      "meaning": "정체성"
+      "word": "geopolitical",
+      "meaning": "지정학적인"
     },
     {
-      "word": "innovation",
-      "meaning": "혁신"
+      "word": "volatile",
+      "meaning": "변동성이 큰"
     }
   ],
   "shadowing": [
-    "Porsche has unveiled its Mission S concept car.",
-    "This initiative is part of a broader strategy.",
-    "The introduction of the Mission S reflects Porsche's commitment.",
-    "The brand aims to enhance profitability through higher-end products.",
-    "Reducing overall sales is also a key focus."
+    "Crude oil prices experienced a significant increase.",
+    "This rise was attributed to claims made by Iran-backed Houthi militants.",
+    "Ongoing tensions were exacerbated by Ukraine's strikes.",
+    "Investors remain vigilant as developments unfold.",
+    "The geopolitical landscape continues to influence oil prices."
   ],
   "quizzes": [
     {
-      "question": "What is the name of the concept car revealed by Porsche?",
+      "question": "What caused the rise in crude oil prices?",
       "options": [
-        "Mission X",
-        "Mission S",
-        "Mission Z"
-      ],
-      "answer": 1
-    },
-    {
-      "question": "What is a key goal of Porsche's turnaround plan?",
-      "options": [
-        "Increase sales",
-        "Enhance profitability",
-        "Reduce production costs"
-      ],
-      "answer": 1
-    },
-    {
-      "question": "What does the Mission S concept car signify for Porsche?",
-      "options": [
-        "A new design identity",
-        "A focus on electric vehicles",
-        "A return to classic models"
+        "Claims by Houthi militants",
+        "Decrease in demand",
+        "Increased production"
       ],
       "answer": 0
+    },
+    {
+      "question": "Which country's oil facilities were struck by Ukraine?",
+      "options": [
+        "Saudi Arabia",
+        "Russia",
+        "Iran"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the main topic of the article?",
+      "options": [
+        "Travel",
+        "Oil prices",
+        "Military conflicts"
+      ],
+      "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "Porsche revealed a concept car called Mission S.",
-      "ai_suggestion": "Porsche introduced a concept vehicle named Mission S."
+      "original": "Crude prices rose Monday as Iran-backed Houthi militants claimed attacks on Saudi Arabia.",
+      "ai_suggestion": "On Monday, crude prices increased following claims of attacks on Saudi Arabia by Houthi militants supported by Iran."
     },
     {
-      "original": "This initiative is part of a turnaround plan.",
-      "ai_suggestion": "This project is included in a strategy for recovery."
+      "original": "The geopolitical landscape continues to influence oil prices.",
+      "ai_suggestion": "Oil prices are still being affected by the current geopolitical situation."
     }
   ]
 }

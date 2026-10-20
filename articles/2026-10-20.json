@@ -1,0 +1,75 @@
+{
+  "title": "Brent oil tops $109 after Houthi militants claim they attacked Saudi airports and Aramco facilities",
+  "date": "2026-10-20",
+  "link": "https://www.cnbc.com/2026/10/18/oil-price-today-ukraine-russia-iran-strait-hormuz.html",
+  "isWeeklyReview": false,
+  "summary": "Crude oil prices experienced a significant increase on Monday, surpassing $109 per barrel. This rise was attributed to claims made by Iran-backed Houthi militants regarding attacks on key Saudi Arabian airports and Aramco facilities. Additionally, ongoing tensions were exacerbated by Ukraine's strikes on oil installations in Russia, further impacting the global oil market. The geopolitical landscape continues to influence oil prices, highlighting the interconnectedness of regional conflicts and energy supply. Investors remain vigilant as developments unfold in this volatile environment.",
+  "vocab": [
+    {
+      "word": "surpass",
+      "meaning": "초과하다"
+    },
+    {
+      "word": "exacerbate",
+      "meaning": "악화시키다"
+    },
+    {
+      "word": "interconnectedness",
+      "meaning": "상호연결성"
+    },
+    {
+      "word": "geopolitical",
+      "meaning": "지정학적인"
+    },
+    {
+      "word": "volatile",
+      "meaning": "변동성이 큰"
+    }
+  ],
+  "shadowing": [
+    "Crude oil prices experienced a significant increase.",
+    "This rise was attributed to claims made by Iran-backed Houthi militants.",
+    "Ongoing tensions were exacerbated by Ukraine's strikes.",
+    "Investors remain vigilant as developments unfold.",
+    "The geopolitical landscape continues to influence oil prices."
+  ],
+  "quizzes": [
+    {
+      "question": "What caused the rise in crude oil prices?",
+      "options": [
+        "Claims by Houthi militants",
+        "Decrease in demand",
+        "Increased production"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which country's oil facilities were struck by Ukraine?",
+      "options": [
+        "Saudi Arabia",
+        "Russia",
+        "Iran"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the main topic of the article?",
+      "options": [
+        "Travel",
+        "Oil prices",
+        "Military conflicts"
+      ],
+      "answer": 1
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "Crude prices rose Monday as Iran-backed Houthi militants claimed attacks on Saudi Arabia.",
+      "ai_suggestion": "On Monday, crude prices increased following claims of attacks on Saudi Arabia by Houthi militants supported by Iran."
+    },
+    {
+      "original": "The geopolitical landscape continues to influence oil prices.",
+      "ai_suggestion": "Oil prices are still being affected by the current geopolitical situation."
+    }
+  ]
+}
