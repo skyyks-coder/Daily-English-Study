@@ -1,75 +1,75 @@
 {
-  "title": "Brent oil tops $109 after Houthi militants claim they attacked Saudi airports and Aramco facilities",
-  "date": "2026-10-20",
-  "link": "https://www.cnbc.com/2026/10/18/oil-price-today-ukraine-russia-iran-strait-hormuz.html",
+  "title": "Oil prices fall as traders hope for diplomatic progress in Middle East",
+  "date": "2026-10-21",
+  "link": "https://www.cnbc.com/2026/10/20/oil-price-wti-brent-crude.html",
   "isWeeklyReview": false,
-  "summary": "Crude oil prices experienced a significant increase on Monday, surpassing $109 per barrel. This rise was attributed to claims made by Iran-backed Houthi militants regarding attacks on key Saudi Arabian airports and Aramco facilities. Additionally, ongoing tensions were exacerbated by Ukraine's strikes on oil installations in Russia, further impacting the global oil market. The geopolitical landscape continues to influence oil prices, highlighting the interconnectedness of regional conflicts and energy supply. Investors remain vigilant as developments unfold in this volatile environment.",
+  "summary": "Recent developments in the Middle East have drawn significant attention, particularly due to the rising tensions and attacks on commercial vessels navigating the Strait of Hormuz. Traders are cautiously optimistic about potential diplomatic resolutions, which may influence oil prices. The situation remains fluid, and any progress in negotiations could lead to stabilization in the oil market, reflecting the interconnectedness of geopolitical events and economic factors.",
   "vocab": [
     {
-      "word": "surpass",
-      "meaning": "초과하다"
+      "word": "diplomatic",
+      "meaning": "외교의"
     },
     {
-      "word": "exacerbate",
-      "meaning": "악화시키다"
+      "word": "escalate",
+      "meaning": "악화되다"
     },
     {
-      "word": "interconnectedness",
-      "meaning": "상호연결성"
+      "word": "transit",
+      "meaning": "통과"
     },
     {
-      "word": "geopolitical",
-      "meaning": "지정학적인"
+      "word": "tensions",
+      "meaning": "긴장"
     },
     {
-      "word": "volatile",
-      "meaning": "변동성이 큰"
+      "word": "commercial",
+      "meaning": "상업적인"
     }
   ],
   "shadowing": [
-    "Crude oil prices experienced a significant increase.",
-    "This rise was attributed to claims made by Iran-backed Houthi militants.",
-    "Ongoing tensions were exacerbated by Ukraine's strikes.",
-    "Investors remain vigilant as developments unfold.",
-    "The geopolitical landscape continues to influence oil prices."
+    "Oil prices are influenced by geopolitical events.",
+    "Traders are hopeful for a resolution in the Middle East.",
+    "Attacks on ships have increased in recent weeks.",
+    "The Strait of Hormuz is a critical shipping route.",
+    "Diplomatic efforts are essential for market stability."
   ],
   "quizzes": [
     {
-      "question": "What caused the rise in crude oil prices?",
+      "question": "What has been escalating in recent weeks?",
       "options": [
-        "Claims by Houthi militants",
-        "Decrease in demand",
-        "Increased production"
-      ],
-      "answer": 0
-    },
-    {
-      "question": "Which country's oil facilities were struck by Ukraine?",
-      "options": [
-        "Saudi Arabia",
-        "Russia",
-        "Iran"
+        "Diplomatic negotiations",
+        "Attacks on commercial ships",
+        "Oil production levels"
       ],
       "answer": 1
     },
     {
-      "question": "What is the main topic of the article?",
+      "question": "Where are the attacks on commercial ships occurring?",
       "options": [
-        "Travel",
-        "Oil prices",
-        "Military conflicts"
+        "Strait of Malacca",
+        "Strait of Hormuz",
+        "Suez Canal"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What do traders hope for regarding the situation in the Middle East?",
+      "options": [
+        "Increased oil prices",
+        "Diplomatic progress",
+        "More attacks on ships"
       ],
       "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "Crude prices rose Monday as Iran-backed Houthi militants claimed attacks on Saudi Arabia.",
-      "ai_suggestion": "On Monday, crude prices increased following claims of attacks on Saudi Arabia by Houthi militants supported by Iran."
+      "original": "Oil prices fall as traders hope for diplomatic progress in Middle East.",
+      "ai_suggestion": "Traders anticipate diplomatic advancements in the Middle East, leading to a decline in oil prices."
     },
     {
-      "original": "The geopolitical landscape continues to influence oil prices.",
-      "ai_suggestion": "Oil prices are still being affected by the current geopolitical situation."
+      "original": "Developments in the Middle East remain in focus, with attacks on commercial ships transiting the Strait of Hormuz escalating in recent weeks.",
+      "ai_suggestion": "Recent events in the Middle East are under scrutiny, particularly the rising attacks on commercial vessels passing through the Strait of Hormuz."
     }
   ]
 }
