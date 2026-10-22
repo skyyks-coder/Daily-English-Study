@@ -1,75 +1,75 @@
 {
-  "title": "Oil prices fall as traders hope for diplomatic progress in Middle East",
-  "date": "2026-10-21",
-  "link": "https://www.cnbc.com/2026/10/20/oil-price-wti-brent-crude.html",
+  "title": "French supermarket giant's shares plunge 14% after warning ‘unprecedented’ unrest will hit business",
+  "date": "2026-10-22",
+  "link": "https://www.cnbc.com/2026/10/21/carrefour-french-protests-guidance-cut.html",
   "isWeeklyReview": false,
-  "summary": "Recent developments in the Middle East have drawn significant attention, particularly due to the rising tensions and attacks on commercial vessels navigating the Strait of Hormuz. Traders are cautiously optimistic about potential diplomatic resolutions, which may influence oil prices. The situation remains fluid, and any progress in negotiations could lead to stabilization in the oil market, reflecting the interconnectedness of geopolitical events and economic factors.",
+  "summary": "Carrefour, the French supermarket giant, has announced a significant cut to its financial forecasts for the year 2026, attributing this decision to the escalating social unrest and deteriorating security conditions in France. The company expressed concerns that these factors are adversely impacting consumer spending, leading to a 14% plunge in its shares. This unprecedented unrest poses challenges not only for Carrefour but also for the broader retail sector in the country, as businesses grapple with the implications of such instability.",
   "vocab": [
     {
-      "word": "diplomatic",
-      "meaning": "외교의"
+      "word": "plunge",
+      "meaning": "급락하다"
     },
     {
-      "word": "escalate",
-      "meaning": "악화되다"
+      "word": "unprecedented",
+      "meaning": "전례 없는"
     },
     {
-      "word": "transit",
-      "meaning": "통과"
+      "word": "forecast",
+      "meaning": "예측하다"
     },
     {
-      "word": "tensions",
-      "meaning": "긴장"
+      "word": "social unrest",
+      "meaning": "사회적 불안"
     },
     {
-      "word": "commercial",
-      "meaning": "상업적인"
+      "word": "consumer spending",
+      "meaning": "소비자 지출"
     }
   ],
   "shadowing": [
-    "Oil prices are influenced by geopolitical events.",
-    "Traders are hopeful for a resolution in the Middle East.",
-    "Attacks on ships have increased in recent weeks.",
-    "The Strait of Hormuz is a critical shipping route.",
-    "Diplomatic efforts are essential for market stability."
+    "Carrefour cut its full-year 2026 financial forecasts.",
+    "The company cited worsening social unrest and security conditions.",
+    "These factors are weighing on consumer spending.",
+    "The shares plunged 14% after the announcement.",
+    "Unprecedented unrest will hit business operations."
   ],
   "quizzes": [
     {
-      "question": "What has been escalating in recent weeks?",
+      "question": "What percentage did Carrefour's shares plunge?",
       "options": [
-        "Diplomatic negotiations",
-        "Attacks on commercial ships",
-        "Oil production levels"
+        "10%",
+        "14%",
+        "20%"
       ],
       "answer": 1
     },
     {
-      "question": "Where are the attacks on commercial ships occurring?",
+      "question": "What did Carrefour attribute its financial forecast cut to?",
       "options": [
-        "Strait of Malacca",
-        "Strait of Hormuz",
-        "Suez Canal"
+        "Increased competition",
+        "Worsening social unrest",
+        "Supply chain issues"
       ],
       "answer": 1
     },
     {
-      "question": "What do traders hope for regarding the situation in the Middle East?",
+      "question": "When was the article published?",
       "options": [
-        "Increased oil prices",
-        "Diplomatic progress",
-        "More attacks on ships"
+        "October 21, 2026",
+        "October 21, 2025",
+        "October 21, 2027"
       ],
-      "answer": 1
+      "answer": 0
     }
   ],
   "rephraseTarget": [
     {
-      "original": "Oil prices fall as traders hope for diplomatic progress in Middle East.",
-      "ai_suggestion": "Traders anticipate diplomatic advancements in the Middle East, leading to a decline in oil prices."
+      "original": "Carrefour cut its full-year 2026 financial forecasts.",
+      "ai_suggestion": "Carrefour has revised its financial projections for the year 2026 downward."
     },
     {
-      "original": "Developments in the Middle East remain in focus, with attacks on commercial ships transiting the Strait of Hormuz escalating in recent weeks.",
-      "ai_suggestion": "Recent events in the Middle East are under scrutiny, particularly the rising attacks on commercial vessels passing through the Strait of Hormuz."
+      "original": "The company expressed concerns that these factors are adversely impacting consumer spending.",
+      "ai_suggestion": "The company indicated that these elements are negatively affecting consumer expenditure."
     }
   ]
 }
