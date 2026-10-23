@@ -1,0 +1,75 @@
+{
+  "title": "Mortgage rates drop for the first time in 2 months, but demand still falls further",
+  "date": "2026-10-23",
+  "link": "https://www.cnbc.com/2026/10/21/mortgage-rates-drop-for-the-first-time-in-2-months-but-demand-falls.html",
+  "isWeeklyReview": false,
+  "summary": "Mortgage rates have experienced a decline for the first time in two months, offering a glimmer of hope for potential homebuyers. However, despite this decrease, demand in the housing market continues to diminish, indicating ongoing challenges for borrowers. The combination of high prices and economic uncertainty is likely contributing to the hesitance among buyers to enter the market. As a result, the overall sentiment in the housing sector remains cautious, with many still struggling to secure financing. This situation underscores the complexities of the current economic landscape and its impact on homeownership aspirations.",
+  "vocab": [
+    {
+      "word": "decline",
+      "meaning": "감소하다"
+    },
+    {
+      "word": "demand",
+      "meaning": "수요"
+    },
+    {
+      "word": "borrower",
+      "meaning": "대출자"
+    },
+    {
+      "word": "financing",
+      "meaning": "재정 지원"
+    },
+    {
+      "word": "uncertainty",
+      "meaning": "불확실성"
+    }
+  ],
+  "shadowing": [
+    "Mortgage rates have experienced a decline.",
+    "Demand in the housing market continues to diminish.",
+    "Many borrowers are struggling to secure financing.",
+    "The economic landscape is complex and challenging.",
+    "Homeownership aspirations remain impacted by high prices."
+  ],
+  "quizzes": [
+    {
+      "question": "What has happened to mortgage rates recently?",
+      "options": [
+        "They have increased significantly.",
+        "They have dropped for the first time in two months.",
+        "They have remained unchanged."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the current trend in housing market demand?",
+      "options": [
+        "It is increasing rapidly.",
+        "It is declining further.",
+        "It is stable."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is one reason borrowers are hesitant to enter the market?",
+      "options": [
+        "High prices and economic uncertainty.",
+        "Low interest rates.",
+        "Increased availability of homes."
+      ],
+      "answer": 0
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "Mortgage rates finally came down a little.",
+      "ai_suggestion": "Mortgage rates have seen a slight decrease."
+    },
+    {
+      "original": "Borrowers are still having trouble getting into the housing market.",
+      "ai_suggestion": "Borrowers continue to face challenges in entering the housing market."
+    }
+  ]
+}

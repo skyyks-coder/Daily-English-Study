@@ -1,75 +1,75 @@
 {
-  "title": "French supermarket giant's shares plunge 14% after warning ‘unprecedented’ unrest will hit business",
-  "date": "2026-10-22",
-  "link": "https://www.cnbc.com/2026/10/21/carrefour-french-protests-guidance-cut.html",
+  "title": "Mortgage rates drop for the first time in 2 months, but demand still falls further",
+  "date": "2026-10-23",
+  "link": "https://www.cnbc.com/2026/10/21/mortgage-rates-drop-for-the-first-time-in-2-months-but-demand-falls.html",
   "isWeeklyReview": false,
-  "summary": "Carrefour, the French supermarket giant, has announced a significant cut to its financial forecasts for the year 2026, attributing this decision to the escalating social unrest and deteriorating security conditions in France. The company expressed concerns that these factors are adversely impacting consumer spending, leading to a 14% plunge in its shares. This unprecedented unrest poses challenges not only for Carrefour but also for the broader retail sector in the country, as businesses grapple with the implications of such instability.",
+  "summary": "Mortgage rates have experienced a decline for the first time in two months, offering a glimmer of hope for potential homebuyers. However, despite this decrease, demand in the housing market continues to diminish, indicating ongoing challenges for borrowers. The combination of high prices and economic uncertainty is likely contributing to the hesitance among buyers to enter the market. As a result, the overall sentiment in the housing sector remains cautious, with many still struggling to secure financing. This situation underscores the complexities of the current economic landscape and its impact on homeownership aspirations.",
   "vocab": [
     {
-      "word": "plunge",
-      "meaning": "급락하다"
+      "word": "decline",
+      "meaning": "감소하다"
     },
     {
-      "word": "unprecedented",
-      "meaning": "전례 없는"
+      "word": "demand",
+      "meaning": "수요"
     },
     {
-      "word": "forecast",
-      "meaning": "예측하다"
+      "word": "borrower",
+      "meaning": "대출자"
     },
     {
-      "word": "social unrest",
-      "meaning": "사회적 불안"
+      "word": "financing",
+      "meaning": "재정 지원"
     },
     {
-      "word": "consumer spending",
-      "meaning": "소비자 지출"
+      "word": "uncertainty",
+      "meaning": "불확실성"
     }
   ],
   "shadowing": [
-    "Carrefour cut its full-year 2026 financial forecasts.",
-    "The company cited worsening social unrest and security conditions.",
-    "These factors are weighing on consumer spending.",
-    "The shares plunged 14% after the announcement.",
-    "Unprecedented unrest will hit business operations."
+    "Mortgage rates have experienced a decline.",
+    "Demand in the housing market continues to diminish.",
+    "Many borrowers are struggling to secure financing.",
+    "The economic landscape is complex and challenging.",
+    "Homeownership aspirations remain impacted by high prices."
   ],
   "quizzes": [
     {
-      "question": "What percentage did Carrefour's shares plunge?",
+      "question": "What has happened to mortgage rates recently?",
       "options": [
-        "10%",
-        "14%",
-        "20%"
+        "They have increased significantly.",
+        "They have dropped for the first time in two months.",
+        "They have remained unchanged."
       ],
       "answer": 1
     },
     {
-      "question": "What did Carrefour attribute its financial forecast cut to?",
+      "question": "What is the current trend in housing market demand?",
       "options": [
-        "Increased competition",
-        "Worsening social unrest",
-        "Supply chain issues"
+        "It is increasing rapidly.",
+        "It is declining further.",
+        "It is stable."
       ],
       "answer": 1
     },
     {
-      "question": "When was the article published?",
+      "question": "What is one reason borrowers are hesitant to enter the market?",
       "options": [
-        "October 21, 2026",
-        "October 21, 2025",
-        "October 21, 2027"
+        "High prices and economic uncertainty.",
+        "Low interest rates.",
+        "Increased availability of homes."
       ],
       "answer": 0
     }
   ],
   "rephraseTarget": [
     {
-      "original": "Carrefour cut its full-year 2026 financial forecasts.",
-      "ai_suggestion": "Carrefour has revised its financial projections for the year 2026 downward."
+      "original": "Mortgage rates finally came down a little.",
+      "ai_suggestion": "Mortgage rates have seen a slight decrease."
     },
     {
-      "original": "The company expressed concerns that these factors are adversely impacting consumer spending.",
-      "ai_suggestion": "The company indicated that these elements are negatively affecting consumer expenditure."
+      "original": "Borrowers are still having trouble getting into the housing market.",
+      "ai_suggestion": "Borrowers continue to face challenges in entering the housing market."
     }
   ]
 }
