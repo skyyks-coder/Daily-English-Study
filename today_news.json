@@ -1,75 +1,75 @@
 {
-  "title": "Mortgage rates drop for the first time in 2 months, but demand still falls further",
-  "date": "2026-10-23",
-  "link": "https://www.cnbc.com/2026/10/21/mortgage-rates-drop-for-the-first-time-in-2-months-but-demand-falls.html",
+  "title": "TikTok U.S. hunts for multiple gigawatts of computing capacity, sources tell CNBC",
+  "date": "2026-10-24",
+  "link": "https://www.cnbc.com/2026/10/23/tiktok-us-compute-capacity.html",
   "isWeeklyReview": false,
-  "summary": "Mortgage rates have experienced a decline for the first time in two months, offering a glimmer of hope for potential homebuyers. However, despite this decrease, demand in the housing market continues to diminish, indicating ongoing challenges for borrowers. The combination of high prices and economic uncertainty is likely contributing to the hesitance among buyers to enter the market. As a result, the overall sentiment in the housing sector remains cautious, with many still struggling to secure financing. This situation underscores the complexities of the current economic landscape and its impact on homeownership aspirations.",
+  "summary": "TikTok's U.S. division is actively exploring various avenues to secure substantial computing capacity in the coming years. This initiative reflects the growing demand for computational resources as the platform continues to expand its services. The search for gigawatts of computing power highlights the importance of infrastructure in sustaining the rapid growth of social media platforms like TikTok.",
   "vocab": [
     {
-      "word": "decline",
-      "meaning": "감소하다"
+      "word": "gigawatts",
+      "meaning": "기가와트 (전력의 단위)"
     },
     {
-      "word": "demand",
-      "meaning": "수요"
+      "word": "capacity",
+      "meaning": "용량 (수용할 수 있는 양)"
     },
     {
-      "word": "borrower",
-      "meaning": "대출자"
+      "word": "operator",
+      "meaning": "운영자 (서비스를 관리하는 사람 또는 기관)"
     },
     {
-      "word": "financing",
-      "meaning": "재정 지원"
+      "word": "opportunities",
+      "meaning": "기회 (유리한 상황이나 조건)"
     },
     {
-      "word": "uncertainty",
-      "meaning": "불확실성"
+      "word": "infrastructure",
+      "meaning": "인프라 (기반 시설)"
     }
   ],
   "shadowing": [
-    "Mortgage rates have experienced a decline.",
-    "Demand in the housing market continues to diminish.",
-    "Many borrowers are struggling to secure financing.",
-    "The economic landscape is complex and challenging.",
-    "Homeownership aspirations remain impacted by high prices."
+    "TikTok is seeking to enhance its computing capabilities.",
+    "The demand for computing power is on the rise.",
+    "Infrastructure is crucial for the growth of social media platforms.",
+    "Opportunities for expansion are being explored.",
+    "Gigawatts of capacity are needed to support future operations."
   ],
   "quizzes": [
     {
-      "question": "What has happened to mortgage rates recently?",
+      "question": "What is TikTok's primary goal regarding computing capacity?",
       "options": [
-        "They have increased significantly.",
-        "They have dropped for the first time in two months.",
-        "They have remained unchanged."
+        "To reduce costs",
+        "To secure substantial computing resources",
+        "To limit its services"
       ],
       "answer": 1
     },
     {
-      "question": "What is the current trend in housing market demand?",
+      "question": "Why is infrastructure important for TikTok?",
       "options": [
-        "It is increasing rapidly.",
-        "It is declining further.",
-        "It is stable."
+        "It helps in marketing.",
+        "It supports rapid growth.",
+        "It reduces competition."
       ],
       "answer": 1
     },
     {
-      "question": "What is one reason borrowers are hesitant to enter the market?",
+      "question": "What does the term 'gigawatts' refer to?",
       "options": [
-        "High prices and economic uncertainty.",
-        "Low interest rates.",
-        "Increased availability of homes."
+        "A measure of social media engagement",
+        "A unit of electrical power",
+        "A type of computing software"
       ],
-      "answer": 0
+      "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "Mortgage rates finally came down a little.",
-      "ai_suggestion": "Mortgage rates have seen a slight decrease."
+      "original": "The operator of the social media platform in the U.S. has sounded out opportunities to obtain capacity over the coming years.",
+      "ai_suggestion": "The U.S. division of the social media platform is exploring options to secure capacity in the upcoming years."
     },
     {
-      "original": "Borrowers are still having trouble getting into the housing market.",
-      "ai_suggestion": "Borrowers continue to face challenges in entering the housing market."
+      "original": "This initiative reflects the growing demand for computational resources as the platform continues to expand its services.",
+      "ai_suggestion": "This effort indicates the increasing need for computing resources as the platform expands its offerings."
     }
   ]
 }

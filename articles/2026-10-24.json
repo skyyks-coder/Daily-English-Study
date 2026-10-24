@@ -1,0 +1,75 @@
+{
+  "title": "TikTok U.S. hunts for multiple gigawatts of computing capacity, sources tell CNBC",
+  "date": "2026-10-24",
+  "link": "https://www.cnbc.com/2026/10/23/tiktok-us-compute-capacity.html",
+  "isWeeklyReview": false,
+  "summary": "TikTok's U.S. division is actively exploring various avenues to secure substantial computing capacity in the coming years. This initiative reflects the growing demand for computational resources as the platform continues to expand its services. The search for gigawatts of computing power highlights the importance of infrastructure in sustaining the rapid growth of social media platforms like TikTok.",
+  "vocab": [
+    {
+      "word": "gigawatts",
+      "meaning": "기가와트 (전력의 단위)"
+    },
+    {
+      "word": "capacity",
+      "meaning": "용량 (수용할 수 있는 양)"
+    },
+    {
+      "word": "operator",
+      "meaning": "운영자 (서비스를 관리하는 사람 또는 기관)"
+    },
+    {
+      "word": "opportunities",
+      "meaning": "기회 (유리한 상황이나 조건)"
+    },
+    {
+      "word": "infrastructure",
+      "meaning": "인프라 (기반 시설)"
+    }
+  ],
+  "shadowing": [
+    "TikTok is seeking to enhance its computing capabilities.",
+    "The demand for computing power is on the rise.",
+    "Infrastructure is crucial for the growth of social media platforms.",
+    "Opportunities for expansion are being explored.",
+    "Gigawatts of capacity are needed to support future operations."
+  ],
+  "quizzes": [
+    {
+      "question": "What is TikTok's primary goal regarding computing capacity?",
+      "options": [
+        "To reduce costs",
+        "To secure substantial computing resources",
+        "To limit its services"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Why is infrastructure important for TikTok?",
+      "options": [
+        "It helps in marketing.",
+        "It supports rapid growth.",
+        "It reduces competition."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does the term 'gigawatts' refer to?",
+      "options": [
+        "A measure of social media engagement",
+        "A unit of electrical power",
+        "A type of computing software"
+      ],
+      "answer": 1
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "The operator of the social media platform in the U.S. has sounded out opportunities to obtain capacity over the coming years.",
+      "ai_suggestion": "The U.S. division of the social media platform is exploring options to secure capacity in the upcoming years."
+    },
+    {
+      "original": "This initiative reflects the growing demand for computational resources as the platform continues to expand its services.",
+      "ai_suggestion": "This effort indicates the increasing need for computing resources as the platform expands its offerings."
+    }
+  ]
+}
