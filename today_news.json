@@ -1,25 +1,25 @@
 {
-  "title": "TikTok U.S. hunts for multiple gigawatts of computing capacity, sources tell CNBC",
-  "date": "2026-10-24",
-  "link": "https://www.cnbc.com/2026/10/23/tiktok-us-compute-capacity.html",
-  "isWeeklyReview": false,
-  "summary": "TikTok's U.S. division is actively exploring various avenues to secure substantial computing capacity in the coming years. This initiative reflects the growing demand for computational resources as the platform continues to expand its services. The search for gigawatts of computing power highlights the importance of infrastructure in sustaining the rapid growth of social media platforms like TikTok.",
+  "title": "Weekly English Review",
+  "date": "2026-10-25",
+  "link": "",
+  "isWeeklyReview": true,
+  "summary": "This week's news highlights significant developments across various sectors, including the automotive industry, oil markets, and retail. Porsche's unveiling of the Mission S concept car marks a strategic shift towards higher-end products, while crude oil prices fluctuate due to geopolitical tensions and market dynamics. Additionally, Carrefour faces challenges from social unrest, leading to a notable decline in its share prices. The housing market shows mixed signals as mortgage rates drop for the first time in two months, yet demand continues to wane. Lastly, TikTok's pursuit of increased computing capacity underscores the growing demands of social media platforms in a competitive landscape.",
   "vocab": [
     {
-      "word": "gigawatts",
-      "meaning": "기가와트 (전력의 단위)"
+      "word": "concept car",
+      "meaning": "컨셉카"
     },
     {
-      "word": "capacity",
-      "meaning": "용량 (수용할 수 있는 양)"
+      "word": "turnaround",
+      "meaning": "전환"
     },
     {
-      "word": "operator",
-      "meaning": "운영자 (서비스를 관리하는 사람 또는 기관)"
+      "word": "unprecedented",
+      "meaning": "전례 없는"
     },
     {
-      "word": "opportunities",
-      "meaning": "기회 (유리한 상황이나 조건)"
+      "word": "volatile",
+      "meaning": "변동성이 큰"
     },
     {
       "word": "infrastructure",
@@ -27,13 +27,31 @@
     }
   ],
   "shadowing": [
-    "TikTok is seeking to enhance its computing capabilities.",
-    "The demand for computing power is on the rise.",
-    "Infrastructure is crucial for the growth of social media platforms.",
-    "Opportunities for expansion are being explored.",
-    "Gigawatts of capacity are needed to support future operations."
+    "Porsche has unveiled its Mission S concept car.",
+    "Crude oil prices experienced a significant increase.",
+    "Carrefour cut its full-year 2026 financial forecasts.",
+    "Mortgage rates have experienced a decline.",
+    "TikTok is seeking to enhance its computing capabilities."
   ],
   "quizzes": [
+    {
+      "question": "What is the name of the concept car revealed by Porsche?",
+      "options": [
+        "Mission X",
+        "Mission S",
+        "Mission Z"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What percentage did Carrefour's shares plunge?",
+      "options": [
+        "10%",
+        "14%",
+        "20%"
+      ],
+      "answer": 1
+    },
     {
       "question": "What is TikTok's primary goal regarding computing capacity?",
       "options": [
@@ -42,34 +60,16 @@
         "To limit its services"
       ],
       "answer": 1
-    },
-    {
-      "question": "Why is infrastructure important for TikTok?",
-      "options": [
-        "It helps in marketing.",
-        "It supports rapid growth.",
-        "It reduces competition."
-      ],
-      "answer": 1
-    },
-    {
-      "question": "What does the term 'gigawatts' refer to?",
-      "options": [
-        "A measure of social media engagement",
-        "A unit of electrical power",
-        "A type of computing software"
-      ],
-      "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "The operator of the social media platform in the U.S. has sounded out opportunities to obtain capacity over the coming years.",
-      "ai_suggestion": "The U.S. division of the social media platform is exploring options to secure capacity in the upcoming years."
+      "original": "Porsche revealed a concept car called Mission S.",
+      "ai_suggestion": "Porsche introduced a concept vehicle named Mission S."
     },
     {
-      "original": "This initiative reflects the growing demand for computational resources as the platform continues to expand its services.",
-      "ai_suggestion": "This effort indicates the increasing need for computing resources as the platform expands its offerings."
+      "original": "Mortgage rates finally came down a little.",
+      "ai_suggestion": "Mortgage rates have seen a slight decrease."
     }
   ]
 }
