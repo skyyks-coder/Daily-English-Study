@@ -1,75 +1,75 @@
 {
-  "title": "Weekly English Review",
-  "date": "2026-10-25",
-  "link": "",
-  "isWeeklyReview": true,
-  "summary": "This week's news highlights significant developments across various sectors, including the automotive industry, oil markets, and retail. Porsche's unveiling of the Mission S concept car marks a strategic shift towards higher-end products, while crude oil prices fluctuate due to geopolitical tensions and market dynamics. Additionally, Carrefour faces challenges from social unrest, leading to a notable decline in its share prices. The housing market shows mixed signals as mortgage rates drop for the first time in two months, yet demand continues to wane. Lastly, TikTok's pursuit of increased computing capacity underscores the growing demands of social media platforms in a competitive landscape.",
+  "title": "Audi defends plans for a $4 billion Georgia plant amid VW restructuring, tariffs",
+  "date": "2026-10-26",
+  "link": "https://www.cnbc.com/2026/10/25/audi-georgia-us-plant-tariffs-volkswagen.html",
+  "isWeeklyReview": false,
+  "summary": "Audi's CEO has publicly defended the company's ambitious $4 billion investment in a new manufacturing plant in Georgia. This strategic decision is aimed at enhancing sales performance while simultaneously mitigating the risks associated with U.S. tariffs. The move reflects Audi's commitment to expanding its footprint in the American automotive market amidst ongoing restructuring within its parent company, Volkswagen.",
   "vocab": [
     {
-      "word": "concept car",
-      "meaning": "컨셉카"
+      "word": "defend",
+      "meaning": "방어하다"
     },
     {
-      "word": "turnaround",
-      "meaning": "전환"
+      "word": "ambitious",
+      "meaning": "야심찬"
     },
     {
-      "word": "unprecedented",
-      "meaning": "전례 없는"
+      "word": "investment",
+      "meaning": "투자"
     },
     {
-      "word": "volatile",
-      "meaning": "변동성이 큰"
+      "word": "mitigate",
+      "meaning": "완화하다"
     },
     {
-      "word": "infrastructure",
-      "meaning": "인프라 (기반 시설)"
+      "word": "footprint",
+      "meaning": "발자국, 영향력"
     }
   ],
   "shadowing": [
-    "Porsche has unveiled its Mission S concept car.",
-    "Crude oil prices experienced a significant increase.",
-    "Carrefour cut its full-year 2026 financial forecasts.",
-    "Mortgage rates have experienced a decline.",
-    "TikTok is seeking to enhance its computing capabilities."
+    "Audi's CEO defended the company's plans.",
+    "The plant will cost $4 billion.",
+    "This decision aims to grow sales.",
+    "It will reduce exposure to U.S. tariffs.",
+    "The move is part of a larger strategy."
   ],
   "quizzes": [
     {
-      "question": "What is the name of the concept car revealed by Porsche?",
+      "question": "What is the purpose of Audi's investment in Georgia?",
       "options": [
-        "Mission X",
-        "Mission S",
-        "Mission Z"
+        "To reduce production costs",
+        "To grow sales and reduce tariff exposure",
+        "To expand into new markets"
       ],
       "answer": 1
     },
     {
-      "question": "What percentage did Carrefour's shares plunge?",
+      "question": "How much is Audi investing in the new plant?",
       "options": [
-        "10%",
-        "14%",
-        "20%"
+        "$2 billion",
+        "$4 billion",
+        "$6 billion"
       ],
       "answer": 1
     },
     {
-      "question": "What is TikTok's primary goal regarding computing capacity?",
+      "question": "Which company is Audi's parent company?",
       "options": [
-        "To reduce costs",
-        "To secure substantial computing resources",
-        "To limit its services"
+        "Ford",
+        "Volkswagen",
+        "General Motors"
       ],
       "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "Porsche revealed a concept car called Mission S.",
-      "ai_suggestion": "Porsche introduced a concept vehicle named Mission S."
+      "original": "Audi's CEO defended the company's plans for a $4 billion plant in Georgia.",
+      "ai_suggestion": "The CEO of Audi supported the company's intentions to establish a $4 billion facility in Georgia."
     },
     {
-      "original": "Mortgage rates finally came down a little.",
-      "ai_suggestion": "Mortgage rates have seen a slight decrease."
+      "original": "This strategic decision is aimed at enhancing sales performance.",
+      "ai_suggestion": "This tactical choice is focused on improving sales outcomes."
     }
   ]
 }

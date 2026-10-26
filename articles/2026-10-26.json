@@ -1,0 +1,75 @@
+{
+  "title": "Audi defends plans for a $4 billion Georgia plant amid VW restructuring, tariffs",
+  "date": "2026-10-26",
+  "link": "https://www.cnbc.com/2026/10/25/audi-georgia-us-plant-tariffs-volkswagen.html",
+  "isWeeklyReview": false,
+  "summary": "Audi's CEO has publicly defended the company's ambitious $4 billion investment in a new manufacturing plant in Georgia. This strategic decision is aimed at enhancing sales performance while simultaneously mitigating the risks associated with U.S. tariffs. The move reflects Audi's commitment to expanding its footprint in the American automotive market amidst ongoing restructuring within its parent company, Volkswagen.",
+  "vocab": [
+    {
+      "word": "defend",
+      "meaning": "방어하다"
+    },
+    {
+      "word": "ambitious",
+      "meaning": "야심찬"
+    },
+    {
+      "word": "investment",
+      "meaning": "투자"
+    },
+    {
+      "word": "mitigate",
+      "meaning": "완화하다"
+    },
+    {
+      "word": "footprint",
+      "meaning": "발자국, 영향력"
+    }
+  ],
+  "shadowing": [
+    "Audi's CEO defended the company's plans.",
+    "The plant will cost $4 billion.",
+    "This decision aims to grow sales.",
+    "It will reduce exposure to U.S. tariffs.",
+    "The move is part of a larger strategy."
+  ],
+  "quizzes": [
+    {
+      "question": "What is the purpose of Audi's investment in Georgia?",
+      "options": [
+        "To reduce production costs",
+        "To grow sales and reduce tariff exposure",
+        "To expand into new markets"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "How much is Audi investing in the new plant?",
+      "options": [
+        "$2 billion",
+        "$4 billion",
+        "$6 billion"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which company is Audi's parent company?",
+      "options": [
+        "Ford",
+        "Volkswagen",
+        "General Motors"
+      ],
+      "answer": 1
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "Audi's CEO defended the company's plans for a $4 billion plant in Georgia.",
+      "ai_suggestion": "The CEO of Audi supported the company's intentions to establish a $4 billion facility in Georgia."
+    },
+    {
+      "original": "This strategic decision is aimed at enhancing sales performance.",
+      "ai_suggestion": "This tactical choice is focused on improving sales outcomes."
+    }
+  ]
+}
