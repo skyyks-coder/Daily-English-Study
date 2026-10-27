@@ -1,0 +1,75 @@
+{
+  "title": "Saudi Arabia says it intercepted missiles and drones from Iran-backed Houthis",
+  "date": "2026-10-27",
+  "link": "https://www.cnbc.com/2026/10/25/saudi-arabia-houthi-missile-drone-interceptions.html",
+  "isWeeklyReview": false,
+  "summary": "Saudi Arabia has announced the successful interception of missiles and drones launched by the Iran-backed Houthi movement. This development comes as the Houthis have reportedly targeted airports and energy facilities, escalating concerns over regional supply stability. The situation highlights the ongoing tensions in the Middle East and the implications for international security and energy markets.",
+  "vocab": [
+    {
+      "word": "intercepted",
+      "meaning": "가로막다, 가로채다"
+    },
+    {
+      "word": "missiles",
+      "meaning": "미사일"
+    },
+    {
+      "word": "drones",
+      "meaning": "드론, 무인 항공기"
+    },
+    {
+      "word": "regional",
+      "meaning": "지역의, 지방의"
+    },
+    {
+      "word": "escalating",
+      "meaning": "악화되는, 확대되는"
+    }
+  ],
+  "shadowing": [
+    "Saudi Arabia has announced the successful interception of missiles.",
+    "The Houthis have reportedly targeted airports and energy facilities.",
+    "This situation highlights ongoing tensions in the Middle East.",
+    "Concerns over regional supply stability are rising.",
+    "The implications for international security are significant."
+  ],
+  "quizzes": [
+    {
+      "question": "What has Saudi Arabia intercepted?",
+      "options": [
+        "Houthi missiles and drones",
+        "Iranian tanks",
+        "Saudi fighter jets"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Who is responsible for the attacks on airports?",
+      "options": [
+        "Saudi Arabia",
+        "Houthi movement",
+        "Iran"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What are the rising concerns related to?",
+      "options": [
+        "Regional supply stability",
+        "Tourism",
+        "Agricultural production"
+      ],
+      "answer": 0
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "Saudi Arabia says it intercepted Houthi missiles and drones.",
+      "ai_suggestion": "Saudi Arabia announced that it has intercepted missiles and drones from the Houthis."
+    },
+    {
+      "original": "The Houthis claimed attacks on airports and energy sites.",
+      "ai_suggestion": "The Houthis have asserted that they targeted airports and energy facilities."
+    }
+  ]
+}

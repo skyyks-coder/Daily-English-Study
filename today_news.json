@@ -1,75 +1,75 @@
 {
-  "title": "Audi defends plans for a $4 billion Georgia plant amid VW restructuring, tariffs",
-  "date": "2026-10-26",
-  "link": "https://www.cnbc.com/2026/10/25/audi-georgia-us-plant-tariffs-volkswagen.html",
+  "title": "Saudi Arabia says it intercepted missiles and drones from Iran-backed Houthis",
+  "date": "2026-10-27",
+  "link": "https://www.cnbc.com/2026/10/25/saudi-arabia-houthi-missile-drone-interceptions.html",
   "isWeeklyReview": false,
-  "summary": "Audi's CEO has publicly defended the company's ambitious $4 billion investment in a new manufacturing plant in Georgia. This strategic decision is aimed at enhancing sales performance while simultaneously mitigating the risks associated with U.S. tariffs. The move reflects Audi's commitment to expanding its footprint in the American automotive market amidst ongoing restructuring within its parent company, Volkswagen.",
+  "summary": "Saudi Arabia has announced the successful interception of missiles and drones launched by the Iran-backed Houthi movement. This development comes as the Houthis have reportedly targeted airports and energy facilities, escalating concerns over regional supply stability. The situation highlights the ongoing tensions in the Middle East and the implications for international security and energy markets.",
   "vocab": [
     {
-      "word": "defend",
-      "meaning": "방어하다"
+      "word": "intercepted",
+      "meaning": "가로막다, 가로채다"
     },
     {
-      "word": "ambitious",
-      "meaning": "야심찬"
+      "word": "missiles",
+      "meaning": "미사일"
     },
     {
-      "word": "investment",
-      "meaning": "투자"
+      "word": "drones",
+      "meaning": "드론, 무인 항공기"
     },
     {
-      "word": "mitigate",
-      "meaning": "완화하다"
+      "word": "regional",
+      "meaning": "지역의, 지방의"
     },
     {
-      "word": "footprint",
-      "meaning": "발자국, 영향력"
+      "word": "escalating",
+      "meaning": "악화되는, 확대되는"
     }
   ],
   "shadowing": [
-    "Audi's CEO defended the company's plans.",
-    "The plant will cost $4 billion.",
-    "This decision aims to grow sales.",
-    "It will reduce exposure to U.S. tariffs.",
-    "The move is part of a larger strategy."
+    "Saudi Arabia has announced the successful interception of missiles.",
+    "The Houthis have reportedly targeted airports and energy facilities.",
+    "This situation highlights ongoing tensions in the Middle East.",
+    "Concerns over regional supply stability are rising.",
+    "The implications for international security are significant."
   ],
   "quizzes": [
     {
-      "question": "What is the purpose of Audi's investment in Georgia?",
+      "question": "What has Saudi Arabia intercepted?",
       "options": [
-        "To reduce production costs",
-        "To grow sales and reduce tariff exposure",
-        "To expand into new markets"
+        "Houthi missiles and drones",
+        "Iranian tanks",
+        "Saudi fighter jets"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Who is responsible for the attacks on airports?",
+      "options": [
+        "Saudi Arabia",
+        "Houthi movement",
+        "Iran"
       ],
       "answer": 1
     },
     {
-      "question": "How much is Audi investing in the new plant?",
+      "question": "What are the rising concerns related to?",
       "options": [
-        "$2 billion",
-        "$4 billion",
-        "$6 billion"
+        "Regional supply stability",
+        "Tourism",
+        "Agricultural production"
       ],
-      "answer": 1
-    },
-    {
-      "question": "Which company is Audi's parent company?",
-      "options": [
-        "Ford",
-        "Volkswagen",
-        "General Motors"
-      ],
-      "answer": 1
+      "answer": 0
     }
   ],
   "rephraseTarget": [
     {
-      "original": "Audi's CEO defended the company's plans for a $4 billion plant in Georgia.",
-      "ai_suggestion": "The CEO of Audi supported the company's intentions to establish a $4 billion facility in Georgia."
+      "original": "Saudi Arabia says it intercepted Houthi missiles and drones.",
+      "ai_suggestion": "Saudi Arabia announced that it has intercepted missiles and drones from the Houthis."
     },
     {
-      "original": "This strategic decision is aimed at enhancing sales performance.",
-      "ai_suggestion": "This tactical choice is focused on improving sales outcomes."
+      "original": "The Houthis claimed attacks on airports and energy sites.",
+      "ai_suggestion": "The Houthis have asserted that they targeted airports and energy facilities."
     }
   ]
 }
