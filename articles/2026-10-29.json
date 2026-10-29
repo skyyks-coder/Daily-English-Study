@@ -1,0 +1,75 @@
+{
+  "title": "Fed leaves rates unchanged: What it means for credit cards, mortgages, auto loans and savings accounts",
+  "date": "2026-10-29",
+  "link": "https://www.cnbc.com/2026/10/28/fed-rate-decision-consumer-borrowing-costs.html",
+  "isWeeklyReview": false,
+  "summary": "The Federal Reserve's decision to maintain interest rates has significant implications for various consumer borrowing costs. This decision directly influences the rates associated with mortgages, credit cards, auto loans, and savings accounts. Understanding the Fed's actions is crucial for consumers as it affects their financial decisions and overall economic health.",
+  "vocab": [
+    {
+      "word": "benchmark",
+      "meaning": "기준"
+    },
+    {
+      "word": "implication",
+      "meaning": "함축"
+    },
+    {
+      "word": "influence",
+      "meaning": "영향을 미치다"
+    },
+    {
+      "word": "consumer",
+      "meaning": "소비자"
+    },
+    {
+      "word": "decision",
+      "meaning": "결정"
+    }
+  ],
+  "shadowing": [
+    "The Fed's benchmark affects many consumer borrowing costs.",
+    "Rates tied to mortgages are influenced by the Fed's decision.",
+    "Credit card interest rates may remain stable.",
+    "Auto loans could see no change in their rates.",
+    "Savings accounts might not yield higher returns."
+  ],
+  "quizzes": [
+    {
+      "question": "What does the Fed's decision affect?",
+      "options": [
+        "Consumer borrowing costs",
+        "Stock market prices",
+        "International trade"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following is NOT influenced by the Fed's rates?",
+      "options": [
+        "Mortgages",
+        "Credit cards",
+        "Grocery prices"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "How does the Fed's decision impact savings accounts?",
+      "options": [
+        "Increases interest rates",
+        "Has no effect",
+        "Decreases interest rates"
+      ],
+      "answer": 1
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "The Fed's benchmark affects many consumer borrowing costs.",
+      "ai_suggestion": "The benchmark set by the Fed influences various costs for consumers borrowing money."
+    },
+    {
+      "original": "Understanding the Fed's actions is crucial for consumers.",
+      "ai_suggestion": "It is essential for consumers to comprehend the actions taken by the Fed."
+    }
+  ]
+}

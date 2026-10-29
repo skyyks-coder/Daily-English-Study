@@ -1,75 +1,75 @@
 {
-  "title": "JetBlue stock surges as company outlook calms investors",
-  "date": "2026-10-28",
-  "link": "https://www.cnbc.com/2026/10/26/jetblue-jblu-3q-2026-earnings.html",
+  "title": "Fed leaves rates unchanged: What it means for credit cards, mortgages, auto loans and savings accounts",
+  "date": "2026-10-29",
+  "link": "https://www.cnbc.com/2026/10/28/fed-rate-decision-consumer-borrowing-costs.html",
   "isWeeklyReview": false,
-  "summary": "JetBlue Airways is currently implementing a strategic plan designed to reduce operational costs while simultaneously enhancing its premium revenue streams. This initiative is crucial for the airline as it navigates through a competitive market and aims to reassure investors regarding its financial outlook. The recent surge in JetBlue's stock price reflects a growing confidence among investors, stemming from the company's commitment to improving its financial performance.",
+  "summary": "The Federal Reserve's decision to maintain interest rates has significant implications for various consumer borrowing costs. This decision directly influences the rates associated with mortgages, credit cards, auto loans, and savings accounts. Understanding the Fed's actions is crucial for consumers as it affects their financial decisions and overall economic health.",
   "vocab": [
     {
-      "word": "surge",
-      "meaning": "급증하다"
+      "word": "benchmark",
+      "meaning": "기준"
     },
     {
-      "word": "outlook",
-      "meaning": "전망"
+      "word": "implication",
+      "meaning": "함축"
     },
     {
-      "word": "calm",
-      "meaning": "진정시키다"
+      "word": "influence",
+      "meaning": "영향을 미치다"
     },
     {
-      "word": "premium",
-      "meaning": "프리미엄"
+      "word": "consumer",
+      "meaning": "소비자"
     },
     {
-      "word": "revenue",
-      "meaning": "수익"
+      "word": "decision",
+      "meaning": "결정"
     }
   ],
   "shadowing": [
-    "JetBlue Airways is currently implementing a strategic plan.",
-    "This initiative is crucial for the airline.",
-    "The recent surge in JetBlue's stock price reflects growing confidence.",
-    "The company aims to reassure investors.",
-    "Enhancing premium revenue streams is part of the plan."
+    "The Fed's benchmark affects many consumer borrowing costs.",
+    "Rates tied to mortgages are influenced by the Fed's decision.",
+    "Credit card interest rates may remain stable.",
+    "Auto loans could see no change in their rates.",
+    "Savings accounts might not yield higher returns."
   ],
   "quizzes": [
     {
-      "question": "What is the main goal of JetBlue's strategic plan?",
+      "question": "What does the Fed's decision affect?",
       "options": [
-        "To cut costs and increase premium revenue",
-        "To expand its fleet size",
-        "To reduce flight delays"
+        "Consumer borrowing costs",
+        "Stock market prices",
+        "International trade"
       ],
       "answer": 0
     },
     {
-      "question": "What has happened to JetBlue's stock price recently?",
+      "question": "Which of the following is NOT influenced by the Fed's rates?",
       "options": [
-        "It has decreased significantly",
-        "It has surged",
-        "It has remained stable"
+        "Mortgages",
+        "Credit cards",
+        "Grocery prices"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "How does the Fed's decision impact savings accounts?",
+      "options": [
+        "Increases interest rates",
+        "Has no effect",
+        "Decreases interest rates"
       ],
       "answer": 1
-    },
-    {
-      "question": "What does the company aim to do for its investors?",
-      "options": [
-        "Reassure them about financial performance",
-        "Increase ticket prices",
-        "Expand to new international markets"
-      ],
-      "answer": 0
     }
   ],
   "rephraseTarget": [
     {
-      "original": "JetBlue Airways is in the middle of a plan that aims to cut costs and increase premium revenue.",
-      "ai_suggestion": "JetBlue Airways is currently executing a strategy focused on reducing expenses and boosting premium revenue."
+      "original": "The Fed's benchmark affects many consumer borrowing costs.",
+      "ai_suggestion": "The benchmark set by the Fed influences various costs for consumers borrowing money."
     },
     {
-      "original": "The recent surge in JetBlue's stock price reflects a growing confidence among investors.",
-      "ai_suggestion": "The recent increase in JetBlue's stock value indicates rising investor confidence."
+      "original": "Understanding the Fed's actions is crucial for consumers.",
+      "ai_suggestion": "It is essential for consumers to comprehend the actions taken by the Fed."
     }
   ]
 }
