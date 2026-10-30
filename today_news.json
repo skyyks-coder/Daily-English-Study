@@ -1,75 +1,75 @@
 {
-  "title": "Fed leaves rates unchanged: What it means for credit cards, mortgages, auto loans and savings accounts",
-  "date": "2026-10-29",
-  "link": "https://www.cnbc.com/2026/10/28/fed-rate-decision-consumer-borrowing-costs.html",
+  "title": "Fed holds rates steady despite concerns over inflation",
+  "date": "2026-10-30",
+  "link": "https://www.cnbc.com/2026/10/28/fed-interest-rate-decision-october-2026.html",
   "isWeeklyReview": false,
-  "summary": "The Federal Reserve's decision to maintain interest rates has significant implications for various consumer borrowing costs. This decision directly influences the rates associated with mortgages, credit cards, auto loans, and savings accounts. Understanding the Fed's actions is crucial for consumers as it affects their financial decisions and overall economic health.",
+  "summary": "The Federal Reserve has decided to maintain interest rates at their current level, despite ongoing concerns regarding inflation. This decision was not unanimous, as two members of the Federal Open Market Committee expressed dissent, advocating for a quarter-point increase in rates. The contrasting opinions highlight the complexities of managing monetary policy in an uncertain economic environment.",
   "vocab": [
     {
-      "word": "benchmark",
-      "meaning": "기준"
+      "word": "dissent",
+      "meaning": "반대 의견"
     },
     {
-      "word": "implication",
-      "meaning": "함축"
+      "word": "committee",
+      "meaning": "위원회"
     },
     {
-      "word": "influence",
-      "meaning": "영향을 미치다"
+      "word": "monetary",
+      "meaning": "통화의"
     },
     {
-      "word": "consumer",
-      "meaning": "소비자"
+      "word": "inflation",
+      "meaning": "인플레이션"
     },
     {
-      "word": "decision",
-      "meaning": "결정"
+      "word": "percentage",
+      "meaning": "백분율"
     }
   ],
   "shadowing": [
-    "The Fed's benchmark affects many consumer borrowing costs.",
-    "Rates tied to mortgages are influenced by the Fed's decision.",
-    "Credit card interest rates may remain stable.",
-    "Auto loans could see no change in their rates.",
-    "Savings accounts might not yield higher returns."
+    "The Federal Reserve has decided to maintain interest rates.",
+    "Concerns regarding inflation continue to persist.",
+    "Two members of the committee expressed dissent.",
+    "They advocated for a quarter-point increase.",
+    "Managing monetary policy is complex."
   ],
   "quizzes": [
     {
-      "question": "What does the Fed's decision affect?",
+      "question": "What was the Federal Reserve's decision regarding interest rates?",
       "options": [
-        "Consumer borrowing costs",
-        "Stock market prices",
-        "International trade"
+        "To raise them by a quarter point",
+        "To maintain them at the current level",
+        "To lower them significantly"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
-      "question": "Which of the following is NOT influenced by the Fed's rates?",
+      "question": "How many members of the committee dissented?",
       "options": [
-        "Mortgages",
-        "Credit cards",
-        "Grocery prices"
+        "One",
+        "Two",
+        "Three"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
-      "question": "How does the Fed's decision impact savings accounts?",
+      "question": "What did the dissenting members want?",
       "options": [
-        "Increases interest rates",
-        "Has no effect",
-        "Decreases interest rates"
+        "To lower rates",
+        "To raise rates by a quarter percentage point",
+        "To keep rates unchanged"
       ],
       "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "The Fed's benchmark affects many consumer borrowing costs.",
-      "ai_suggestion": "The benchmark set by the Fed influences various costs for consumers borrowing money."
+      "original": "The Federal Reserve has decided to maintain interest rates at their current level.",
+      "ai_suggestion": "The Federal Reserve has opted to keep interest rates unchanged."
     },
     {
-      "original": "Understanding the Fed's actions is crucial for consumers.",
-      "ai_suggestion": "It is essential for consumers to comprehend the actions taken by the Fed."
+      "original": "Two members of the Federal Open Market Committee expressed dissent.",
+      "ai_suggestion": "Two members of the committee voiced their disagreement."
     }
   ]
 }

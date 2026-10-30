@@ -1,0 +1,75 @@
+{
+  "title": "Fed holds rates steady despite concerns over inflation",
+  "date": "2026-10-30",
+  "link": "https://www.cnbc.com/2026/10/28/fed-interest-rate-decision-october-2026.html",
+  "isWeeklyReview": false,
+  "summary": "The Federal Reserve has decided to maintain interest rates at their current level, despite ongoing concerns regarding inflation. This decision was not unanimous, as two members of the Federal Open Market Committee expressed dissent, advocating for a quarter-point increase in rates. The contrasting opinions highlight the complexities of managing monetary policy in an uncertain economic environment.",
+  "vocab": [
+    {
+      "word": "dissent",
+      "meaning": "반대 의견"
+    },
+    {
+      "word": "committee",
+      "meaning": "위원회"
+    },
+    {
+      "word": "monetary",
+      "meaning": "통화의"
+    },
+    {
+      "word": "inflation",
+      "meaning": "인플레이션"
+    },
+    {
+      "word": "percentage",
+      "meaning": "백분율"
+    }
+  ],
+  "shadowing": [
+    "The Federal Reserve has decided to maintain interest rates.",
+    "Concerns regarding inflation continue to persist.",
+    "Two members of the committee expressed dissent.",
+    "They advocated for a quarter-point increase.",
+    "Managing monetary policy is complex."
+  ],
+  "quizzes": [
+    {
+      "question": "What was the Federal Reserve's decision regarding interest rates?",
+      "options": [
+        "To raise them by a quarter point",
+        "To maintain them at the current level",
+        "To lower them significantly"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "How many members of the committee dissented?",
+      "options": [
+        "One",
+        "Two",
+        "Three"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What did the dissenting members want?",
+      "options": [
+        "To lower rates",
+        "To raise rates by a quarter percentage point",
+        "To keep rates unchanged"
+      ],
+      "answer": 1
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "The Federal Reserve has decided to maintain interest rates at their current level.",
+      "ai_suggestion": "The Federal Reserve has opted to keep interest rates unchanged."
+    },
+    {
+      "original": "Two members of the Federal Open Market Committee expressed dissent.",
+      "ai_suggestion": "Two members of the committee voiced their disagreement."
+    }
+  ]
+}
