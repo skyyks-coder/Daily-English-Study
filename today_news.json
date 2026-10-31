@@ -1,75 +1,75 @@
 {
-  "title": "Fed holds rates steady despite concerns over inflation",
-  "date": "2026-10-30",
-  "link": "https://www.cnbc.com/2026/10/28/fed-interest-rate-decision-october-2026.html",
+  "title": "Home prices fall and rents rise, both for the first time in three years",
+  "date": "2026-10-31",
+  "link": "https://www.cnbc.com/2026/10/29/home-prices-fall-and-rents-rise-both-for-the-first-time-in-3-years.html",
   "isWeeklyReview": false,
-  "summary": "The Federal Reserve has decided to maintain interest rates at their current level, despite ongoing concerns regarding inflation. This decision was not unanimous, as two members of the Federal Open Market Committee expressed dissent, advocating for a quarter-point increase in rates. The contrasting opinions highlight the complexities of managing monetary policy in an uncertain economic environment.",
+  "summary": "For the first time in over three years, the median sale price of homes in the U.S. has experienced a decline, as reported by Redfin, a prominent real estate brokerage. This significant shift in the housing market marks a notable change in trends, particularly as rental prices simultaneously increase. The report highlights the evolving dynamics of the real estate sector, indicating potential implications for both buyers and renters in the current economic climate.",
   "vocab": [
     {
-      "word": "dissent",
-      "meaning": "반대 의견"
+      "word": "median",
+      "meaning": "중앙값"
     },
     {
-      "word": "committee",
-      "meaning": "위원회"
+      "word": "decline",
+      "meaning": "감소"
     },
     {
-      "word": "monetary",
-      "meaning": "통화의"
+      "word": "simultaneously",
+      "meaning": "동시에"
     },
     {
-      "word": "inflation",
-      "meaning": "인플레이션"
+      "word": "implications",
+      "meaning": "함의"
     },
     {
-      "word": "percentage",
-      "meaning": "백분율"
+      "word": "dynamics",
+      "meaning": "역학"
     }
   ],
   "shadowing": [
-    "The Federal Reserve has decided to maintain interest rates.",
-    "Concerns regarding inflation continue to persist.",
-    "Two members of the committee expressed dissent.",
-    "They advocated for a quarter-point increase.",
-    "Managing monetary policy is complex."
+    "The median U.S. home sale price fell.",
+    "This is the first decline in over three years.",
+    "Rental prices are rising at the same time.",
+    "Redfin reported these significant changes.",
+    "The housing market is experiencing a shift."
   ],
   "quizzes": [
     {
-      "question": "What was the Federal Reserve's decision regarding interest rates?",
+      "question": "What has happened to the median home sale price?",
       "options": [
-        "To raise them by a quarter point",
-        "To maintain them at the current level",
-        "To lower them significantly"
+        "It has increased.",
+        "It has fallen.",
+        "It has remained the same."
       ],
       "answer": 1
     },
     {
-      "question": "How many members of the committee dissented?",
+      "question": "Who reported the decline in home prices?",
       "options": [
-        "One",
-        "Two",
-        "Three"
+        "Zillow",
+        "Redfin",
+        "Realtor.com"
       ],
       "answer": 1
     },
     {
-      "question": "What did the dissenting members want?",
+      "question": "What is happening to rental prices?",
       "options": [
-        "To lower rates",
-        "To raise rates by a quarter percentage point",
-        "To keep rates unchanged"
+        "They are decreasing.",
+        "They are rising.",
+        "They are stable."
       ],
       "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "The Federal Reserve has decided to maintain interest rates at their current level.",
-      "ai_suggestion": "The Federal Reserve has opted to keep interest rates unchanged."
+      "original": "The median U.S. home sale price fell for the first time in more than three years.",
+      "ai_suggestion": "For the first time in over three years, the median sale price of homes in the U.S. has decreased."
     },
     {
-      "original": "Two members of the Federal Open Market Committee expressed dissent.",
-      "ai_suggestion": "Two members of the committee voiced their disagreement."
+      "original": "This significant shift in the housing market marks a notable change in trends.",
+      "ai_suggestion": "This major change in the housing market signifies a remarkable trend alteration."
     }
   ]
 }

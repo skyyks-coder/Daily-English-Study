@@ -1,0 +1,75 @@
+{
+  "title": "Home prices fall and rents rise, both for the first time in three years",
+  "date": "2026-10-31",
+  "link": "https://www.cnbc.com/2026/10/29/home-prices-fall-and-rents-rise-both-for-the-first-time-in-3-years.html",
+  "isWeeklyReview": false,
+  "summary": "For the first time in over three years, the median sale price of homes in the U.S. has experienced a decline, as reported by Redfin, a prominent real estate brokerage. This significant shift in the housing market marks a notable change in trends, particularly as rental prices simultaneously increase. The report highlights the evolving dynamics of the real estate sector, indicating potential implications for both buyers and renters in the current economic climate.",
+  "vocab": [
+    {
+      "word": "median",
+      "meaning": "중앙값"
+    },
+    {
+      "word": "decline",
+      "meaning": "감소"
+    },
+    {
+      "word": "simultaneously",
+      "meaning": "동시에"
+    },
+    {
+      "word": "implications",
+      "meaning": "함의"
+    },
+    {
+      "word": "dynamics",
+      "meaning": "역학"
+    }
+  ],
+  "shadowing": [
+    "The median U.S. home sale price fell.",
+    "This is the first decline in over three years.",
+    "Rental prices are rising at the same time.",
+    "Redfin reported these significant changes.",
+    "The housing market is experiencing a shift."
+  ],
+  "quizzes": [
+    {
+      "question": "What has happened to the median home sale price?",
+      "options": [
+        "It has increased.",
+        "It has fallen.",
+        "It has remained the same."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Who reported the decline in home prices?",
+      "options": [
+        "Zillow",
+        "Redfin",
+        "Realtor.com"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is happening to rental prices?",
+      "options": [
+        "They are decreasing.",
+        "They are rising.",
+        "They are stable."
+      ],
+      "answer": 1
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "The median U.S. home sale price fell for the first time in more than three years.",
+      "ai_suggestion": "For the first time in over three years, the median sale price of homes in the U.S. has decreased."
+    },
+    {
+      "original": "This significant shift in the housing market marks a notable change in trends.",
+      "ai_suggestion": "This major change in the housing market signifies a remarkable trend alteration."
+    }
+  ]
+}
