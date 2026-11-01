@@ -1,39 +1,48 @@
 {
-  "title": "Home prices fall and rents rise, both for the first time in three years",
-  "date": "2026-10-31",
-  "link": "https://www.cnbc.com/2026/10/29/home-prices-fall-and-rents-rise-both-for-the-first-time-in-3-years.html",
-  "isWeeklyReview": false,
-  "summary": "For the first time in over three years, the median sale price of homes in the U.S. has experienced a decline, as reported by Redfin, a prominent real estate brokerage. This significant shift in the housing market marks a notable change in trends, particularly as rental prices simultaneously increase. The report highlights the evolving dynamics of the real estate sector, indicating potential implications for both buyers and renters in the current economic climate.",
+  "title": "Weekly English Review",
+  "date": "2026-11-01",
+  "link": "",
+  "isWeeklyReview": true,
+  "summary": "This week's news highlights significant developments in various sectors, including the automotive industry, international security, and the housing market. Audi's CEO defended a substantial investment in a new plant in Georgia, aiming to bolster sales while addressing tariff concerns. Meanwhile, Saudi Arabia successfully intercepted missiles from the Iran-backed Houthi movement, raising alarms about regional stability. In the financial realm, the Federal Reserve opted to maintain interest rates, a decision that has implications for consumer borrowing costs. Finally, the U.S. housing market is witnessing a notable shift, with home prices declining for the first time in three years, coinciding with rising rental prices.",
   "vocab": [
+    {
+      "word": "defend",
+      "meaning": "방어하다"
+    },
+    {
+      "word": "intercepted",
+      "meaning": "가로막다, 가로채다"
+    },
+    {
+      "word": "surge",
+      "meaning": "급증하다"
+    },
+    {
+      "word": "dissent",
+      "meaning": "반대 의견"
+    },
     {
       "word": "median",
       "meaning": "중앙값"
-    },
-    {
-      "word": "decline",
-      "meaning": "감소"
-    },
-    {
-      "word": "simultaneously",
-      "meaning": "동시에"
-    },
-    {
-      "word": "implications",
-      "meaning": "함의"
-    },
-    {
-      "word": "dynamics",
-      "meaning": "역학"
     }
   ],
   "shadowing": [
-    "The median U.S. home sale price fell.",
-    "This is the first decline in over three years.",
-    "Rental prices are rising at the same time.",
-    "Redfin reported these significant changes.",
-    "The housing market is experiencing a shift."
+    "Audi's CEO defended the company's plans.",
+    "Saudi Arabia has announced the successful interception of missiles.",
+    "JetBlue Airways is currently implementing a strategic plan.",
+    "The Fed's benchmark affects many consumer borrowing costs.",
+    "The median U.S. home sale price fell."
   ],
   "quizzes": [
+    {
+      "question": "What is the purpose of Audi's investment in Georgia?",
+      "options": [
+        "To reduce production costs",
+        "To grow sales and reduce tariff exposure",
+        "To expand into new markets"
+      ],
+      "answer": 1
+    },
     {
       "question": "What has happened to the median home sale price?",
       "options": [
@@ -44,32 +53,23 @@
       "answer": 1
     },
     {
-      "question": "Who reported the decline in home prices?",
+      "question": "What was the Federal Reserve's decision regarding interest rates?",
       "options": [
-        "Zillow",
-        "Redfin",
-        "Realtor.com"
-      ],
-      "answer": 1
-    },
-    {
-      "question": "What is happening to rental prices?",
-      "options": [
-        "They are decreasing.",
-        "They are rising.",
-        "They are stable."
+        "To raise them by a quarter point",
+        "To maintain them at the current level",
+        "To lower them significantly"
       ],
       "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "The median U.S. home sale price fell for the first time in more than three years.",
-      "ai_suggestion": "For the first time in over three years, the median sale price of homes in the U.S. has decreased."
+      "original": "The Federal Reserve has decided to maintain interest rates at their current level.",
+      "ai_suggestion": "The Federal Reserve has opted to keep interest rates unchanged."
     },
     {
-      "original": "This significant shift in the housing market marks a notable change in trends.",
-      "ai_suggestion": "This major change in the housing market signifies a remarkable trend alteration."
+      "original": "The median U.S. home sale price fell for the first time in more than three years.",
+      "ai_suggestion": "For the first time in over three years, the median sale price of homes in the U.S. has decreased."
     }
   ]
 }
