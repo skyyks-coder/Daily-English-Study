@@ -1,0 +1,75 @@
+{
+  "title": "Reddit stock plunges 29% after weak outlook, wrapping its worst day ever",
+  "date": "2026-11-02",
+  "link": "https://www.cnbc.com/2026/10/30/reddit-stock-q3-earnings.html",
+  "isWeeklyReview": false,
+  "summary": "On October 30, 2026, Reddit's stock experienced a significant decline, plummeting by 29% following the company's announcement of disappointing sales projections for the fourth quarter. This downturn marked the worst day in the company's history, reflecting investor concerns over its future performance. Additionally, Reddit revealed plans to implement a login requirement for users to access content, which may further impact user engagement and revenue.",
+  "vocab": [
+    {
+      "word": "plunge",
+      "meaning": "급락하다"
+    },
+    {
+      "word": "guidance",
+      "meaning": "지침"
+    },
+    {
+      "word": "test",
+      "meaning": "시험하다"
+    },
+    {
+      "word": "content",
+      "meaning": "내용"
+    },
+    {
+      "word": "engagement",
+      "meaning": "참여"
+    }
+  ],
+  "shadowing": [
+    "Reddit shares sank on Friday.",
+    "The company issued weak Q4 sales guidance.",
+    "It will test requiring users to log in.",
+    "This marks its worst day ever.",
+    "Investors are concerned about future performance."
+  ],
+  "quizzes": [
+    {
+      "question": "What percentage did Reddit's stock plunge?",
+      "options": [
+        "20%",
+        "29%",
+        "15%"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What did Reddit announce regarding user access?",
+      "options": [
+        "Free access for all",
+        "Login requirement to see content",
+        "New subscription model"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What was the main reason for the stock decline?",
+      "options": [
+        "Strong Q4 sales guidance",
+        "Weak Q4 sales guidance",
+        "New product launch"
+      ],
+      "answer": 1
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "Reddit shares sank on Friday after the company issued weak Q4 sales guidance.",
+      "ai_suggestion": "On Friday, Reddit's shares fell sharply following the company's announcement of disappointing sales forecasts for the fourth quarter."
+    },
+    {
+      "original": "This downturn marked the worst day in the company's history.",
+      "ai_suggestion": "This decline represented the most significant drop in the company's history."
+    }
+  ]
+}

@@ -1,75 +1,75 @@
 {
-  "title": "Weekly English Review",
-  "date": "2026-11-01",
-  "link": "",
-  "isWeeklyReview": true,
-  "summary": "This week's news highlights significant developments in various sectors, including the automotive industry, international security, and the housing market. Audi's CEO defended a substantial investment in a new plant in Georgia, aiming to bolster sales while addressing tariff concerns. Meanwhile, Saudi Arabia successfully intercepted missiles from the Iran-backed Houthi movement, raising alarms about regional stability. In the financial realm, the Federal Reserve opted to maintain interest rates, a decision that has implications for consumer borrowing costs. Finally, the U.S. housing market is witnessing a notable shift, with home prices declining for the first time in three years, coinciding with rising rental prices.",
+  "title": "Reddit stock plunges 29% after weak outlook, wrapping its worst day ever",
+  "date": "2026-11-02",
+  "link": "https://www.cnbc.com/2026/10/30/reddit-stock-q3-earnings.html",
+  "isWeeklyReview": false,
+  "summary": "On October 30, 2026, Reddit's stock experienced a significant decline, plummeting by 29% following the company's announcement of disappointing sales projections for the fourth quarter. This downturn marked the worst day in the company's history, reflecting investor concerns over its future performance. Additionally, Reddit revealed plans to implement a login requirement for users to access content, which may further impact user engagement and revenue.",
   "vocab": [
     {
-      "word": "defend",
-      "meaning": "방어하다"
+      "word": "plunge",
+      "meaning": "급락하다"
     },
     {
-      "word": "intercepted",
-      "meaning": "가로막다, 가로채다"
+      "word": "guidance",
+      "meaning": "지침"
     },
     {
-      "word": "surge",
-      "meaning": "급증하다"
+      "word": "test",
+      "meaning": "시험하다"
     },
     {
-      "word": "dissent",
-      "meaning": "반대 의견"
+      "word": "content",
+      "meaning": "내용"
     },
     {
-      "word": "median",
-      "meaning": "중앙값"
+      "word": "engagement",
+      "meaning": "참여"
     }
   ],
   "shadowing": [
-    "Audi's CEO defended the company's plans.",
-    "Saudi Arabia has announced the successful interception of missiles.",
-    "JetBlue Airways is currently implementing a strategic plan.",
-    "The Fed's benchmark affects many consumer borrowing costs.",
-    "The median U.S. home sale price fell."
+    "Reddit shares sank on Friday.",
+    "The company issued weak Q4 sales guidance.",
+    "It will test requiring users to log in.",
+    "This marks its worst day ever.",
+    "Investors are concerned about future performance."
   ],
   "quizzes": [
     {
-      "question": "What is the purpose of Audi's investment in Georgia?",
+      "question": "What percentage did Reddit's stock plunge?",
       "options": [
-        "To reduce production costs",
-        "To grow sales and reduce tariff exposure",
-        "To expand into new markets"
+        "20%",
+        "29%",
+        "15%"
       ],
       "answer": 1
     },
     {
-      "question": "What has happened to the median home sale price?",
+      "question": "What did Reddit announce regarding user access?",
       "options": [
-        "It has increased.",
-        "It has fallen.",
-        "It has remained the same."
+        "Free access for all",
+        "Login requirement to see content",
+        "New subscription model"
       ],
       "answer": 1
     },
     {
-      "question": "What was the Federal Reserve's decision regarding interest rates?",
+      "question": "What was the main reason for the stock decline?",
       "options": [
-        "To raise them by a quarter point",
-        "To maintain them at the current level",
-        "To lower them significantly"
+        "Strong Q4 sales guidance",
+        "Weak Q4 sales guidance",
+        "New product launch"
       ],
       "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "The Federal Reserve has decided to maintain interest rates at their current level.",
-      "ai_suggestion": "The Federal Reserve has opted to keep interest rates unchanged."
+      "original": "Reddit shares sank on Friday after the company issued weak Q4 sales guidance.",
+      "ai_suggestion": "On Friday, Reddit's shares fell sharply following the company's announcement of disappointing sales forecasts for the fourth quarter."
     },
     {
-      "original": "The median U.S. home sale price fell for the first time in more than three years.",
-      "ai_suggestion": "For the first time in over three years, the median sale price of homes in the U.S. has decreased."
+      "original": "This downturn marked the worst day in the company's history.",
+      "ai_suggestion": "This decline represented the most significant drop in the company's history."
     }
   ]
 }
