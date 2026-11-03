@@ -1,0 +1,75 @@
+{
+  "title": "Ryanair CEO warns fares could rise by up to 20% next year",
+  "date": "2026-11-03",
+  "link": "https://www.cnbc.com/2026/11/02/ryanair-h1-earnings-iran-war-fuel-costs.html",
+  "isWeeklyReview": false,
+  "summary": "Ryanair's CEO, Michael O'Leary, has issued a warning regarding a potential increase in airfares for European airlines, predicting a rise of up to 20% in the coming year. This forecast is largely attributed to escalating fuel costs, which have been a significant concern for the aviation industry. O'Leary's comments highlight the financial pressures that airlines face and the impact these may have on consumers. As travel demand continues to recover, the implications of higher fares could affect many travelers across Europe.",
+  "vocab": [
+    {
+      "word": "fares",
+      "meaning": "운임"
+    },
+    {
+      "word": "significantly",
+      "meaning": "상당히"
+    },
+    {
+      "word": "escalating",
+      "meaning": "증가하는"
+    },
+    {
+      "word": "forecast",
+      "meaning": "예측"
+    },
+    {
+      "word": "implications",
+      "meaning": "영향"
+    }
+  ],
+  "shadowing": [
+    "Ryanair's CEO Michael O'Leary warned about rising fares.",
+    "He mentioned a potential increase of up to 20%.",
+    "This rise is linked to higher fuel costs.",
+    "European airlines may face significant challenges.",
+    "Travelers could be affected by these fare increases."
+  ],
+  "quizzes": [
+    {
+      "question": "What did Michael O'Leary predict about airfares?",
+      "options": [
+        "They will decrease by 20%",
+        "They may rise by up to 20%",
+        "They will remain the same"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the main reason for the potential fare increase?",
+      "options": [
+        "Increased demand for flights",
+        "Higher fuel costs",
+        "New airline regulations"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which industry is being discussed?",
+      "options": [
+        "Hospitality",
+        "Aviation",
+        "Railways"
+      ],
+      "answer": 1
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "Ryanair's CEO Michael O'Leary told CNBC that European airlines may have \"significantly higher airfares\" of up to 20% next year as fuel costs rise.",
+      "ai_suggestion": "Michael O'Leary, the CEO of Ryanair, informed CNBC that due to rising fuel costs, European airlines could see airfares increase significantly, potentially by as much as 20% next year."
+    },
+    {
+      "original": "This forecast is largely attributed to escalating fuel costs, which have been a significant concern for the aviation industry.",
+      "ai_suggestion": "This prediction is primarily linked to the rising fuel costs, which have posed a major challenge for the aviation sector."
+    }
+  ]
+}
