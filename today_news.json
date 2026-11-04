@@ -1,75 +1,75 @@
 {
-  "title": "Ryanair CEO warns fares could rise by up to 20% next year",
-  "date": "2026-11-03",
-  "link": "https://www.cnbc.com/2026/11/02/ryanair-h1-earnings-iran-war-fuel-costs.html",
+  "title": "Meta seeks to raise up to $25 billion in debt sale as AI spending jumps",
+  "date": "2026-11-04",
+  "link": "https://www.cnbc.com/2026/11/03/meta-bond-sale-ai-funding.html",
   "isWeeklyReview": false,
-  "summary": "Ryanair's CEO, Michael O'Leary, has issued a warning regarding a potential increase in airfares for European airlines, predicting a rise of up to 20% in the coming year. This forecast is largely attributed to escalating fuel costs, which have been a significant concern for the aviation industry. O'Leary's comments highlight the financial pressures that airlines face and the impact these may have on consumers. As travel demand continues to recover, the implications of higher fares could affect many travelers across Europe.",
+  "summary": "Meta is planning to conduct a substantial bond sale, aiming to raise between $20 billion and $25 billion. This initiative is part of the company's strategy to significantly increase its investments in infrastructure and artificial intelligence. The surge in AI spending reflects Meta's commitment to enhancing its technological capabilities and services. As the demand for AI solutions grows, this funding could play a crucial role in advancing their projects. The bond sale is a strategic move to secure necessary capital in a rapidly evolving market.",
   "vocab": [
     {
-      "word": "fares",
-      "meaning": "운임"
+      "word": "infrastructure",
+      "meaning": "기반 시설"
     },
     {
-      "word": "significantly",
-      "meaning": "상당히"
+      "word": "investment",
+      "meaning": "투자"
     },
     {
-      "word": "escalating",
-      "meaning": "증가하는"
+      "word": "artificial intelligence",
+      "meaning": "인공지능"
     },
     {
-      "word": "forecast",
-      "meaning": "예측"
+      "word": "commitment",
+      "meaning": "약속, 헌신"
     },
     {
-      "word": "implications",
-      "meaning": "영향"
+      "word": "capital",
+      "meaning": "자본"
     }
   ],
   "shadowing": [
-    "Ryanair's CEO Michael O'Leary warned about rising fares.",
-    "He mentioned a potential increase of up to 20%.",
-    "This rise is linked to higher fuel costs.",
-    "European airlines may face significant challenges.",
-    "Travelers could be affected by these fare increases."
+    "Meta is planning to conduct a substantial bond sale.",
+    "This initiative is part of the company's strategy.",
+    "The surge in AI spending reflects Meta's commitment.",
+    "This funding could play a crucial role in advancing their projects.",
+    "The bond sale is a strategic move to secure necessary capital."
   ],
   "quizzes": [
     {
-      "question": "What did Michael O'Leary predict about airfares?",
+      "question": "How much is Meta aiming to raise in the bond sale?",
       "options": [
-        "They will decrease by 20%",
-        "They may rise by up to 20%",
-        "They will remain the same"
+        "$10 billion",
+        "$20 billion",
+        "$25 billion"
       ],
       "answer": 1
     },
     {
-      "question": "What is the main reason for the potential fare increase?",
+      "question": "What is the primary purpose of the bond sale?",
       "options": [
-        "Increased demand for flights",
-        "Higher fuel costs",
-        "New airline regulations"
+        "To pay off debts",
+        "To invest in AI",
+        "To expand the workforce"
       ],
       "answer": 1
     },
     {
-      "question": "Which industry is being discussed?",
+      "question": "What does the increase in AI spending indicate?",
       "options": [
-        "Hospitality",
-        "Aviation",
-        "Railways"
+        "A decrease in technology investment",
+        "A commitment to technological advancement",
+        "A focus on traditional services"
       ],
       "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "Ryanair's CEO Michael O'Leary told CNBC that European airlines may have \"significantly higher airfares\" of up to 20% next year as fuel costs rise.",
-      "ai_suggestion": "Michael O'Leary, the CEO of Ryanair, informed CNBC that due to rising fuel costs, European airlines could see airfares increase significantly, potentially by as much as 20% next year."
+      "original": "Meta is aiming to raise between $20 billion and $25 billion in a bond sale.",
+      "ai_suggestion": "Meta plans to secure funding of $20 billion to $25 billion through a bond issuance."
     },
     {
-      "original": "This forecast is largely attributed to escalating fuel costs, which have been a significant concern for the aviation industry.",
-      "ai_suggestion": "This prediction is primarily linked to the rising fuel costs, which have posed a major challenge for the aviation sector."
+      "original": "The company ramps up spending on infrastructure and AI models and services.",
+      "ai_suggestion": "The firm is increasing its investments in infrastructure as well as AI technologies and services."
     }
   ]
 }

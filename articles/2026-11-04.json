@@ -1,0 +1,75 @@
+{
+  "title": "Meta seeks to raise up to $25 billion in debt sale as AI spending jumps",
+  "date": "2026-11-04",
+  "link": "https://www.cnbc.com/2026/11/03/meta-bond-sale-ai-funding.html",
+  "isWeeklyReview": false,
+  "summary": "Meta is planning to conduct a substantial bond sale, aiming to raise between $20 billion and $25 billion. This initiative is part of the company's strategy to significantly increase its investments in infrastructure and artificial intelligence. The surge in AI spending reflects Meta's commitment to enhancing its technological capabilities and services. As the demand for AI solutions grows, this funding could play a crucial role in advancing their projects. The bond sale is a strategic move to secure necessary capital in a rapidly evolving market.",
+  "vocab": [
+    {
+      "word": "infrastructure",
+      "meaning": "기반 시설"
+    },
+    {
+      "word": "investment",
+      "meaning": "투자"
+    },
+    {
+      "word": "artificial intelligence",
+      "meaning": "인공지능"
+    },
+    {
+      "word": "commitment",
+      "meaning": "약속, 헌신"
+    },
+    {
+      "word": "capital",
+      "meaning": "자본"
+    }
+  ],
+  "shadowing": [
+    "Meta is planning to conduct a substantial bond sale.",
+    "This initiative is part of the company's strategy.",
+    "The surge in AI spending reflects Meta's commitment.",
+    "This funding could play a crucial role in advancing their projects.",
+    "The bond sale is a strategic move to secure necessary capital."
+  ],
+  "quizzes": [
+    {
+      "question": "How much is Meta aiming to raise in the bond sale?",
+      "options": [
+        "$10 billion",
+        "$20 billion",
+        "$25 billion"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the primary purpose of the bond sale?",
+      "options": [
+        "To pay off debts",
+        "To invest in AI",
+        "To expand the workforce"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does the increase in AI spending indicate?",
+      "options": [
+        "A decrease in technology investment",
+        "A commitment to technological advancement",
+        "A focus on traditional services"
+      ],
+      "answer": 1
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "Meta is aiming to raise between $20 billion and $25 billion in a bond sale.",
+      "ai_suggestion": "Meta plans to secure funding of $20 billion to $25 billion through a bond issuance."
+    },
+    {
+      "original": "The company ramps up spending on infrastructure and AI models and services.",
+      "ai_suggestion": "The firm is increasing its investments in infrastructure as well as AI technologies and services."
+    }
+  ]
+}
