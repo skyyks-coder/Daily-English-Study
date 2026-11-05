@@ -1,75 +1,75 @@
 {
-  "title": "Meta seeks to raise up to $25 billion in debt sale as AI spending jumps",
-  "date": "2026-11-04",
-  "link": "https://www.cnbc.com/2026/11/03/meta-bond-sale-ai-funding.html",
+  "title": "Yum Brands earnings beat estimates, but cyclospora outbreak weighs on Taco Bell",
+  "date": "2026-11-05",
+  "link": "https://www.cnbc.com/2026/11/03/yum-brands-yum-q3-2026-earnings.html",
   "isWeeklyReview": false,
-  "summary": "Meta is planning to conduct a substantial bond sale, aiming to raise between $20 billion and $25 billion. This initiative is part of the company's strategy to significantly increase its investments in infrastructure and artificial intelligence. The surge in AI spending reflects Meta's commitment to enhancing its technological capabilities and services. As the demand for AI solutions grows, this funding could play a crucial role in advancing their projects. The bond sale is a strategic move to secure necessary capital in a rapidly evolving market.",
+  "summary": "Yum Brands reported earnings that exceeded expectations, yet the company faced challenges due to a Cyclospora outbreak linked to lettuce served at Taco Bell locations. This health issue adversely affected customer traffic, leading to a decline in same-store sales for the fast-food chain. Despite the positive earnings report, the outbreak highlights the ongoing risks associated with food safety in the restaurant industry.",
   "vocab": [
     {
-      "word": "infrastructure",
-      "meaning": "기반 시설"
+      "word": "earnings",
+      "meaning": "수익"
     },
     {
-      "word": "investment",
-      "meaning": "투자"
+      "word": "estimates",
+      "meaning": "추정치"
     },
     {
-      "word": "artificial intelligence",
-      "meaning": "인공지능"
+      "word": "outbreak",
+      "meaning": "발병"
     },
     {
-      "word": "commitment",
-      "meaning": "약속, 헌신"
+      "word": "traffic",
+      "meaning": "유입"
     },
     {
-      "word": "capital",
-      "meaning": "자본"
+      "word": "declined",
+      "meaning": "감소했다"
     }
   ],
   "shadowing": [
-    "Meta is planning to conduct a substantial bond sale.",
-    "This initiative is part of the company's strategy.",
-    "The surge in AI spending reflects Meta's commitment.",
-    "This funding could play a crucial role in advancing their projects.",
-    "The bond sale is a strategic move to secure necessary capital."
+    "Yum Brands reported earnings that exceeded expectations.",
+    "The Cyclospora outbreak has impacted Taco Bell's sales.",
+    "Health issues can significantly affect customer traffic.",
+    "Food safety remains a critical concern for restaurants.",
+    "Taco Bell experienced a decline in same-store sales."
   ],
   "quizzes": [
     {
-      "question": "How much is Meta aiming to raise in the bond sale?",
+      "question": "What was the primary reason for Taco Bell's decline in sales?",
       "options": [
-        "$10 billion",
-        "$20 billion",
-        "$25 billion"
+        "Increased competition",
+        "Cyclospora outbreak",
+        "New menu items"
       ],
       "answer": 1
     },
     {
-      "question": "What is the primary purpose of the bond sale?",
+      "question": "How did Yum Brands' earnings perform in relation to estimates?",
       "options": [
-        "To pay off debts",
-        "To invest in AI",
-        "To expand the workforce"
+        "They fell short of estimates",
+        "They met estimates",
+        "They exceeded estimates"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
-      "question": "What does the increase in AI spending indicate?",
+      "question": "What type of health issue was linked to Taco Bell?",
       "options": [
-        "A decrease in technology investment",
-        "A commitment to technological advancement",
-        "A focus on traditional services"
+        "E. coli outbreak",
+        "Cyclospora outbreak",
+        "Salmonella outbreak"
       ],
       "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "Meta is aiming to raise between $20 billion and $25 billion in a bond sale.",
-      "ai_suggestion": "Meta plans to secure funding of $20 billion to $25 billion through a bond issuance."
+      "original": "Taco Bell's same-store sales declined as a Cyclospora outbreak tied to lettuce served at its restaurants weighed on traffic.",
+      "ai_suggestion": "The decline in same-store sales at Taco Bell was influenced by a Cyclospora outbreak associated with the lettuce served in its restaurants, which negatively impacted customer traffic."
     },
     {
-      "original": "The company ramps up spending on infrastructure and AI models and services.",
-      "ai_suggestion": "The firm is increasing its investments in infrastructure as well as AI technologies and services."
+      "original": "Yum Brands reported earnings that exceeded expectations.",
+      "ai_suggestion": "Yum Brands announced earnings that surpassed analysts' forecasts."
     }
   ]
 }

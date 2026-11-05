@@ -1,0 +1,75 @@
+{
+  "title": "Yum Brands earnings beat estimates, but cyclospora outbreak weighs on Taco Bell",
+  "date": "2026-11-05",
+  "link": "https://www.cnbc.com/2026/11/03/yum-brands-yum-q3-2026-earnings.html",
+  "isWeeklyReview": false,
+  "summary": "Yum Brands reported earnings that exceeded expectations, yet the company faced challenges due to a Cyclospora outbreak linked to lettuce served at Taco Bell locations. This health issue adversely affected customer traffic, leading to a decline in same-store sales for the fast-food chain. Despite the positive earnings report, the outbreak highlights the ongoing risks associated with food safety in the restaurant industry.",
+  "vocab": [
+    {
+      "word": "earnings",
+      "meaning": "수익"
+    },
+    {
+      "word": "estimates",
+      "meaning": "추정치"
+    },
+    {
+      "word": "outbreak",
+      "meaning": "발병"
+    },
+    {
+      "word": "traffic",
+      "meaning": "유입"
+    },
+    {
+      "word": "declined",
+      "meaning": "감소했다"
+    }
+  ],
+  "shadowing": [
+    "Yum Brands reported earnings that exceeded expectations.",
+    "The Cyclospora outbreak has impacted Taco Bell's sales.",
+    "Health issues can significantly affect customer traffic.",
+    "Food safety remains a critical concern for restaurants.",
+    "Taco Bell experienced a decline in same-store sales."
+  ],
+  "quizzes": [
+    {
+      "question": "What was the primary reason for Taco Bell's decline in sales?",
+      "options": [
+        "Increased competition",
+        "Cyclospora outbreak",
+        "New menu items"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "How did Yum Brands' earnings perform in relation to estimates?",
+      "options": [
+        "They fell short of estimates",
+        "They met estimates",
+        "They exceeded estimates"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What type of health issue was linked to Taco Bell?",
+      "options": [
+        "E. coli outbreak",
+        "Cyclospora outbreak",
+        "Salmonella outbreak"
+      ],
+      "answer": 1
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "Taco Bell's same-store sales declined as a Cyclospora outbreak tied to lettuce served at its restaurants weighed on traffic.",
+      "ai_suggestion": "The decline in same-store sales at Taco Bell was influenced by a Cyclospora outbreak associated with the lettuce served in its restaurants, which negatively impacted customer traffic."
+    },
+    {
+      "original": "Yum Brands reported earnings that exceeded expectations.",
+      "ai_suggestion": "Yum Brands announced earnings that surpassed analysts' forecasts."
+    }
+  ]
+}
