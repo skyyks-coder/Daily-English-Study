@@ -1,75 +1,75 @@
 {
-  "title": "Yum Brands earnings beat estimates, but cyclospora outbreak weighs on Taco Bell",
-  "date": "2026-11-05",
-  "link": "https://www.cnbc.com/2026/11/03/yum-brands-yum-q3-2026-earnings.html",
+  "title": "Nvidia's Huang is asked to brief Congress on reported Chinese spy relationship",
+  "date": "2026-11-06",
+  "link": "https://www.cnbc.com/2026/11/05/nvidia-jensen-huang-china-spy-congress.html",
   "isWeeklyReview": false,
-  "summary": "Yum Brands reported earnings that exceeded expectations, yet the company faced challenges due to a Cyclospora outbreak linked to lettuce served at Taco Bell locations. This health issue adversely affected customer traffic, leading to a decline in same-store sales for the fast-food chain. Despite the positive earnings report, the outbreak highlights the ongoing risks associated with food safety in the restaurant industry.",
+  "summary": "Nvidia's CEO Jensen Huang is set to address Congress regarding allegations of a potential espionage relationship with China. This follows intelligence findings that were reportedly shared with former President Donald Trump approximately a year prior. The situation raises significant concerns about national security and the implications for the tech industry, particularly as Nvidia plays a crucial role in the global economy.",
   "vocab": [
     {
-      "word": "earnings",
-      "meaning": "수익"
+      "word": "espionage",
+      "meaning": "스파이 활동"
     },
     {
-      "word": "estimates",
-      "meaning": "추정치"
+      "word": "allegation",
+      "meaning": "주장, 혐의"
     },
     {
-      "word": "outbreak",
-      "meaning": "발병"
+      "word": "implication",
+      "meaning": "암시, 함축"
     },
     {
-      "word": "traffic",
-      "meaning": "유입"
+      "word": "brief",
+      "meaning": "간단히 보고하다"
     },
     {
-      "word": "declined",
-      "meaning": "감소했다"
+      "word": "national security",
+      "meaning": "국가 안전"
     }
   ],
   "shadowing": [
-    "Yum Brands reported earnings that exceeded expectations.",
-    "The Cyclospora outbreak has impacted Taco Bell's sales.",
-    "Health issues can significantly affect customer traffic.",
-    "Food safety remains a critical concern for restaurants.",
-    "Taco Bell experienced a decline in same-store sales."
+    "Nvidia's CEO Jensen Huang is set to address Congress.",
+    "This follows intelligence findings shared with former President Trump.",
+    "The situation raises significant concerns about national security.",
+    "Nvidia plays a crucial role in the global economy.",
+    "The implications for the tech industry are profound."
   ],
   "quizzes": [
     {
-      "question": "What was the primary reason for Taco Bell's decline in sales?",
+      "question": "What is the primary reason for Jensen Huang's briefing to Congress?",
       "options": [
-        "Increased competition",
-        "Cyclospora outbreak",
-        "New menu items"
+        "To discuss Nvidia's financial performance",
+        "To address allegations of espionage",
+        "To present new technology"
       ],
       "answer": 1
     },
     {
-      "question": "How did Yum Brands' earnings perform in relation to estimates?",
+      "question": "Who was briefed about the intelligence findings a year ago?",
       "options": [
-        "They fell short of estimates",
-        "They met estimates",
-        "They exceeded estimates"
+        "Jensen Huang",
+        "President Donald Trump",
+        "Congress"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
-      "question": "What type of health issue was linked to Taco Bell?",
+      "question": "What is a key concern raised by the allegations?",
       "options": [
-        "E. coli outbreak",
-        "Cyclospora outbreak",
-        "Salmonella outbreak"
+        "Economic growth",
+        "National security",
+        "Technological advancement"
       ],
       "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "Taco Bell's same-store sales declined as a Cyclospora outbreak tied to lettuce served at its restaurants weighed on traffic.",
-      "ai_suggestion": "The decline in same-store sales at Taco Bell was influenced by a Cyclospora outbreak associated with the lettuce served in its restaurants, which negatively impacted customer traffic."
+      "original": "Nvidia's CEO Jensen Huang is set to address Congress regarding allegations of a potential espionage relationship with China.",
+      "ai_suggestion": "Jensen Huang, the CEO of Nvidia, will speak to Congress about claims of a possible spying connection with China."
     },
     {
-      "original": "Yum Brands reported earnings that exceeded expectations.",
-      "ai_suggestion": "Yum Brands announced earnings that surpassed analysts' forecasts."
+      "original": "The situation raises significant concerns about national security and the implications for the tech industry.",
+      "ai_suggestion": "This scenario brings up serious issues related to national security and its effects on the technology sector."
     }
   ]
 }

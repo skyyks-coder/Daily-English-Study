@@ -1,0 +1,75 @@
+{
+  "title": "Nvidia's Huang is asked to brief Congress on reported Chinese spy relationship",
+  "date": "2026-11-06",
+  "link": "https://www.cnbc.com/2026/11/05/nvidia-jensen-huang-china-spy-congress.html",
+  "isWeeklyReview": false,
+  "summary": "Nvidia's CEO Jensen Huang is set to address Congress regarding allegations of a potential espionage relationship with China. This follows intelligence findings that were reportedly shared with former President Donald Trump approximately a year prior. The situation raises significant concerns about national security and the implications for the tech industry, particularly as Nvidia plays a crucial role in the global economy.",
+  "vocab": [
+    {
+      "word": "espionage",
+      "meaning": "스파이 활동"
+    },
+    {
+      "word": "allegation",
+      "meaning": "주장, 혐의"
+    },
+    {
+      "word": "implication",
+      "meaning": "암시, 함축"
+    },
+    {
+      "word": "brief",
+      "meaning": "간단히 보고하다"
+    },
+    {
+      "word": "national security",
+      "meaning": "국가 안전"
+    }
+  ],
+  "shadowing": [
+    "Nvidia's CEO Jensen Huang is set to address Congress.",
+    "This follows intelligence findings shared with former President Trump.",
+    "The situation raises significant concerns about national security.",
+    "Nvidia plays a crucial role in the global economy.",
+    "The implications for the tech industry are profound."
+  ],
+  "quizzes": [
+    {
+      "question": "What is the primary reason for Jensen Huang's briefing to Congress?",
+      "options": [
+        "To discuss Nvidia's financial performance",
+        "To address allegations of espionage",
+        "To present new technology"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Who was briefed about the intelligence findings a year ago?",
+      "options": [
+        "Jensen Huang",
+        "President Donald Trump",
+        "Congress"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is a key concern raised by the allegations?",
+      "options": [
+        "Economic growth",
+        "National security",
+        "Technological advancement"
+      ],
+      "answer": 1
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "Nvidia's CEO Jensen Huang is set to address Congress regarding allegations of a potential espionage relationship with China.",
+      "ai_suggestion": "Jensen Huang, the CEO of Nvidia, will speak to Congress about claims of a possible spying connection with China."
+    },
+    {
+      "original": "The situation raises significant concerns about national security and the implications for the tech industry.",
+      "ai_suggestion": "This scenario brings up serious issues related to national security and its effects on the technology sector."
+    }
+  ]
+}
