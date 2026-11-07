@@ -1,0 +1,75 @@
+{
+  "title": "Renewed U.S.-Iran tension could push oil past $100: Rapidan Energy",
+  "date": "2026-11-07",
+  "link": "https://www.cnbc.com/2026/11/06/us-iran-war-trump-hormuz-oil-midterms.html",
+  "isWeeklyReview": false,
+  "summary": "The renewed tensions between the U.S. and Iran have raised concerns about potential disruptions in oil supply, leading to predictions of increased prices. Bob McNally, an expert in energy markets, forecasts that both Brent and West Texas Intermediate crude oil futures could surpass the $100 mark. This escalation in oil prices could have significant implications for the global economy, particularly as the midterm elections approach in the U.S.",
+  "vocab": [
+    {
+      "word": "tension",
+      "meaning": "긴장"
+    },
+    {
+      "word": "predict",
+      "meaning": "예측하다"
+    },
+    {
+      "word": "disruption",
+      "meaning": "혼란"
+    },
+    {
+      "word": "implication",
+      "meaning": "함축"
+    },
+    {
+      "word": "escalation",
+      "meaning": "격화"
+    }
+  ],
+  "shadowing": [
+    "The U.S. has a complex relationship with Iran.",
+    "Oil prices are sensitive to geopolitical events.",
+    "Experts often analyze market trends to make predictions.",
+    "The midterm elections could influence economic policies.",
+    "Rising oil prices can affect consumers worldwide."
+  ],
+  "quizzes": [
+    {
+      "question": "What does Bob McNally predict about oil prices?",
+      "options": [
+        "They will decrease significantly.",
+        "They will jump above $100.",
+        "They will remain stable."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What could be a consequence of U.S.-Iran tensions?",
+      "options": [
+        "Increased oil supply.",
+        "Decreased oil prices.",
+        "Higher oil prices."
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What event is approaching that could impact the economy?",
+      "options": [
+        "The Olympics.",
+        "Midterm elections.",
+        "A global summit."
+      ],
+      "answer": 1
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "Bob McNally predicts that both Brent and West Texas Intermediate futures will jump above $100.",
+      "ai_suggestion": "According to Bob McNally, both Brent and West Texas Intermediate futures are expected to exceed $100."
+    },
+    {
+      "original": "Renewed U.S.-Iran tension could push oil past $100.",
+      "ai_suggestion": "Increased tensions between the U.S. and Iran may lead to oil prices surpassing $100."
+    }
+  ]
+}

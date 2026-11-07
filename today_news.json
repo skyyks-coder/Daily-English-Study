@@ -1,75 +1,75 @@
 {
-  "title": "Nvidia's Huang is asked to brief Congress on reported Chinese spy relationship",
-  "date": "2026-11-06",
-  "link": "https://www.cnbc.com/2026/11/05/nvidia-jensen-huang-china-spy-congress.html",
+  "title": "Renewed U.S.-Iran tension could push oil past $100: Rapidan Energy",
+  "date": "2026-11-07",
+  "link": "https://www.cnbc.com/2026/11/06/us-iran-war-trump-hormuz-oil-midterms.html",
   "isWeeklyReview": false,
-  "summary": "Nvidia's CEO Jensen Huang is set to address Congress regarding allegations of a potential espionage relationship with China. This follows intelligence findings that were reportedly shared with former President Donald Trump approximately a year prior. The situation raises significant concerns about national security and the implications for the tech industry, particularly as Nvidia plays a crucial role in the global economy.",
+  "summary": "The renewed tensions between the U.S. and Iran have raised concerns about potential disruptions in oil supply, leading to predictions of increased prices. Bob McNally, an expert in energy markets, forecasts that both Brent and West Texas Intermediate crude oil futures could surpass the $100 mark. This escalation in oil prices could have significant implications for the global economy, particularly as the midterm elections approach in the U.S.",
   "vocab": [
     {
-      "word": "espionage",
-      "meaning": "스파이 활동"
+      "word": "tension",
+      "meaning": "긴장"
     },
     {
-      "word": "allegation",
-      "meaning": "주장, 혐의"
+      "word": "predict",
+      "meaning": "예측하다"
+    },
+    {
+      "word": "disruption",
+      "meaning": "혼란"
     },
     {
       "word": "implication",
-      "meaning": "암시, 함축"
+      "meaning": "함축"
     },
     {
-      "word": "brief",
-      "meaning": "간단히 보고하다"
-    },
-    {
-      "word": "national security",
-      "meaning": "국가 안전"
+      "word": "escalation",
+      "meaning": "격화"
     }
   ],
   "shadowing": [
-    "Nvidia's CEO Jensen Huang is set to address Congress.",
-    "This follows intelligence findings shared with former President Trump.",
-    "The situation raises significant concerns about national security.",
-    "Nvidia plays a crucial role in the global economy.",
-    "The implications for the tech industry are profound."
+    "The U.S. has a complex relationship with Iran.",
+    "Oil prices are sensitive to geopolitical events.",
+    "Experts often analyze market trends to make predictions.",
+    "The midterm elections could influence economic policies.",
+    "Rising oil prices can affect consumers worldwide."
   ],
   "quizzes": [
     {
-      "question": "What is the primary reason for Jensen Huang's briefing to Congress?",
+      "question": "What does Bob McNally predict about oil prices?",
       "options": [
-        "To discuss Nvidia's financial performance",
-        "To address allegations of espionage",
-        "To present new technology"
+        "They will decrease significantly.",
+        "They will jump above $100.",
+        "They will remain stable."
       ],
       "answer": 1
     },
     {
-      "question": "Who was briefed about the intelligence findings a year ago?",
+      "question": "What could be a consequence of U.S.-Iran tensions?",
       "options": [
-        "Jensen Huang",
-        "President Donald Trump",
-        "Congress"
+        "Increased oil supply.",
+        "Decreased oil prices.",
+        "Higher oil prices."
       ],
-      "answer": 1
+      "answer": 2
     },
     {
-      "question": "What is a key concern raised by the allegations?",
+      "question": "What event is approaching that could impact the economy?",
       "options": [
-        "Economic growth",
-        "National security",
-        "Technological advancement"
+        "The Olympics.",
+        "Midterm elections.",
+        "A global summit."
       ],
       "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "Nvidia's CEO Jensen Huang is set to address Congress regarding allegations of a potential espionage relationship with China.",
-      "ai_suggestion": "Jensen Huang, the CEO of Nvidia, will speak to Congress about claims of a possible spying connection with China."
+      "original": "Bob McNally predicts that both Brent and West Texas Intermediate futures will jump above $100.",
+      "ai_suggestion": "According to Bob McNally, both Brent and West Texas Intermediate futures are expected to exceed $100."
     },
     {
-      "original": "The situation raises significant concerns about national security and the implications for the tech industry.",
-      "ai_suggestion": "This scenario brings up serious issues related to national security and its effects on the technology sector."
+      "original": "Renewed U.S.-Iran tension could push oil past $100.",
+      "ai_suggestion": "Increased tensions between the U.S. and Iran may lead to oil prices surpassing $100."
     }
   ]
 }
