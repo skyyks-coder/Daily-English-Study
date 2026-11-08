@@ -1,75 +1,75 @@
 {
-  "title": "Renewed U.S.-Iran tension could push oil past $100: Rapidan Energy",
-  "date": "2026-11-07",
-  "link": "https://www.cnbc.com/2026/11/06/us-iran-war-trump-hormuz-oil-midterms.html",
-  "isWeeklyReview": false,
-  "summary": "The renewed tensions between the U.S. and Iran have raised concerns about potential disruptions in oil supply, leading to predictions of increased prices. Bob McNally, an expert in energy markets, forecasts that both Brent and West Texas Intermediate crude oil futures could surpass the $100 mark. This escalation in oil prices could have significant implications for the global economy, particularly as the midterm elections approach in the U.S.",
+  "title": "Weekly English Review",
+  "date": "2026-11-08",
+  "link": "",
+  "isWeeklyReview": true,
+  "summary": "This week saw significant developments in the financial and tech sectors, with Reddit's stock plunging 29% after disappointing sales projections, marking its worst day ever. Ryanair's CEO warned of potential fare increases of up to 20% due to escalating fuel costs, highlighting the financial pressures on airlines. Meanwhile, Meta announced plans to raise up to $25 billion through a bond sale to boost investments in artificial intelligence, reflecting the growing demand for AI solutions. Additionally, tensions between the U.S. and Iran have raised concerns about oil supply disruptions, with predictions of prices exceeding $100. These events underscore the interconnectedness of global markets and the impact of geopolitical factors on economic conditions.",
   "vocab": [
+    {
+      "word": "plunge",
+      "meaning": "급락하다"
+    },
     {
       "word": "tension",
       "meaning": "긴장"
     },
     {
-      "word": "predict",
-      "meaning": "예측하다"
+      "word": "escalation",
+      "meaning": "격화"
     },
     {
-      "word": "disruption",
-      "meaning": "혼란"
+      "word": "commitment",
+      "meaning": "약속, 헌신"
     },
     {
       "word": "implication",
       "meaning": "함축"
-    },
-    {
-      "word": "escalation",
-      "meaning": "격화"
     }
   ],
   "shadowing": [
-    "The U.S. has a complex relationship with Iran.",
-    "Oil prices are sensitive to geopolitical events.",
-    "Experts often analyze market trends to make predictions.",
-    "The midterm elections could influence economic policies.",
-    "Rising oil prices can affect consumers worldwide."
+    "Reddit shares sank on Friday.",
+    "Ryanair's CEO Michael O'Leary warned about rising fares.",
+    "Meta is planning to conduct a substantial bond sale.",
+    "The situation raises significant concerns about national security.",
+    "Bob McNally predicts that oil prices could surpass $100."
   ],
   "quizzes": [
     {
-      "question": "What does Bob McNally predict about oil prices?",
+      "question": "What percentage did Reddit's stock plunge?",
       "options": [
-        "They will decrease significantly.",
-        "They will jump above $100.",
-        "They will remain stable."
+        "20%",
+        "29%",
+        "15%"
       ],
       "answer": 1
     },
     {
-      "question": "What could be a consequence of U.S.-Iran tensions?",
+      "question": "What did Michael O'Leary predict about airfares?",
       "options": [
-        "Increased oil supply.",
-        "Decreased oil prices.",
-        "Higher oil prices."
+        "They will decrease by 20%",
+        "They may rise by up to 20%",
+        "They will remain the same"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
-      "question": "What event is approaching that could impact the economy?",
+      "question": "What is the primary reason for Jensen Huang's briefing to Congress?",
       "options": [
-        "The Olympics.",
-        "Midterm elections.",
-        "A global summit."
+        "To discuss Nvidia's financial performance",
+        "To address allegations of espionage",
+        "To present new technology"
       ],
       "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "Bob McNally predicts that both Brent and West Texas Intermediate futures will jump above $100.",
-      "ai_suggestion": "According to Bob McNally, both Brent and West Texas Intermediate futures are expected to exceed $100."
+      "original": "Reddit shares sank on Friday after the company issued weak Q4 sales guidance.",
+      "ai_suggestion": "On Friday, Reddit's shares fell sharply following the company's announcement of disappointing sales forecasts for the fourth quarter."
     },
     {
-      "original": "Renewed U.S.-Iran tension could push oil past $100.",
-      "ai_suggestion": "Increased tensions between the U.S. and Iran may lead to oil prices surpassing $100."
+      "original": "This forecast is largely attributed to escalating fuel costs, which have been a significant concern for the aviation industry.",
+      "ai_suggestion": "This prediction is primarily linked to the rising fuel costs, which have posed a major challenge for the aviation sector."
     }
   ]
 }
