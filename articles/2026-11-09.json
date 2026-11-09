@@ -1,0 +1,75 @@
+{
+  "title": "Trump offers UFC chief Dana White press secretary job",
+  "date": "2026-11-09",
+  "link": "https://www.cnbc.com/2026/11/07/trump-ufc-dana-white-press-secretary-offer.html",
+  "isWeeklyReview": false,
+  "summary": "On November 7, 2026, President Donald Trump extended an offer to Dana White, the president and CEO of the UFC, to become his press secretary. This unexpected proposal has drawn attention due to White's prominent role in the sports industry and his close ties to Trump. The implications of such a move could significantly impact both the political landscape and the UFC's public relations strategy.",
+  "vocab": [
+    {
+      "word": "offer",
+      "meaning": "제안하다"
+    },
+    {
+      "word": "press secretary",
+      "meaning": "대변인"
+    },
+    {
+      "word": "CEO",
+      "meaning": "최고 경영자"
+    },
+    {
+      "word": "impact",
+      "meaning": "영향을 미치다"
+    },
+    {
+      "word": "proposal",
+      "meaning": "제안"
+    }
+  ],
+  "shadowing": [
+    "President Donald Trump offered the job of press secretary.",
+    "Dana White is the president and CEO of the UFC.",
+    "This unexpected proposal has drawn attention.",
+    "The implications of such a move could significantly impact.",
+    "The political landscape and the UFC's public relations strategy."
+  ],
+  "quizzes": [
+    {
+      "question": "Who was offered the press secretary job?",
+      "options": [
+        "Dana White",
+        "Donald Trump",
+        "UFC"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is Dana White's position?",
+      "options": [
+        "Press Secretary",
+        "CEO of UFC",
+        "President of the USA"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "When was the offer made?",
+      "options": [
+        "November 7, 2026",
+        "October 7, 2026",
+        "November 7, 2025"
+      ],
+      "answer": 0
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "President Donald Trump offered the job of press secretary to UFC president and CEO Dana White.",
+      "ai_suggestion": "UFC president and CEO Dana White was offered the position of press secretary by President Donald Trump."
+    },
+    {
+      "original": "This unexpected proposal has drawn attention due to White's prominent role in the sports industry.",
+      "ai_suggestion": "The proposal, which was unexpected, has attracted attention because of White's significant position in the sports sector."
+    }
+  ]
+}

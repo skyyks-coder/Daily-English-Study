@@ -1,75 +1,75 @@
 {
-  "title": "Weekly English Review",
-  "date": "2026-11-08",
-  "link": "",
-  "isWeeklyReview": true,
-  "summary": "This week saw significant developments in the financial and tech sectors, with Reddit's stock plunging 29% after disappointing sales projections, marking its worst day ever. Ryanair's CEO warned of potential fare increases of up to 20% due to escalating fuel costs, highlighting the financial pressures on airlines. Meanwhile, Meta announced plans to raise up to $25 billion through a bond sale to boost investments in artificial intelligence, reflecting the growing demand for AI solutions. Additionally, tensions between the U.S. and Iran have raised concerns about oil supply disruptions, with predictions of prices exceeding $100. These events underscore the interconnectedness of global markets and the impact of geopolitical factors on economic conditions.",
+  "title": "Trump offers UFC chief Dana White press secretary job",
+  "date": "2026-11-09",
+  "link": "https://www.cnbc.com/2026/11/07/trump-ufc-dana-white-press-secretary-offer.html",
+  "isWeeklyReview": false,
+  "summary": "On November 7, 2026, President Donald Trump extended an offer to Dana White, the president and CEO of the UFC, to become his press secretary. This unexpected proposal has drawn attention due to White's prominent role in the sports industry and his close ties to Trump. The implications of such a move could significantly impact both the political landscape and the UFC's public relations strategy.",
   "vocab": [
     {
-      "word": "plunge",
-      "meaning": "급락하다"
+      "word": "offer",
+      "meaning": "제안하다"
     },
     {
-      "word": "tension",
-      "meaning": "긴장"
+      "word": "press secretary",
+      "meaning": "대변인"
     },
     {
-      "word": "escalation",
-      "meaning": "격화"
+      "word": "CEO",
+      "meaning": "최고 경영자"
     },
     {
-      "word": "commitment",
-      "meaning": "약속, 헌신"
+      "word": "impact",
+      "meaning": "영향을 미치다"
     },
     {
-      "word": "implication",
-      "meaning": "함축"
+      "word": "proposal",
+      "meaning": "제안"
     }
   ],
   "shadowing": [
-    "Reddit shares sank on Friday.",
-    "Ryanair's CEO Michael O'Leary warned about rising fares.",
-    "Meta is planning to conduct a substantial bond sale.",
-    "The situation raises significant concerns about national security.",
-    "Bob McNally predicts that oil prices could surpass $100."
+    "President Donald Trump offered the job of press secretary.",
+    "Dana White is the president and CEO of the UFC.",
+    "This unexpected proposal has drawn attention.",
+    "The implications of such a move could significantly impact.",
+    "The political landscape and the UFC's public relations strategy."
   ],
   "quizzes": [
     {
-      "question": "What percentage did Reddit's stock plunge?",
+      "question": "Who was offered the press secretary job?",
       "options": [
-        "20%",
-        "29%",
-        "15%"
+        "Dana White",
+        "Donald Trump",
+        "UFC"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is Dana White's position?",
+      "options": [
+        "Press Secretary",
+        "CEO of UFC",
+        "President of the USA"
       ],
       "answer": 1
     },
     {
-      "question": "What did Michael O'Leary predict about airfares?",
+      "question": "When was the offer made?",
       "options": [
-        "They will decrease by 20%",
-        "They may rise by up to 20%",
-        "They will remain the same"
+        "November 7, 2026",
+        "October 7, 2026",
+        "November 7, 2025"
       ],
-      "answer": 1
-    },
-    {
-      "question": "What is the primary reason for Jensen Huang's briefing to Congress?",
-      "options": [
-        "To discuss Nvidia's financial performance",
-        "To address allegations of espionage",
-        "To present new technology"
-      ],
-      "answer": 1
+      "answer": 0
     }
   ],
   "rephraseTarget": [
     {
-      "original": "Reddit shares sank on Friday after the company issued weak Q4 sales guidance.",
-      "ai_suggestion": "On Friday, Reddit's shares fell sharply following the company's announcement of disappointing sales forecasts for the fourth quarter."
+      "original": "President Donald Trump offered the job of press secretary to UFC president and CEO Dana White.",
+      "ai_suggestion": "UFC president and CEO Dana White was offered the position of press secretary by President Donald Trump."
     },
     {
-      "original": "This forecast is largely attributed to escalating fuel costs, which have been a significant concern for the aviation industry.",
-      "ai_suggestion": "This prediction is primarily linked to the rising fuel costs, which have posed a major challenge for the aviation sector."
+      "original": "This unexpected proposal has drawn attention due to White's prominent role in the sports industry.",
+      "ai_suggestion": "The proposal, which was unexpected, has attracted attention because of White's significant position in the sports sector."
     }
   ]
 }
