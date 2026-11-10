@@ -1,75 +1,75 @@
 {
-  "title": "Trump offers UFC chief Dana White press secretary job",
-  "date": "2026-11-09",
-  "link": "https://www.cnbc.com/2026/11/07/trump-ufc-dana-white-press-secretary-offer.html",
+  "title": "From supermarket fridges to passenger flights, a wave of threats is testing Europe's defenses",
+  "date": "2026-11-10",
+  "link": "https://www.cnbc.com/2026/11/09/europe-fridge-hacks-bomb-threats-cyberattack.html",
   "isWeeklyReview": false,
-  "summary": "On November 7, 2026, President Donald Trump extended an offer to Dana White, the president and CEO of the UFC, to become his press secretary. This unexpected proposal has drawn attention due to White's prominent role in the sports industry and his close ties to Trump. The implications of such a move could significantly impact both the political landscape and the UFC's public relations strategy.",
+  "summary": "Recent cyberattacks targeting supermarket fridges and a surge in bomb threats are significantly challenging Europe's resilience against disruptions to vital infrastructure. These incidents highlight the increasing vulnerability of essential services to technological and security breaches. As Europe grapples with these threats, the need for enhanced defensive measures becomes more apparent, emphasizing the importance of safeguarding public safety and operational integrity.",
   "vocab": [
     {
-      "word": "offer",
-      "meaning": "제안하다"
+      "word": "cyberattack",
+      "meaning": "사이버 공격"
     },
     {
-      "word": "press secretary",
-      "meaning": "대변인"
+      "word": "infrastructure",
+      "meaning": "인프라"
     },
     {
-      "word": "CEO",
-      "meaning": "최고 경영자"
+      "word": "resilience",
+      "meaning": "회복력"
     },
     {
-      "word": "impact",
-      "meaning": "영향을 미치다"
+      "word": "vulnerability",
+      "meaning": "취약성"
     },
     {
-      "word": "proposal",
-      "meaning": "제안"
+      "word": "disruption",
+      "meaning": "혼란"
     }
   ],
   "shadowing": [
-    "President Donald Trump offered the job of press secretary.",
-    "Dana White is the president and CEO of the UFC.",
-    "This unexpected proposal has drawn attention.",
-    "The implications of such a move could significantly impact.",
-    "The political landscape and the UFC's public relations strategy."
+    "Cyberattacks on fridges in supermarkets are alarming.",
+    "Europe's infrastructure is under unprecedented threat.",
+    "The wave of bomb threats raises serious concerns.",
+    "Defensive measures are crucial for public safety.",
+    "Vulnerability to such attacks must be addressed urgently."
   ],
   "quizzes": [
     {
-      "question": "Who was offered the press secretary job?",
+      "question": "What type of attacks are targeting supermarket fridges?",
       "options": [
-        "Dana White",
-        "Donald Trump",
-        "UFC"
+        "Cyberattacks",
+        "Physical attacks",
+        "Verbal threats"
       ],
       "answer": 0
     },
     {
-      "question": "What is Dana White's position?",
+      "question": "What is being tested by these recent threats in Europe?",
       "options": [
-        "Press Secretary",
-        "CEO of UFC",
-        "President of the USA"
+        "Public safety",
+        "Infrastructure resilience",
+        "Economic stability"
       ],
       "answer": 1
     },
     {
-      "question": "When was the offer made?",
+      "question": "What is a key concern raised by the wave of bomb threats?",
       "options": [
-        "November 7, 2026",
-        "October 7, 2026",
-        "November 7, 2025"
+        "Food safety",
+        "Security vulnerabilities",
+        "Travel disruptions"
       ],
-      "answer": 0
+      "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "President Donald Trump offered the job of press secretary to UFC president and CEO Dana White.",
-      "ai_suggestion": "UFC president and CEO Dana White was offered the position of press secretary by President Donald Trump."
+      "original": "Cyberattacks on fridges in supermarkets and a wave of bomb threats are testing Europe’s ability to withstand disruption to crucial infrastructure.",
+      "ai_suggestion": "The ability of Europe to cope with disruptions to essential infrastructure is being challenged by cyberattacks on supermarket fridges and a series of bomb threats."
     },
     {
-      "original": "This unexpected proposal has drawn attention due to White's prominent role in the sports industry.",
-      "ai_suggestion": "The proposal, which was unexpected, has attracted attention because of White's significant position in the sports sector."
+      "original": "These incidents highlight the increasing vulnerability of essential services to technological and security breaches.",
+      "ai_suggestion": "These events underscore the growing susceptibility of critical services to both technological failures and security threats."
     }
   ]
 }
