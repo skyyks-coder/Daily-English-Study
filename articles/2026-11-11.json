@@ -1,0 +1,75 @@
+{
+  "title": "Nvidia board member Stephen Neal could play big role in probe of CEO Jensen Huang",
+  "date": "2026-11-11",
+  "link": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-investigation.html",
+  "isWeeklyReview": false,
+  "summary": "Stephen Neal, a prominent figure on Nvidia's board of directors, is poised to play a significant role in the investigation concerning CEO Jensen Huang. As the lead independent director, Neal's experience and past associations, including his work with Theranos founder Elizabeth Holmes, may provide critical insights into the ongoing scrutiny of Huang's leadership. The implications of this investigation could have far-reaching effects on Nvidia's corporate governance and public perception.",
+  "vocab": [
+    {
+      "word": "independent director",
+      "meaning": "독립 이사"
+    },
+    {
+      "word": "investigation",
+      "meaning": "조사"
+    },
+    {
+      "word": "scrutiny",
+      "meaning": "세밀한 조사"
+    },
+    {
+      "word": "governance",
+      "meaning": "지배 구조"
+    },
+    {
+      "word": "implications",
+      "meaning": "함의"
+    }
+  ],
+  "shadowing": [
+    "Stephen Neal is the lead independent director on the Nvidia board.",
+    "His past clients include Theranos fraudster Elizabeth Holmes.",
+    "Neal may provide critical insights into the investigation.",
+    "The implications of this investigation could affect Nvidia's governance.",
+    "Jensen Huang's leadership is under scrutiny."
+  ],
+  "quizzes": [
+    {
+      "question": "Who is Stephen Neal?",
+      "options": [
+        "A CEO of Nvidia",
+        "A board member of Nvidia",
+        "A competitor of Nvidia"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What role does Stephen Neal hold on the Nvidia board?",
+      "options": [
+        "Lead independent director",
+        "Chairman",
+        "CEO"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which notable figure did Stephen Neal previously work with?",
+      "options": [
+        "Mark Zuckerberg",
+        "Elizabeth Holmes",
+        "Tim Cook"
+      ],
+      "answer": 1
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "Stephen Neal is the lead independent director on the Nvidia board of directors.",
+      "ai_suggestion": "On the Nvidia board of directors, Stephen Neal serves as the lead independent director."
+    },
+    {
+      "original": "His past clients include Theranos fraudster Elizabeth Holmes.",
+      "ai_suggestion": "Among his previous clients is Elizabeth Holmes, known for her involvement in the Theranos scandal."
+    }
+  ]
+}

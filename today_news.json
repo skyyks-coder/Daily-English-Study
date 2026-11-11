@@ -1,75 +1,75 @@
 {
-  "title": "From supermarket fridges to passenger flights, a wave of threats is testing Europe's defenses",
-  "date": "2026-11-10",
-  "link": "https://www.cnbc.com/2026/11/09/europe-fridge-hacks-bomb-threats-cyberattack.html",
+  "title": "Nvidia board member Stephen Neal could play big role in probe of CEO Jensen Huang",
+  "date": "2026-11-11",
+  "link": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-investigation.html",
   "isWeeklyReview": false,
-  "summary": "Recent cyberattacks targeting supermarket fridges and a surge in bomb threats are significantly challenging Europe's resilience against disruptions to vital infrastructure. These incidents highlight the increasing vulnerability of essential services to technological and security breaches. As Europe grapples with these threats, the need for enhanced defensive measures becomes more apparent, emphasizing the importance of safeguarding public safety and operational integrity.",
+  "summary": "Stephen Neal, a prominent figure on Nvidia's board of directors, is poised to play a significant role in the investigation concerning CEO Jensen Huang. As the lead independent director, Neal's experience and past associations, including his work with Theranos founder Elizabeth Holmes, may provide critical insights into the ongoing scrutiny of Huang's leadership. The implications of this investigation could have far-reaching effects on Nvidia's corporate governance and public perception.",
   "vocab": [
     {
-      "word": "cyberattack",
-      "meaning": "사이버 공격"
+      "word": "independent director",
+      "meaning": "독립 이사"
     },
     {
-      "word": "infrastructure",
-      "meaning": "인프라"
+      "word": "investigation",
+      "meaning": "조사"
     },
     {
-      "word": "resilience",
-      "meaning": "회복력"
+      "word": "scrutiny",
+      "meaning": "세밀한 조사"
     },
     {
-      "word": "vulnerability",
-      "meaning": "취약성"
+      "word": "governance",
+      "meaning": "지배 구조"
     },
     {
-      "word": "disruption",
-      "meaning": "혼란"
+      "word": "implications",
+      "meaning": "함의"
     }
   ],
   "shadowing": [
-    "Cyberattacks on fridges in supermarkets are alarming.",
-    "Europe's infrastructure is under unprecedented threat.",
-    "The wave of bomb threats raises serious concerns.",
-    "Defensive measures are crucial for public safety.",
-    "Vulnerability to such attacks must be addressed urgently."
+    "Stephen Neal is the lead independent director on the Nvidia board.",
+    "His past clients include Theranos fraudster Elizabeth Holmes.",
+    "Neal may provide critical insights into the investigation.",
+    "The implications of this investigation could affect Nvidia's governance.",
+    "Jensen Huang's leadership is under scrutiny."
   ],
   "quizzes": [
     {
-      "question": "What type of attacks are targeting supermarket fridges?",
+      "question": "Who is Stephen Neal?",
       "options": [
-        "Cyberattacks",
-        "Physical attacks",
-        "Verbal threats"
-      ],
-      "answer": 0
-    },
-    {
-      "question": "What is being tested by these recent threats in Europe?",
-      "options": [
-        "Public safety",
-        "Infrastructure resilience",
-        "Economic stability"
+        "A CEO of Nvidia",
+        "A board member of Nvidia",
+        "A competitor of Nvidia"
       ],
       "answer": 1
     },
     {
-      "question": "What is a key concern raised by the wave of bomb threats?",
+      "question": "What role does Stephen Neal hold on the Nvidia board?",
       "options": [
-        "Food safety",
-        "Security vulnerabilities",
-        "Travel disruptions"
+        "Lead independent director",
+        "Chairman",
+        "CEO"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which notable figure did Stephen Neal previously work with?",
+      "options": [
+        "Mark Zuckerberg",
+        "Elizabeth Holmes",
+        "Tim Cook"
       ],
       "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "Cyberattacks on fridges in supermarkets and a wave of bomb threats are testing Europe’s ability to withstand disruption to crucial infrastructure.",
-      "ai_suggestion": "The ability of Europe to cope with disruptions to essential infrastructure is being challenged by cyberattacks on supermarket fridges and a series of bomb threats."
+      "original": "Stephen Neal is the lead independent director on the Nvidia board of directors.",
+      "ai_suggestion": "On the Nvidia board of directors, Stephen Neal serves as the lead independent director."
     },
     {
-      "original": "These incidents highlight the increasing vulnerability of essential services to technological and security breaches.",
-      "ai_suggestion": "These events underscore the growing susceptibility of critical services to both technological failures and security threats."
+      "original": "His past clients include Theranos fraudster Elizabeth Holmes.",
+      "ai_suggestion": "Among his previous clients is Elizabeth Holmes, known for her involvement in the Theranos scandal."
     }
   ]
 }
