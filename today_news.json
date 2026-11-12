@@ -1,75 +1,75 @@
 {
-  "title": "Nvidia board member Stephen Neal could play big role in probe of CEO Jensen Huang",
-  "date": "2026-11-11",
-  "link": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-investigation.html",
+  "title": "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes",
+  "date": "2026-11-12",
+  "link": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
   "isWeeklyReview": false,
-  "summary": "Stephen Neal, a prominent figure on Nvidia's board of directors, is poised to play a significant role in the investigation concerning CEO Jensen Huang. As the lead independent director, Neal's experience and past associations, including his work with Theranos founder Elizabeth Holmes, may provide critical insights into the ongoing scrutiny of Huang's leadership. The implications of this investigation could have far-reaching effects on Nvidia's corporate governance and public perception.",
+  "summary": "In a recent report, the consumer price index exhibited a greater-than-anticipated increase in October, prompting concern among Federal Reserve officials. Federal Reserve member Goolsbee described the inflation data as 'borderline disturbing,' indicating potential implications for future interest rate hikes. This unexpected rise in inflation may compel the central bank to reassess its monetary policy strategies moving forward.",
   "vocab": [
     {
-      "word": "independent director",
-      "meaning": "독립 이사"
+      "word": "inflation",
+      "meaning": "인플레이션"
     },
     {
-      "word": "investigation",
-      "meaning": "조사"
+      "word": "consumer price index",
+      "meaning": "소비자 물가 지수"
     },
     {
-      "word": "scrutiny",
-      "meaning": "세밀한 조사"
+      "word": "disturbing",
+      "meaning": "불안하게 하는"
     },
     {
-      "word": "governance",
-      "meaning": "지배 구조"
+      "word": "hikes",
+      "meaning": "인상"
     },
     {
-      "word": "implications",
-      "meaning": "함의"
+      "word": "alarm",
+      "meaning": "경고"
     }
   ],
   "shadowing": [
-    "Stephen Neal is the lead independent director on the Nvidia board.",
-    "His past clients include Theranos fraudster Elizabeth Holmes.",
-    "Neal may provide critical insights into the investigation.",
-    "The implications of this investigation could affect Nvidia's governance.",
-    "Jensen Huang's leadership is under scrutiny."
+    "The consumer price index rose more than expected.",
+    "Goolsbee calls the inflation report borderline disturbing.",
+    "Federal Reserve officials are raising alarms.",
+    "The central bank is weighing more hikes.",
+    "Unexpected inflation may impact monetary policy."
   ],
   "quizzes": [
     {
-      "question": "Who is Stephen Neal?",
+      "question": "What did Goolsbee describe the inflation report as?",
       "options": [
-        "A CEO of Nvidia",
-        "A board member of Nvidia",
-        "A competitor of Nvidia"
+        "Encouraging",
+        "Borderline disturbing",
+        "Satisfactory"
       ],
       "answer": 1
     },
     {
-      "question": "What role does Stephen Neal hold on the Nvidia board?",
+      "question": "What did the consumer price index do in October?",
       "options": [
-        "Lead independent director",
-        "Chairman",
-        "CEO"
+        "Decreased",
+        "Remained stable",
+        "Rose more than expected"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
-      "question": "Which notable figure did Stephen Neal previously work with?",
+      "question": "What is the potential consequence of the inflation report?",
       "options": [
-        "Mark Zuckerberg",
-        "Elizabeth Holmes",
-        "Tim Cook"
+        "Lower interest rates",
+        "More hikes in rates",
+        "No change in policy"
       ],
       "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "Stephen Neal is the lead independent director on the Nvidia board of directors.",
-      "ai_suggestion": "On the Nvidia board of directors, Stephen Neal serves as the lead independent director."
+      "original": "The consumer price index rose more than expected in October.",
+      "ai_suggestion": "In October, the increase in the consumer price index exceeded expectations."
     },
     {
-      "original": "His past clients include Theranos fraudster Elizabeth Holmes.",
-      "ai_suggestion": "Among his previous clients is Elizabeth Holmes, known for her involvement in the Theranos scandal."
+      "original": "Raising alarm among Federal Reserve officials.",
+      "ai_suggestion": "Causing concern among officials at the Federal Reserve."
     }
   ]
 }

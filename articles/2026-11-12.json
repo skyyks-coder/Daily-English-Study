@@ -1,0 +1,75 @@
+{
+  "title": "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes",
+  "date": "2026-11-12",
+  "link": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
+  "isWeeklyReview": false,
+  "summary": "In a recent report, the consumer price index exhibited a greater-than-anticipated increase in October, prompting concern among Federal Reserve officials. Federal Reserve member Goolsbee described the inflation data as 'borderline disturbing,' indicating potential implications for future interest rate hikes. This unexpected rise in inflation may compel the central bank to reassess its monetary policy strategies moving forward.",
+  "vocab": [
+    {
+      "word": "inflation",
+      "meaning": "인플레이션"
+    },
+    {
+      "word": "consumer price index",
+      "meaning": "소비자 물가 지수"
+    },
+    {
+      "word": "disturbing",
+      "meaning": "불안하게 하는"
+    },
+    {
+      "word": "hikes",
+      "meaning": "인상"
+    },
+    {
+      "word": "alarm",
+      "meaning": "경고"
+    }
+  ],
+  "shadowing": [
+    "The consumer price index rose more than expected.",
+    "Goolsbee calls the inflation report borderline disturbing.",
+    "Federal Reserve officials are raising alarms.",
+    "The central bank is weighing more hikes.",
+    "Unexpected inflation may impact monetary policy."
+  ],
+  "quizzes": [
+    {
+      "question": "What did Goolsbee describe the inflation report as?",
+      "options": [
+        "Encouraging",
+        "Borderline disturbing",
+        "Satisfactory"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What did the consumer price index do in October?",
+      "options": [
+        "Decreased",
+        "Remained stable",
+        "Rose more than expected"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the potential consequence of the inflation report?",
+      "options": [
+        "Lower interest rates",
+        "More hikes in rates",
+        "No change in policy"
+      ],
+      "answer": 1
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "The consumer price index rose more than expected in October.",
+      "ai_suggestion": "In October, the increase in the consumer price index exceeded expectations."
+    },
+    {
+      "original": "Raising alarm among Federal Reserve officials.",
+      "ai_suggestion": "Causing concern among officials at the Federal Reserve."
+    }
+  ]
+}
