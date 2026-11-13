@@ -1,0 +1,75 @@
+{
+  "title": "Bain Capital’s head of real estate uses this strategy to counter the economy’s ‘cocktail of disruption'",
+  "date": "2026-11-13",
+  "link": "https://www.cnbc.com/2026/11/12/bain-capitals-head-of-real-estate-on-the-cocktail-of-disruption.html",
+  "isWeeklyReview": false,
+  "summary": "In a recent interview, Ryan Cotton, the head of real estate at Bain Capital, discussed the multifaceted challenges currently facing the economy, which he describes as a 'cocktail of disruption.' He emphasized the importance of adaptive strategies in navigating these turbulent times, particularly in the real estate sector. Cotton's insights reflect a broader trend among investors who are re-evaluating their approaches to market volatility and uncertainty.",
+  "vocab": [
+    {
+      "word": "disruption",
+      "meaning": "혼란, 방해"
+    },
+    {
+      "word": "adaptive",
+      "meaning": "적응하는"
+    },
+    {
+      "word": "multifaceted",
+      "meaning": "다면적인"
+    },
+    {
+      "word": "navigate",
+      "meaning": "항해하다, 극복하다"
+    },
+    {
+      "word": "volatility",
+      "meaning": "변동성"
+    }
+  ],
+  "shadowing": [
+    "Ryan Cotton discusses the economy's challenges.",
+    "He describes it as a cocktail of disruption.",
+    "Adaptive strategies are crucial in real estate.",
+    "Investors are re-evaluating their approaches.",
+    "Market volatility requires new solutions."
+  ],
+  "quizzes": [
+    {
+      "question": "What does Ryan Cotton refer to the current economic challenges as?",
+      "options": [
+        "A cocktail of disruption",
+        "A steady growth period",
+        "A predictable market"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What sector is Ryan Cotton primarily focused on?",
+      "options": [
+        "Technology",
+        "Real estate",
+        "Finance"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is emphasized as important for navigating economic challenges?",
+      "options": [
+        "Rigid strategies",
+        "Adaptive strategies",
+        "Short-term gains"
+      ],
+      "answer": 1
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "Bain Capital's head of real estate discusses the economy's challenges.",
+      "ai_suggestion": "The leader of real estate at Bain Capital talks about the difficulties in the economy."
+    },
+    {
+      "original": "He emphasizes the importance of adaptive strategies.",
+      "ai_suggestion": "He highlights the significance of flexible strategies."
+    }
+  ]
+}
