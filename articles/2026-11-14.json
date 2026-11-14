@@ -1,0 +1,75 @@
+{
+  "title": "Nvidia closes below $4T market cap for first time since July 2025 in Huang fallout",
+  "date": "2026-11-14",
+  "link": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
+  "isWeeklyReview": false,
+  "summary": "Nvidia has experienced a significant market shift, closing below a $4 trillion market cap for the first time since July 2025. This downturn follows the resignation of CEO Jensen Huang, who stepped down amid scrutiny over personal controversies, including allegations of extramarital affairs. The impact of Huang's departure raises questions about the future leadership and direction of the company in a highly competitive tech landscape.",
+  "vocab": [
+    {
+      "word": "scrutiny",
+      "meaning": "정밀 조사"
+    },
+    {
+      "word": "extramarital",
+      "meaning": "혼외의"
+    },
+    {
+      "word": "resignation",
+      "meaning": "사임"
+    },
+    {
+      "word": "downturn",
+      "meaning": "하락"
+    },
+    {
+      "word": "leadership",
+      "meaning": "지도력"
+    }
+  ],
+  "shadowing": [
+    "Nvidia has experienced a significant market shift.",
+    "Jensen Huang resigned as CEO amid scrutiny.",
+    "The company closed below a $4 trillion market cap.",
+    "Allegations of extramarital affairs surfaced.",
+    "Questions arise about the future leadership of Nvidia."
+  ],
+  "quizzes": [
+    {
+      "question": "What major event happened to Nvidia's market cap?",
+      "options": [
+        "It increased above $4 trillion.",
+        "It closed below $4 trillion.",
+        "It remained stable at $4 trillion."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Why did Jensen Huang resign?",
+      "options": [
+        "Due to financial issues.",
+        "Due to personal controversies.",
+        "Due to health problems."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What type of affairs was Huang scrutinized for?",
+      "options": [
+        "Business affairs.",
+        "Extramarital affairs.",
+        "Public affairs."
+      ],
+      "answer": 1
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "Jensen Huang resigned as CEO of Nvidia on Thursday.",
+      "ai_suggestion": "On Thursday, Jensen Huang stepped down from his position as CEO of Nvidia."
+    },
+    {
+      "original": "Nvidia closed below a $4 trillion market cap for the first time since July 2025.",
+      "ai_suggestion": "For the first time since July 2025, Nvidia's market cap fell below $4 trillion."
+    }
+  ]
+}

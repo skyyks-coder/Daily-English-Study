@@ -1,75 +1,75 @@
 {
-  "title": "Bain Capital’s head of real estate uses this strategy to counter the economy’s ‘cocktail of disruption'",
-  "date": "2026-11-13",
-  "link": "https://www.cnbc.com/2026/11/12/bain-capitals-head-of-real-estate-on-the-cocktail-of-disruption.html",
+  "title": "Nvidia closes below $4T market cap for first time since July 2025 in Huang fallout",
+  "date": "2026-11-14",
+  "link": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
   "isWeeklyReview": false,
-  "summary": "In a recent interview, Ryan Cotton, the head of real estate at Bain Capital, discussed the multifaceted challenges currently facing the economy, which he describes as a 'cocktail of disruption.' He emphasized the importance of adaptive strategies in navigating these turbulent times, particularly in the real estate sector. Cotton's insights reflect a broader trend among investors who are re-evaluating their approaches to market volatility and uncertainty.",
+  "summary": "Nvidia has experienced a significant market shift, closing below a $4 trillion market cap for the first time since July 2025. This downturn follows the resignation of CEO Jensen Huang, who stepped down amid scrutiny over personal controversies, including allegations of extramarital affairs. The impact of Huang's departure raises questions about the future leadership and direction of the company in a highly competitive tech landscape.",
   "vocab": [
     {
-      "word": "disruption",
-      "meaning": "혼란, 방해"
+      "word": "scrutiny",
+      "meaning": "정밀 조사"
     },
     {
-      "word": "adaptive",
-      "meaning": "적응하는"
+      "word": "extramarital",
+      "meaning": "혼외의"
     },
     {
-      "word": "multifaceted",
-      "meaning": "다면적인"
+      "word": "resignation",
+      "meaning": "사임"
     },
     {
-      "word": "navigate",
-      "meaning": "항해하다, 극복하다"
+      "word": "downturn",
+      "meaning": "하락"
     },
     {
-      "word": "volatility",
-      "meaning": "변동성"
+      "word": "leadership",
+      "meaning": "지도력"
     }
   ],
   "shadowing": [
-    "Ryan Cotton discusses the economy's challenges.",
-    "He describes it as a cocktail of disruption.",
-    "Adaptive strategies are crucial in real estate.",
-    "Investors are re-evaluating their approaches.",
-    "Market volatility requires new solutions."
+    "Nvidia has experienced a significant market shift.",
+    "Jensen Huang resigned as CEO amid scrutiny.",
+    "The company closed below a $4 trillion market cap.",
+    "Allegations of extramarital affairs surfaced.",
+    "Questions arise about the future leadership of Nvidia."
   ],
   "quizzes": [
     {
-      "question": "What does Ryan Cotton refer to the current economic challenges as?",
+      "question": "What major event happened to Nvidia's market cap?",
       "options": [
-        "A cocktail of disruption",
-        "A steady growth period",
-        "A predictable market"
-      ],
-      "answer": 0
-    },
-    {
-      "question": "What sector is Ryan Cotton primarily focused on?",
-      "options": [
-        "Technology",
-        "Real estate",
-        "Finance"
+        "It increased above $4 trillion.",
+        "It closed below $4 trillion.",
+        "It remained stable at $4 trillion."
       ],
       "answer": 1
     },
     {
-      "question": "What is emphasized as important for navigating economic challenges?",
+      "question": "Why did Jensen Huang resign?",
       "options": [
-        "Rigid strategies",
-        "Adaptive strategies",
-        "Short-term gains"
+        "Due to financial issues.",
+        "Due to personal controversies.",
+        "Due to health problems."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What type of affairs was Huang scrutinized for?",
+      "options": [
+        "Business affairs.",
+        "Extramarital affairs.",
+        "Public affairs."
       ],
       "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "Bain Capital's head of real estate discusses the economy's challenges.",
-      "ai_suggestion": "The leader of real estate at Bain Capital talks about the difficulties in the economy."
+      "original": "Jensen Huang resigned as CEO of Nvidia on Thursday.",
+      "ai_suggestion": "On Thursday, Jensen Huang stepped down from his position as CEO of Nvidia."
     },
     {
-      "original": "He emphasizes the importance of adaptive strategies.",
-      "ai_suggestion": "He highlights the significance of flexible strategies."
+      "original": "Nvidia closed below a $4 trillion market cap for the first time since July 2025.",
+      "ai_suggestion": "For the first time since July 2025, Nvidia's market cap fell below $4 trillion."
     }
   ]
 }
