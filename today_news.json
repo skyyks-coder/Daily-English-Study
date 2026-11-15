@@ -1,75 +1,75 @@
 {
-  "title": "Nvidia closes below $4T market cap for first time since July 2025 in Huang fallout",
-  "date": "2026-11-14",
-  "link": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
-  "isWeeklyReview": false,
-  "summary": "Nvidia has experienced a significant market shift, closing below a $4 trillion market cap for the first time since July 2025. This downturn follows the resignation of CEO Jensen Huang, who stepped down amid scrutiny over personal controversies, including allegations of extramarital affairs. The impact of Huang's departure raises questions about the future leadership and direction of the company in a highly competitive tech landscape.",
+  "title": "Weekly English Review",
+  "date": "2026-11-15",
+  "link": "",
+  "isWeeklyReview": true,
+  "summary": "This week's news highlights significant developments in various sectors, including politics, cybersecurity, corporate governance, and economic challenges. President Trump has offered Dana White the role of press secretary, which could reshape the political landscape. Concurrently, Europe faces increasing threats to its infrastructure from cyberattacks and bomb threats, emphasizing the need for improved security measures. In the corporate world, Nvidia's leadership is under scrutiny following CEO Jensen Huang's resignation, raising concerns about the company's future. Lastly, Bain Capital's Ryan Cotton discusses adaptive strategies to navigate the current economic disruptions.",
   "vocab": [
     {
-      "word": "scrutiny",
-      "meaning": "정밀 조사"
+      "word": "offer",
+      "meaning": "제안하다"
     },
     {
-      "word": "extramarital",
-      "meaning": "혼외의"
+      "word": "press secretary",
+      "meaning": "대변인"
     },
     {
-      "word": "resignation",
-      "meaning": "사임"
+      "word": "independent director",
+      "meaning": "독립 이사"
     },
     {
-      "word": "downturn",
-      "meaning": "하락"
+      "word": "inflation",
+      "meaning": "인플레이션"
     },
     {
-      "word": "leadership",
-      "meaning": "지도력"
+      "word": "disruption",
+      "meaning": "혼란, 방해"
     }
   ],
   "shadowing": [
-    "Nvidia has experienced a significant market shift.",
-    "Jensen Huang resigned as CEO amid scrutiny.",
-    "The company closed below a $4 trillion market cap.",
-    "Allegations of extramarital affairs surfaced.",
-    "Questions arise about the future leadership of Nvidia."
+    "President Trump has offered Dana White the job of press secretary.",
+    "Cyberattacks on fridges in supermarkets are alarming.",
+    "Stephen Neal is the lead independent director on the Nvidia board.",
+    "Goolsbee calls the inflation report borderline disturbing.",
+    "Ryan Cotton discusses the economy's challenges."
   ],
   "quizzes": [
     {
-      "question": "What major event happened to Nvidia's market cap?",
+      "question": "Who was offered the press secretary job?",
       "options": [
-        "It increased above $4 trillion.",
-        "It closed below $4 trillion.",
-        "It remained stable at $4 trillion."
+        "Dana White",
+        "Donald Trump",
+        "UFC"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What did Goolsbee describe the inflation report as?",
+      "options": [
+        "Encouraging",
+        "Borderline disturbing",
+        "Satisfactory"
       ],
       "answer": 1
     },
     {
-      "question": "Why did Jensen Huang resign?",
+      "question": "What does Ryan Cotton refer to the current economic challenges as?",
       "options": [
-        "Due to financial issues.",
-        "Due to personal controversies.",
-        "Due to health problems."
+        "A cocktail of disruption",
+        "A steady growth period",
+        "A predictable market"
       ],
-      "answer": 1
-    },
-    {
-      "question": "What type of affairs was Huang scrutinized for?",
-      "options": [
-        "Business affairs.",
-        "Extramarital affairs.",
-        "Public affairs."
-      ],
-      "answer": 1
+      "answer": 0
     }
   ],
   "rephraseTarget": [
     {
-      "original": "Jensen Huang resigned as CEO of Nvidia on Thursday.",
-      "ai_suggestion": "On Thursday, Jensen Huang stepped down from his position as CEO of Nvidia."
+      "original": "President Trump has offered Dana White the job of press secretary.",
+      "ai_suggestion": "Dana White has been offered the position of press secretary by President Trump."
     },
     {
-      "original": "Nvidia closed below a $4 trillion market cap for the first time since July 2025.",
-      "ai_suggestion": "For the first time since July 2025, Nvidia's market cap fell below $4 trillion."
+      "original": "Goolsbee calls the inflation report borderline disturbing.",
+      "ai_suggestion": "The inflation report has been described as borderline disturbing by Goolsbee."
     }
   ]
 }
