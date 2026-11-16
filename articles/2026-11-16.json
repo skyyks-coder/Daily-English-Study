@@ -1,0 +1,75 @@
+{
+  "title": "Retailers are turning to entertainment to win shoppers’ attention",
+  "date": "2026-11-16",
+  "link": "https://www.cnbc.com/2026/11/14/retailers-invest-entertainment.html",
+  "isWeeklyReview": false,
+  "summary": "In a competitive retail landscape, businesses are increasingly turning to entertainment as a strategy to capture consumer attention. This shift involves significant investments in entertainment studios, reflecting a broader trend where retailers seek to engage audiences beyond traditional shopping experiences. By integrating entertainment into their offerings, retailers aim to create immersive environments that enhance customer engagement and loyalty.",
+  "vocab": [
+    {
+      "word": "immersive",
+      "meaning": "몰입할 수 있는"
+    },
+    {
+      "word": "strategy",
+      "meaning": "전략"
+    },
+    {
+      "word": "invest",
+      "meaning": "투자하다"
+    },
+    {
+      "word": "engage",
+      "meaning": "참여시키다"
+    },
+    {
+      "word": "audience",
+      "meaning": "청중"
+    }
+  ],
+  "shadowing": [
+    "Retailers are increasingly investing in entertainment.",
+    "The race for audience attention speeds up.",
+    "Businesses are building out entertainment studios.",
+    "This trend reflects a shift in consumer engagement.",
+    "Immersive environments enhance customer loyalty."
+  ],
+  "quizzes": [
+    {
+      "question": "What are retailers investing in to capture attention?",
+      "options": [
+        "Advertising",
+        "Entertainment studios",
+        "Online shopping"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the main goal of integrating entertainment in retail?",
+      "options": [
+        "Increase sales",
+        "Enhance customer engagement",
+        "Reduce costs"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does the term 'immersive' refer to in this context?",
+      "options": [
+        "Traditional shopping",
+        "Engaging experiences",
+        "Online platforms"
+      ],
+      "answer": 1
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "Retailers are increasingly investing in and building out entertainment studios.",
+      "ai_suggestion": "Retailers are making greater investments in developing entertainment studios."
+    },
+    {
+      "original": "The race for audience attention speeds up.",
+      "ai_suggestion": "The competition for capturing audience attention intensifies."
+    }
+  ]
+}

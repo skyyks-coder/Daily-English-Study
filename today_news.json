@@ -1,75 +1,75 @@
 {
-  "title": "Weekly English Review",
-  "date": "2026-11-15",
-  "link": "",
-  "isWeeklyReview": true,
-  "summary": "This week's news highlights significant developments in various sectors, including politics, cybersecurity, corporate governance, and economic challenges. President Trump has offered Dana White the role of press secretary, which could reshape the political landscape. Concurrently, Europe faces increasing threats to its infrastructure from cyberattacks and bomb threats, emphasizing the need for improved security measures. In the corporate world, Nvidia's leadership is under scrutiny following CEO Jensen Huang's resignation, raising concerns about the company's future. Lastly, Bain Capital's Ryan Cotton discusses adaptive strategies to navigate the current economic disruptions.",
+  "title": "Retailers are turning to entertainment to win shoppers’ attention",
+  "date": "2026-11-16",
+  "link": "https://www.cnbc.com/2026/11/14/retailers-invest-entertainment.html",
+  "isWeeklyReview": false,
+  "summary": "In a competitive retail landscape, businesses are increasingly turning to entertainment as a strategy to capture consumer attention. This shift involves significant investments in entertainment studios, reflecting a broader trend where retailers seek to engage audiences beyond traditional shopping experiences. By integrating entertainment into their offerings, retailers aim to create immersive environments that enhance customer engagement and loyalty.",
   "vocab": [
     {
-      "word": "offer",
-      "meaning": "제안하다"
+      "word": "immersive",
+      "meaning": "몰입할 수 있는"
     },
     {
-      "word": "press secretary",
-      "meaning": "대변인"
+      "word": "strategy",
+      "meaning": "전략"
     },
     {
-      "word": "independent director",
-      "meaning": "독립 이사"
+      "word": "invest",
+      "meaning": "투자하다"
     },
     {
-      "word": "inflation",
-      "meaning": "인플레이션"
+      "word": "engage",
+      "meaning": "참여시키다"
     },
     {
-      "word": "disruption",
-      "meaning": "혼란, 방해"
+      "word": "audience",
+      "meaning": "청중"
     }
   ],
   "shadowing": [
-    "President Trump has offered Dana White the job of press secretary.",
-    "Cyberattacks on fridges in supermarkets are alarming.",
-    "Stephen Neal is the lead independent director on the Nvidia board.",
-    "Goolsbee calls the inflation report borderline disturbing.",
-    "Ryan Cotton discusses the economy's challenges."
+    "Retailers are increasingly investing in entertainment.",
+    "The race for audience attention speeds up.",
+    "Businesses are building out entertainment studios.",
+    "This trend reflects a shift in consumer engagement.",
+    "Immersive environments enhance customer loyalty."
   ],
   "quizzes": [
     {
-      "question": "Who was offered the press secretary job?",
+      "question": "What are retailers investing in to capture attention?",
       "options": [
-        "Dana White",
-        "Donald Trump",
-        "UFC"
-      ],
-      "answer": 0
-    },
-    {
-      "question": "What did Goolsbee describe the inflation report as?",
-      "options": [
-        "Encouraging",
-        "Borderline disturbing",
-        "Satisfactory"
+        "Advertising",
+        "Entertainment studios",
+        "Online shopping"
       ],
       "answer": 1
     },
     {
-      "question": "What does Ryan Cotton refer to the current economic challenges as?",
+      "question": "What is the main goal of integrating entertainment in retail?",
       "options": [
-        "A cocktail of disruption",
-        "A steady growth period",
-        "A predictable market"
+        "Increase sales",
+        "Enhance customer engagement",
+        "Reduce costs"
       ],
-      "answer": 0
+      "answer": 1
+    },
+    {
+      "question": "What does the term 'immersive' refer to in this context?",
+      "options": [
+        "Traditional shopping",
+        "Engaging experiences",
+        "Online platforms"
+      ],
+      "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "President Trump has offered Dana White the job of press secretary.",
-      "ai_suggestion": "Dana White has been offered the position of press secretary by President Trump."
+      "original": "Retailers are increasingly investing in and building out entertainment studios.",
+      "ai_suggestion": "Retailers are making greater investments in developing entertainment studios."
     },
     {
-      "original": "Goolsbee calls the inflation report borderline disturbing.",
-      "ai_suggestion": "The inflation report has been described as borderline disturbing by Goolsbee."
+      "original": "The race for audience attention speeds up.",
+      "ai_suggestion": "The competition for capturing audience attention intensifies."
     }
   ]
 }
