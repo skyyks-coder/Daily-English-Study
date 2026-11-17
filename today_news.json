@@ -1,75 +1,75 @@
 {
-  "title": "Retailers are turning to entertainment to win shoppers’ attention",
-  "date": "2026-11-16",
-  "link": "https://www.cnbc.com/2026/11/14/retailers-invest-entertainment.html",
+  "title": "SpaceX catches upper stage of Starship rocket in historic first",
+  "date": "2026-11-17",
+  "link": "https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html",
   "isWeeklyReview": false,
-  "summary": "In a competitive retail landscape, businesses are increasingly turning to entertainment as a strategy to capture consumer attention. This shift involves significant investments in entertainment studios, reflecting a broader trend where retailers seek to engage audiences beyond traditional shopping experiences. By integrating entertainment into their offerings, retailers aim to create immersive environments that enhance customer engagement and loyalty.",
+  "summary": "SpaceX achieved a significant milestone with the successful catch of the upper stage of the Starship rocket during Test Flight 15. This event marked a historic first for Elon Musk's aerospace company, which had previously focused on catching the booster stage. The dual catch of both rocket stages demonstrates advancements in reusable rocket technology and highlights SpaceX's commitment to innovation in space travel.",
   "vocab": [
     {
-      "word": "immersive",
-      "meaning": "몰입할 수 있는"
+      "word": "milestone",
+      "meaning": "이정표"
     },
     {
-      "word": "strategy",
-      "meaning": "전략"
+      "word": "aerospace",
+      "meaning": "항공우주"
     },
     {
-      "word": "invest",
-      "meaning": "투자하다"
+      "word": "dual",
+      "meaning": "이중의"
     },
     {
-      "word": "engage",
-      "meaning": "참여시키다"
+      "word": "innovation",
+      "meaning": "혁신"
     },
     {
-      "word": "audience",
-      "meaning": "청중"
+      "word": "commitment",
+      "meaning": "약속"
     }
   ],
   "shadowing": [
-    "Retailers are increasingly investing in entertainment.",
-    "The race for audience attention speeds up.",
-    "Businesses are building out entertainment studios.",
-    "This trend reflects a shift in consumer engagement.",
-    "Immersive environments enhance customer loyalty."
+    "SpaceX achieved a significant milestone.",
+    "This event marked a historic first.",
+    "The dual catch demonstrates advancements in technology.",
+    "Elon Musk's company focuses on reusable rockets.",
+    "SpaceX's commitment to innovation is evident."
   ],
   "quizzes": [
     {
-      "question": "What are retailers investing in to capture attention?",
+      "question": "What significant achievement did SpaceX accomplish?",
       "options": [
-        "Advertising",
-        "Entertainment studios",
-        "Online shopping"
+        "They launched a new satellite.",
+        "They caught the upper stage of the Starship rocket.",
+        "They built a new rocket."
       ],
       "answer": 1
     },
     {
-      "question": "What is the main goal of integrating entertainment in retail?",
+      "question": "What does the term 'dual catch' refer to?",
       "options": [
-        "Increase sales",
-        "Enhance customer engagement",
-        "Reduce costs"
+        "Catching two boosters.",
+        "Catching both the booster and upper stage.",
+        "Catching satellites."
       ],
       "answer": 1
     },
     {
-      "question": "What does the term 'immersive' refer to in this context?",
+      "question": "Who is the founder of SpaceX?",
       "options": [
-        "Traditional shopping",
-        "Engaging experiences",
-        "Online platforms"
+        "Jeff Bezos",
+        "Elon Musk",
+        "Richard Branson"
       ],
       "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "Retailers are increasingly investing in and building out entertainment studios.",
-      "ai_suggestion": "Retailers are making greater investments in developing entertainment studios."
+      "original": "SpaceX catches upper stage of Starship rocket in historic first.",
+      "ai_suggestion": "In a groundbreaking achievement, SpaceX successfully captured the upper stage of the Starship rocket."
     },
     {
-      "original": "The race for audience attention speeds up.",
-      "ai_suggestion": "The competition for capturing audience attention intensifies."
+      "original": "Starship Test Flight 15 marked the first time Elon Musk's company tried to catch both the booster and upper stage of the rocket.",
+      "ai_suggestion": "During Test Flight 15, SpaceX attempted for the first time to catch both the booster and the rocket's upper stage."
     }
   ]
 }

@@ -1,0 +1,75 @@
+{
+  "title": "SpaceX catches upper stage of Starship rocket in historic first",
+  "date": "2026-11-17",
+  "link": "https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html",
+  "isWeeklyReview": false,
+  "summary": "SpaceX achieved a significant milestone with the successful catch of the upper stage of the Starship rocket during Test Flight 15. This event marked a historic first for Elon Musk's aerospace company, which had previously focused on catching the booster stage. The dual catch of both rocket stages demonstrates advancements in reusable rocket technology and highlights SpaceX's commitment to innovation in space travel.",
+  "vocab": [
+    {
+      "word": "milestone",
+      "meaning": "이정표"
+    },
+    {
+      "word": "aerospace",
+      "meaning": "항공우주"
+    },
+    {
+      "word": "dual",
+      "meaning": "이중의"
+    },
+    {
+      "word": "innovation",
+      "meaning": "혁신"
+    },
+    {
+      "word": "commitment",
+      "meaning": "약속"
+    }
+  ],
+  "shadowing": [
+    "SpaceX achieved a significant milestone.",
+    "This event marked a historic first.",
+    "The dual catch demonstrates advancements in technology.",
+    "Elon Musk's company focuses on reusable rockets.",
+    "SpaceX's commitment to innovation is evident."
+  ],
+  "quizzes": [
+    {
+      "question": "What significant achievement did SpaceX accomplish?",
+      "options": [
+        "They launched a new satellite.",
+        "They caught the upper stage of the Starship rocket.",
+        "They built a new rocket."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does the term 'dual catch' refer to?",
+      "options": [
+        "Catching two boosters.",
+        "Catching both the booster and upper stage.",
+        "Catching satellites."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Who is the founder of SpaceX?",
+      "options": [
+        "Jeff Bezos",
+        "Elon Musk",
+        "Richard Branson"
+      ],
+      "answer": 1
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "SpaceX catches upper stage of Starship rocket in historic first.",
+      "ai_suggestion": "In a groundbreaking achievement, SpaceX successfully captured the upper stage of the Starship rocket."
+    },
+    {
+      "original": "Starship Test Flight 15 marked the first time Elon Musk's company tried to catch both the booster and upper stage of the rocket.",
+      "ai_suggestion": "During Test Flight 15, SpaceX attempted for the first time to catch both the booster and the rocket's upper stage."
+    }
+  ]
+}
