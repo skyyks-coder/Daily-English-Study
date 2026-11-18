@@ -1,0 +1,75 @@
+{
+  "title": "Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC",
+  "date": "2026-11-18",
+  "link": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html",
+  "isWeeklyReview": false,
+  "summary": "Nvidia has issued a warning to its chip buyers regarding potential legal risks associated with accessing AI technology in China. This caution comes in light of the U.S. Commerce Department's efforts to impose stricter export controls on technology. The implications of these regulations could significantly impact the availability and legality of AI resources for companies operating in or with China. As the geopolitical landscape evolves, firms must navigate these complexities carefully to avoid legal repercussions.",
+  "vocab": [
+    {
+      "word": "export controls",
+      "meaning": "수출 통제"
+    },
+    {
+      "word": "geopolitical",
+      "meaning": "지정학적"
+    },
+    {
+      "word": "implications",
+      "meaning": "함의"
+    },
+    {
+      "word": "caution",
+      "meaning": "주의"
+    },
+    {
+      "word": "resources",
+      "meaning": "자원"
+    }
+  ],
+  "shadowing": [
+    "Nvidia has issued a warning to its chip buyers.",
+    "Legal risks associated with accessing AI technology in China.",
+    "The U.S. Commerce Department is tightening export controls.",
+    "Companies must navigate these complexities carefully.",
+    "The implications of these regulations could significantly impact availability."
+  ],
+  "quizzes": [
+    {
+      "question": "What has Nvidia warned its chip buyers about?",
+      "options": [
+        "Legal risks tied to China AI access",
+        "Increased chip prices",
+        "New AI technologies"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the U.S. Commerce Department doing?",
+      "options": [
+        "Tightening export controls",
+        "Increasing exports",
+        "Collaborating with China"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Why must companies navigate complexities carefully?",
+      "options": [
+        "To avoid legal repercussions",
+        "To increase profits",
+        "To expand their market"
+      ],
+      "answer": 0
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "Nvidia warns chip buyers of legal risks tied to China AI access.",
+      "ai_suggestion": "Nvidia cautions chip purchasers about potential legal issues related to AI access in China."
+    },
+    {
+      "original": "The U.S. Commerce Department is making moves to tighten export controls.",
+      "ai_suggestion": "The U.S. Commerce Department is taking steps to enforce stricter export regulations."
+    }
+  ]
+}
