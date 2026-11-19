@@ -1,0 +1,75 @@
+{
+  "title": "Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit",
+  "date": "2026-11-19",
+  "link": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html",
+  "isWeeklyReview": false,
+  "summary": "In her first all-hands meeting since taking over as interim CEO, Colette Kress addressed Nvidia employees following the departure of Jensen Huang. She emphasized the importance of moving forward collectively and expressed confidence in the company's future. Kress also announced plans for pay raises, aiming to boost morale and retain talent during this transitional period.",
+  "vocab": [
+    {
+      "word": "interim",
+      "meaning": "임시의"
+    },
+    {
+      "word": "emphasize",
+      "meaning": "강조하다"
+    },
+    {
+      "word": "collectively",
+      "meaning": "집단적으로"
+    },
+    {
+      "word": "morale",
+      "meaning": "사기"
+    },
+    {
+      "word": "transitional",
+      "meaning": "전환기의"
+    }
+  ],
+  "shadowing": [
+    "Nvidia's interim CEO Colette Kress urges staff forward.",
+    "She offers pay raises after Jensen Huang's exit.",
+    "Kress emphasized the importance of moving forward.",
+    "The meeting aimed to boost morale among employees.",
+    "Plans for retaining talent were discussed."
+  ],
+  "quizzes": [
+    {
+      "question": "Who is the interim CEO of Nvidia?",
+      "options": [
+        "Jensen Huang",
+        "Colette Kress",
+        "Nvidia Board"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What did Kress announce to boost employee morale?",
+      "options": [
+        "Job cuts",
+        "Pay raises",
+        "New projects"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the main focus of Kress's message to employees?",
+      "options": [
+        "Moving backward",
+        "Moving forward",
+        "Staying still"
+      ],
+      "answer": 1
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "Colette Kress addressed Nvidia employees following the departure of Jensen Huang.",
+      "ai_suggestion": "After Jensen Huang's exit, Colette Kress spoke to Nvidia staff."
+    },
+    {
+      "original": "Kress also announced plans for pay raises.",
+      "ai_suggestion": "Plans for salary increases were also revealed by Kress."
+    }
+  ]
+}

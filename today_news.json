@@ -1,75 +1,75 @@
 {
-  "title": "Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC",
-  "date": "2026-11-18",
-  "link": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html",
+  "title": "Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit",
+  "date": "2026-11-19",
+  "link": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html",
   "isWeeklyReview": false,
-  "summary": "Nvidia has issued a warning to its chip buyers regarding potential legal risks associated with accessing AI technology in China. This caution comes in light of the U.S. Commerce Department's efforts to impose stricter export controls on technology. The implications of these regulations could significantly impact the availability and legality of AI resources for companies operating in or with China. As the geopolitical landscape evolves, firms must navigate these complexities carefully to avoid legal repercussions.",
+  "summary": "In her first all-hands meeting since taking over as interim CEO, Colette Kress addressed Nvidia employees following the departure of Jensen Huang. She emphasized the importance of moving forward collectively and expressed confidence in the company's future. Kress also announced plans for pay raises, aiming to boost morale and retain talent during this transitional period.",
   "vocab": [
     {
-      "word": "export controls",
-      "meaning": "수출 통제"
+      "word": "interim",
+      "meaning": "임시의"
     },
     {
-      "word": "geopolitical",
-      "meaning": "지정학적"
+      "word": "emphasize",
+      "meaning": "강조하다"
     },
     {
-      "word": "implications",
-      "meaning": "함의"
+      "word": "collectively",
+      "meaning": "집단적으로"
     },
     {
-      "word": "caution",
-      "meaning": "주의"
+      "word": "morale",
+      "meaning": "사기"
     },
     {
-      "word": "resources",
-      "meaning": "자원"
+      "word": "transitional",
+      "meaning": "전환기의"
     }
   ],
   "shadowing": [
-    "Nvidia has issued a warning to its chip buyers.",
-    "Legal risks associated with accessing AI technology in China.",
-    "The U.S. Commerce Department is tightening export controls.",
-    "Companies must navigate these complexities carefully.",
-    "The implications of these regulations could significantly impact availability."
+    "Nvidia's interim CEO Colette Kress urges staff forward.",
+    "She offers pay raises after Jensen Huang's exit.",
+    "Kress emphasized the importance of moving forward.",
+    "The meeting aimed to boost morale among employees.",
+    "Plans for retaining talent were discussed."
   ],
   "quizzes": [
     {
-      "question": "What has Nvidia warned its chip buyers about?",
+      "question": "Who is the interim CEO of Nvidia?",
       "options": [
-        "Legal risks tied to China AI access",
-        "Increased chip prices",
-        "New AI technologies"
+        "Jensen Huang",
+        "Colette Kress",
+        "Nvidia Board"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
-      "question": "What is the U.S. Commerce Department doing?",
+      "question": "What did Kress announce to boost employee morale?",
       "options": [
-        "Tightening export controls",
-        "Increasing exports",
-        "Collaborating with China"
+        "Job cuts",
+        "Pay raises",
+        "New projects"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
-      "question": "Why must companies navigate complexities carefully?",
+      "question": "What is the main focus of Kress's message to employees?",
       "options": [
-        "To avoid legal repercussions",
-        "To increase profits",
-        "To expand their market"
+        "Moving backward",
+        "Moving forward",
+        "Staying still"
       ],
-      "answer": 0
+      "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "Nvidia warns chip buyers of legal risks tied to China AI access.",
-      "ai_suggestion": "Nvidia cautions chip purchasers about potential legal issues related to AI access in China."
+      "original": "Colette Kress addressed Nvidia employees following the departure of Jensen Huang.",
+      "ai_suggestion": "After Jensen Huang's exit, Colette Kress spoke to Nvidia staff."
     },
     {
-      "original": "The U.S. Commerce Department is making moves to tighten export controls.",
-      "ai_suggestion": "The U.S. Commerce Department is taking steps to enforce stricter export regulations."
+      "original": "Kress also announced plans for pay raises.",
+      "ai_suggestion": "Plans for salary increases were also revealed by Kress."
     }
   ]
 }
