@@ -1,0 +1,75 @@
+{
+  "title": "Mortgage demand turns lower, as interest rates shoot back up to the highest level in three weeks",
+  "date": "2026-11-20",
+  "link": "https://www.cnbc.com/2026/11/18/mortgage-demand-turns-lower-as-interest-rates-shoot-back-up-to-the-highest-level-in-three-weeks.html",
+  "isWeeklyReview": false,
+  "summary": "Recent data indicates a significant increase in mortgage rates, which have reached their highest point in three weeks. This surge has led to a noticeable decline in demand for both mortgage refinances and home purchase loans. The economic implications of rising interest rates are becoming increasingly evident as potential homebuyers and those looking to refinance reconsider their options in the current financial landscape.",
+  "vocab": [
+    {
+      "word": "surge",
+      "meaning": "급증"
+    },
+    {
+      "word": "decline",
+      "meaning": "감소"
+    },
+    {
+      "word": "implications",
+      "meaning": "영향"
+    },
+    {
+      "word": "reconsider",
+      "meaning": "재고하다"
+    },
+    {
+      "word": "landscape",
+      "meaning": "환경"
+    }
+  ],
+  "shadowing": [
+    "Mortgage rates moved sharply higher last week.",
+    "Demand for mortgage refinances has dropped.",
+    "Home purchase loans are also affected.",
+    "Rates hit the highest in three weeks.",
+    "The economic implications are becoming evident."
+  ],
+  "quizzes": [
+    {
+      "question": "What caused the decline in mortgage demand?",
+      "options": [
+        "Increased interest rates",
+        "Decreased housing supply",
+        "Higher employment rates"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "How long have rates been at their highest level?",
+      "options": [
+        "One week",
+        "Two weeks",
+        "Three weeks"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What types of loans are affected by the rise in rates?",
+      "options": [
+        "Personal loans",
+        "Mortgage refinances and home purchase loans",
+        "Auto loans"
+      ],
+      "answer": 1
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "Mortgage demand turns lower, as interest rates shoot back up to the highest level in three weeks.",
+      "ai_suggestion": "As interest rates rise to their highest point in three weeks, mortgage demand decreases."
+    },
+    {
+      "original": "Rates hit the highest in 3 weeks.",
+      "ai_suggestion": "The rates have reached their peak in three weeks."
+    }
+  ]
+}

@@ -1,75 +1,75 @@
 {
-  "title": "Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit",
-  "date": "2026-11-19",
-  "link": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html",
+  "title": "Mortgage demand turns lower, as interest rates shoot back up to the highest level in three weeks",
+  "date": "2026-11-20",
+  "link": "https://www.cnbc.com/2026/11/18/mortgage-demand-turns-lower-as-interest-rates-shoot-back-up-to-the-highest-level-in-three-weeks.html",
   "isWeeklyReview": false,
-  "summary": "In her first all-hands meeting since taking over as interim CEO, Colette Kress addressed Nvidia employees following the departure of Jensen Huang. She emphasized the importance of moving forward collectively and expressed confidence in the company's future. Kress also announced plans for pay raises, aiming to boost morale and retain talent during this transitional period.",
+  "summary": "Recent data indicates a significant increase in mortgage rates, which have reached their highest point in three weeks. This surge has led to a noticeable decline in demand for both mortgage refinances and home purchase loans. The economic implications of rising interest rates are becoming increasingly evident as potential homebuyers and those looking to refinance reconsider their options in the current financial landscape.",
   "vocab": [
     {
-      "word": "interim",
-      "meaning": "임시의"
+      "word": "surge",
+      "meaning": "급증"
     },
     {
-      "word": "emphasize",
-      "meaning": "강조하다"
+      "word": "decline",
+      "meaning": "감소"
     },
     {
-      "word": "collectively",
-      "meaning": "집단적으로"
+      "word": "implications",
+      "meaning": "영향"
     },
     {
-      "word": "morale",
-      "meaning": "사기"
+      "word": "reconsider",
+      "meaning": "재고하다"
     },
     {
-      "word": "transitional",
-      "meaning": "전환기의"
+      "word": "landscape",
+      "meaning": "환경"
     }
   ],
   "shadowing": [
-    "Nvidia's interim CEO Colette Kress urges staff forward.",
-    "She offers pay raises after Jensen Huang's exit.",
-    "Kress emphasized the importance of moving forward.",
-    "The meeting aimed to boost morale among employees.",
-    "Plans for retaining talent were discussed."
+    "Mortgage rates moved sharply higher last week.",
+    "Demand for mortgage refinances has dropped.",
+    "Home purchase loans are also affected.",
+    "Rates hit the highest in three weeks.",
+    "The economic implications are becoming evident."
   ],
   "quizzes": [
     {
-      "question": "Who is the interim CEO of Nvidia?",
+      "question": "What caused the decline in mortgage demand?",
       "options": [
-        "Jensen Huang",
-        "Colette Kress",
-        "Nvidia Board"
+        "Increased interest rates",
+        "Decreased housing supply",
+        "Higher employment rates"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
-      "question": "What did Kress announce to boost employee morale?",
+      "question": "How long have rates been at their highest level?",
       "options": [
-        "Job cuts",
-        "Pay raises",
-        "New projects"
+        "One week",
+        "Two weeks",
+        "Three weeks"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
-      "question": "What is the main focus of Kress's message to employees?",
+      "question": "What types of loans are affected by the rise in rates?",
       "options": [
-        "Moving backward",
-        "Moving forward",
-        "Staying still"
+        "Personal loans",
+        "Mortgage refinances and home purchase loans",
+        "Auto loans"
       ],
       "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "Colette Kress addressed Nvidia employees following the departure of Jensen Huang.",
-      "ai_suggestion": "After Jensen Huang's exit, Colette Kress spoke to Nvidia staff."
+      "original": "Mortgage demand turns lower, as interest rates shoot back up to the highest level in three weeks.",
+      "ai_suggestion": "As interest rates rise to their highest point in three weeks, mortgage demand decreases."
     },
     {
-      "original": "Kress also announced plans for pay raises.",
-      "ai_suggestion": "Plans for salary increases were also revealed by Kress."
+      "original": "Rates hit the highest in 3 weeks.",
+      "ai_suggestion": "The rates have reached their peak in three weeks."
     }
   ]
 }
