@@ -1,0 +1,75 @@
+{
+  "title": "A24 is having a great year at the box office. That could give HBO Max a streaming edge",
+  "date": "2026-11-21",
+  "link": "https://www.cnbc.com/2026/11/20/a24-box-office-hbo-max.html",
+  "isWeeklyReview": false,
+  "summary": "A24 is experiencing a remarkable year at the box office, driven by the success of films such as \"Backrooms,\" \"The Drama,\" and the documentary about Elizabeth Holmes titled \"You Can See Everything.\" This surge in box office performance could potentially enhance HBO Max's competitive edge in the streaming market. As A24 continues to release critically acclaimed content, it may influence viewer preferences and subscription trends on streaming platforms.",
+  "vocab": [
+    {
+      "word": "banner",
+      "meaning": "특별한, 뛰어난"
+    },
+    {
+      "word": "fueling",
+      "meaning": "촉진하다, 자극하다"
+    },
+    {
+      "word": "documentary",
+      "meaning": "다큐멘터리"
+    },
+    {
+      "word": "competitive",
+      "meaning": "경쟁적인"
+    },
+    {
+      "word": "influence",
+      "meaning": "영향을 미치다"
+    }
+  ],
+  "shadowing": [
+    "A24 is having a great year at the box office.",
+    "The films are fueling a banner year.",
+    "HBO Max could gain a streaming edge.",
+    "The documentary focuses on Elizabeth Holmes.",
+    "A24 continues to release critically acclaimed content."
+  ],
+  "quizzes": [
+    {
+      "question": "What is the title of the article?",
+      "options": [
+        "A24's Box Office Success",
+        "A24 is having a great year at the box office.",
+        "HBO Max's Streaming Edge"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which film is NOT mentioned in the article?",
+      "options": [
+        "Backrooms",
+        "The Drama",
+        "The Social Network"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What could A24's success impact?",
+      "options": [
+        "Viewer preferences",
+        "Box office trends",
+        "Film production costs"
+      ],
+      "answer": 0
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "A24 is having a great year at the box office.",
+      "ai_suggestion": "A24 is experiencing significant success in theaters this year."
+    },
+    {
+      "original": "HBO Max could gain a streaming edge.",
+      "ai_suggestion": "HBO Max may achieve a competitive advantage in streaming."
+    }
+  ]
+}
