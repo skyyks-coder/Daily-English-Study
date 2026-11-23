@@ -1,75 +1,75 @@
 {
-  "title": "Weekly English Review",
-  "date": "2026-11-22",
-  "link": "",
-  "isWeeklyReview": true,
-  "summary": "This week's articles highlight significant developments across various sectors, including retail, aerospace, technology, and entertainment. Retailers are increasingly investing in entertainment to enhance customer engagement, while SpaceX achieved a milestone by successfully catching the upper stage of its Starship rocket. Nvidia has raised concerns about legal risks related to AI technology access in China, and the interim CEO of Nvidia emphasized the importance of moving forward after a leadership change. Additionally, rising mortgage rates have led to a decline in demand, and A24's box office success may provide HBO Max with a competitive advantage in streaming.",
+  "title": "Europe's cyber weak spot is the everyday businesses nobody thought to protect",
+  "date": "2026-11-23",
+  "link": "https://www.cnbc.com/2026/11/21/cyber-attacks-fridges-cybersecurity.html",
+  "isWeeklyReview": false,
+  "summary": "The article discusses the increasing vulnerability of everyday businesses to cyber attacks, highlighting that known weaknesses are being exploited by cybercriminals. With advancements in AI, these criminals are becoming more efficient in their operations, posing a significant threat to businesses that previously went unprotected. The piece emphasizes the urgent need for these businesses to adopt better cybersecurity measures to safeguard against potential sabotage.",
   "vocab": [
     {
-      "word": "immersive",
-      "meaning": "몰입할 수 있는"
+      "word": "vulnerability",
+      "meaning": "취약성"
     },
     {
-      "word": "milestone",
-      "meaning": "이정표"
+      "word": "sabotage",
+      "meaning": "파괴 행위"
     },
     {
-      "word": "export controls",
-      "meaning": "수출 통제"
+      "word": "exposed",
+      "meaning": "노출된"
     },
     {
-      "word": "interim",
-      "meaning": "임시의"
+      "word": "criminals",
+      "meaning": "범죄자"
     },
     {
-      "word": "competitive",
-      "meaning": "경쟁적인"
+      "word": "efficiency",
+      "meaning": "효율성"
     }
   ],
   "shadowing": [
-    "Retailers are increasingly investing in entertainment.",
-    "SpaceX achieved a significant milestone.",
-    "Nvidia has issued a warning to its chip buyers.",
-    "Kress emphasized the importance of moving forward.",
-    "Mortgage rates moved sharply higher last week."
+    "Everyday businesses are increasingly exposed to cyber sabotage.",
+    "Known vulnerabilities are leaving these businesses unprotected.",
+    "AI enables cybercriminals to work better and faster.",
+    "There is an urgent need for improved cybersecurity measures.",
+    "Cyber attacks are becoming more sophisticated and frequent."
   ],
   "quizzes": [
     {
-      "question": "What are retailers investing in to capture attention?",
+      "question": "What is the main issue discussed in the article?",
       "options": [
-        "Entertainment studios",
-        "Advertising",
-        "Online shopping"
+        "Cybersecurity of everyday businesses",
+        "The role of AI in business",
+        "The history of cyber attacks"
       ],
       "answer": 0
     },
     {
-      "question": "What significant achievement did SpaceX accomplish?",
+      "question": "How are cybercriminals described in the context of the article?",
       "options": [
-        "They caught the upper stage of the Starship rocket.",
-        "They launched a new satellite.",
-        "They built a new rocket."
+        "Less efficient than before",
+        "More efficient due to AI",
+        "Unrelated to everyday businesses"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
-      "question": "What caused the decline in mortgage demand?",
+      "question": "What do everyday businesses need to improve according to the article?",
       "options": [
-        "Increased interest rates",
-        "Decreased housing supply",
-        "Higher employment rates"
+        "Marketing strategies",
+        "Cybersecurity measures",
+        "Employee training"
       ],
-      "answer": 0
+      "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "Retailers are increasingly investing in entertainment.",
-      "ai_suggestion": "Retailers are making greater investments in entertainment."
+      "original": "Everyday businesses are increasingly exposed to cyber sabotage.",
+      "ai_suggestion": "일상적인 기업들이 사이버 파괴 행위에 점점 더 많이 노출되고 있다."
     },
     {
-      "original": "Mortgage demand turns lower, as interest rates shoot back up to the highest level in three weeks.",
-      "ai_suggestion": "As interest rates rise to their highest point in three weeks, mortgage demand decreases."
+      "original": "AI enables cybercriminals to work better and faster.",
+      "ai_suggestion": "AI는 사이버 범죄자들이 더 잘하고 더 빠르게 작업할 수 있도록 한다."
     }
   ]
 }
