@@ -1,0 +1,75 @@
+{
+  "title": "Director of National Intelligence Jay Clayton warns Americans of 'bumps in the road' after tech outages",
+  "date": "2026-11-24",
+  "link": "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html",
+  "isWeeklyReview": false,
+  "summary": "Director of National Intelligence Jay Clayton has issued a warning to Americans regarding potential disruptions in travel due to recent technology outages. These outages have affected various sectors, including air travel, Microsoft 365 services, and banking transactions, raising concerns ahead of the busy Thanksgiving period. Clayton's remarks highlight the importance of preparedness as travelers navigate these unforeseen challenges during one of the year's peak travel times.",
+  "vocab": [
+    {
+      "word": "disruption",
+      "meaning": "혼란, 방해"
+    },
+    {
+      "word": "preparedness",
+      "meaning": "준비 상태"
+    },
+    {
+      "word": "outage",
+      "meaning": "정전, 중단"
+    },
+    {
+      "word": "transaction",
+      "meaning": "거래"
+    },
+    {
+      "word": "peak",
+      "meaning": "정점, 최고조"
+    }
+  ],
+  "shadowing": [
+    "Clayton warns of bumps in the road.",
+    "Recent outages have disrupted air travel.",
+    "Microsoft 365 services were affected.",
+    "Bank transactions faced interruptions.",
+    "Thanksgiving travel could be impacted."
+  ],
+  "quizzes": [
+    {
+      "question": "What did Jay Clayton warn about?",
+      "options": [
+        "Potential travel disruptions",
+        "Increased travel safety",
+        "New technology advancements"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which services were disrupted?",
+      "options": [
+        "Air travel and Microsoft 365",
+        "Only banking transactions",
+        "Public transportation"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "When did Clayton issue his warning?",
+      "options": [
+        "Before Thanksgiving",
+        "During the summer",
+        "After the holidays"
+      ],
+      "answer": 0
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "Clayton’s warning comes ahead of Thanksgiving travel.",
+      "ai_suggestion": "Clayton issued his warning just before the Thanksgiving travel period."
+    },
+    {
+      "original": "These outages disrupted air travel, Microsoft 365 and some bank transactions.",
+      "ai_suggestion": "The outages affected air travel, Microsoft 365 services, and various banking transactions."
+    }
+  ]
+}

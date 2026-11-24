@@ -1,75 +1,75 @@
 {
-  "title": "Europe's cyber weak spot is the everyday businesses nobody thought to protect",
-  "date": "2026-11-23",
-  "link": "https://www.cnbc.com/2026/11/21/cyber-attacks-fridges-cybersecurity.html",
+  "title": "Director of National Intelligence Jay Clayton warns Americans of 'bumps in the road' after tech outages",
+  "date": "2026-11-24",
+  "link": "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html",
   "isWeeklyReview": false,
-  "summary": "The article discusses the increasing vulnerability of everyday businesses to cyber attacks, highlighting that known weaknesses are being exploited by cybercriminals. With advancements in AI, these criminals are becoming more efficient in their operations, posing a significant threat to businesses that previously went unprotected. The piece emphasizes the urgent need for these businesses to adopt better cybersecurity measures to safeguard against potential sabotage.",
+  "summary": "Director of National Intelligence Jay Clayton has issued a warning to Americans regarding potential disruptions in travel due to recent technology outages. These outages have affected various sectors, including air travel, Microsoft 365 services, and banking transactions, raising concerns ahead of the busy Thanksgiving period. Clayton's remarks highlight the importance of preparedness as travelers navigate these unforeseen challenges during one of the year's peak travel times.",
   "vocab": [
     {
-      "word": "vulnerability",
-      "meaning": "취약성"
+      "word": "disruption",
+      "meaning": "혼란, 방해"
     },
     {
-      "word": "sabotage",
-      "meaning": "파괴 행위"
+      "word": "preparedness",
+      "meaning": "준비 상태"
     },
     {
-      "word": "exposed",
-      "meaning": "노출된"
+      "word": "outage",
+      "meaning": "정전, 중단"
     },
     {
-      "word": "criminals",
-      "meaning": "범죄자"
+      "word": "transaction",
+      "meaning": "거래"
     },
     {
-      "word": "efficiency",
-      "meaning": "효율성"
+      "word": "peak",
+      "meaning": "정점, 최고조"
     }
   ],
   "shadowing": [
-    "Everyday businesses are increasingly exposed to cyber sabotage.",
-    "Known vulnerabilities are leaving these businesses unprotected.",
-    "AI enables cybercriminals to work better and faster.",
-    "There is an urgent need for improved cybersecurity measures.",
-    "Cyber attacks are becoming more sophisticated and frequent."
+    "Clayton warns of bumps in the road.",
+    "Recent outages have disrupted air travel.",
+    "Microsoft 365 services were affected.",
+    "Bank transactions faced interruptions.",
+    "Thanksgiving travel could be impacted."
   ],
   "quizzes": [
     {
-      "question": "What is the main issue discussed in the article?",
+      "question": "What did Jay Clayton warn about?",
       "options": [
-        "Cybersecurity of everyday businesses",
-        "The role of AI in business",
-        "The history of cyber attacks"
+        "Potential travel disruptions",
+        "Increased travel safety",
+        "New technology advancements"
       ],
       "answer": 0
     },
     {
-      "question": "How are cybercriminals described in the context of the article?",
+      "question": "Which services were disrupted?",
       "options": [
-        "Less efficient than before",
-        "More efficient due to AI",
-        "Unrelated to everyday businesses"
+        "Air travel and Microsoft 365",
+        "Only banking transactions",
+        "Public transportation"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
-      "question": "What do everyday businesses need to improve according to the article?",
+      "question": "When did Clayton issue his warning?",
       "options": [
-        "Marketing strategies",
-        "Cybersecurity measures",
-        "Employee training"
+        "Before Thanksgiving",
+        "During the summer",
+        "After the holidays"
       ],
-      "answer": 1
+      "answer": 0
     }
   ],
   "rephraseTarget": [
     {
-      "original": "Everyday businesses are increasingly exposed to cyber sabotage.",
-      "ai_suggestion": "일상적인 기업들이 사이버 파괴 행위에 점점 더 많이 노출되고 있다."
+      "original": "Clayton’s warning comes ahead of Thanksgiving travel.",
+      "ai_suggestion": "Clayton issued his warning just before the Thanksgiving travel period."
     },
     {
-      "original": "AI enables cybercriminals to work better and faster.",
-      "ai_suggestion": "AI는 사이버 범죄자들이 더 잘하고 더 빠르게 작업할 수 있도록 한다."
+      "original": "These outages disrupted air travel, Microsoft 365 and some bank transactions.",
+      "ai_suggestion": "The outages affected air travel, Microsoft 365 services, and various banking transactions."
     }
   ]
 }
