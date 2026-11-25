@@ -1,0 +1,75 @@
+{
+  "title": "Kalshi daily volume of ‘perps’ trading begins to top its prediction markets",
+  "date": "2026-11-25",
+  "link": "https://www.cnbc.com/2026/11/24/kalshi-perps-volume-prediction-markets.html",
+  "isWeeklyReview": false,
+  "summary": "Kalshi's recent introduction of perpetual contracts, known as 'perps', marks a significant expansion beyond traditional event contracts. Since their launch in May, these products have begun to attract considerable trading volume, surpassing that of Kalshi's existing prediction markets. This shift indicates a growing interest in innovative trading mechanisms that extend beyond conventional predictions, potentially reshaping the landscape of financial trading.",
+  "vocab": [
+    {
+      "word": "perpetual",
+      "meaning": "영구적인"
+    },
+    {
+      "word": "contract",
+      "meaning": "계약"
+    },
+    {
+      "word": "volume",
+      "meaning": "거래량"
+    },
+    {
+      "word": "introduce",
+      "meaning": "도입하다"
+    },
+    {
+      "word": "market",
+      "meaning": "시장"
+    }
+  ],
+  "shadowing": [
+    "Kalshi has introduced a new product called 'perps'.",
+    "These contracts are designed to extend beyond traditional event contracts.",
+    "The trading volume of 'perps' is increasing rapidly.",
+    "Kalshi's innovation could change the future of trading.",
+    "Investors are showing a growing interest in these new mechanisms."
+  ],
+  "quizzes": [
+    {
+      "question": "What are 'perps'?",
+      "options": [
+        "A type of stock",
+        "A new trading product",
+        "A financial regulation"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "When were 'perps' introduced?",
+      "options": [
+        "In May",
+        "In January",
+        "In November"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the primary focus of the article?",
+      "options": [
+        "Kalshi's prediction markets",
+        "The rise of 'perps'",
+        "The history of trading"
+      ],
+      "answer": 1
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "The product, the first one beyond event contracts, was introduced in May.",
+      "ai_suggestion": "This product, which is the first to go beyond event contracts, was launched in May."
+    },
+    {
+      "original": "Kalshi daily volume of ‘perps’ trading begins to top its prediction markets.",
+      "ai_suggestion": "The daily trading volume of 'perps' on Kalshi is starting to exceed that of its prediction markets."
+    }
+  ]
+}

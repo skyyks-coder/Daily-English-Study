@@ -1,75 +1,75 @@
 {
-  "title": "Director of National Intelligence Jay Clayton warns Americans of 'bumps in the road' after tech outages",
-  "date": "2026-11-24",
-  "link": "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html",
+  "title": "Kalshi daily volume of ‘perps’ trading begins to top its prediction markets",
+  "date": "2026-11-25",
+  "link": "https://www.cnbc.com/2026/11/24/kalshi-perps-volume-prediction-markets.html",
   "isWeeklyReview": false,
-  "summary": "Director of National Intelligence Jay Clayton has issued a warning to Americans regarding potential disruptions in travel due to recent technology outages. These outages have affected various sectors, including air travel, Microsoft 365 services, and banking transactions, raising concerns ahead of the busy Thanksgiving period. Clayton's remarks highlight the importance of preparedness as travelers navigate these unforeseen challenges during one of the year's peak travel times.",
+  "summary": "Kalshi's recent introduction of perpetual contracts, known as 'perps', marks a significant expansion beyond traditional event contracts. Since their launch in May, these products have begun to attract considerable trading volume, surpassing that of Kalshi's existing prediction markets. This shift indicates a growing interest in innovative trading mechanisms that extend beyond conventional predictions, potentially reshaping the landscape of financial trading.",
   "vocab": [
     {
-      "word": "disruption",
-      "meaning": "혼란, 방해"
+      "word": "perpetual",
+      "meaning": "영구적인"
     },
     {
-      "word": "preparedness",
-      "meaning": "준비 상태"
+      "word": "contract",
+      "meaning": "계약"
     },
     {
-      "word": "outage",
-      "meaning": "정전, 중단"
+      "word": "volume",
+      "meaning": "거래량"
     },
     {
-      "word": "transaction",
-      "meaning": "거래"
+      "word": "introduce",
+      "meaning": "도입하다"
     },
     {
-      "word": "peak",
-      "meaning": "정점, 최고조"
+      "word": "market",
+      "meaning": "시장"
     }
   ],
   "shadowing": [
-    "Clayton warns of bumps in the road.",
-    "Recent outages have disrupted air travel.",
-    "Microsoft 365 services were affected.",
-    "Bank transactions faced interruptions.",
-    "Thanksgiving travel could be impacted."
+    "Kalshi has introduced a new product called 'perps'.",
+    "These contracts are designed to extend beyond traditional event contracts.",
+    "The trading volume of 'perps' is increasing rapidly.",
+    "Kalshi's innovation could change the future of trading.",
+    "Investors are showing a growing interest in these new mechanisms."
   ],
   "quizzes": [
     {
-      "question": "What did Jay Clayton warn about?",
+      "question": "What are 'perps'?",
       "options": [
-        "Potential travel disruptions",
-        "Increased travel safety",
-        "New technology advancements"
+        "A type of stock",
+        "A new trading product",
+        "A financial regulation"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "When were 'perps' introduced?",
+      "options": [
+        "In May",
+        "In January",
+        "In November"
       ],
       "answer": 0
     },
     {
-      "question": "Which services were disrupted?",
+      "question": "What is the primary focus of the article?",
       "options": [
-        "Air travel and Microsoft 365",
-        "Only banking transactions",
-        "Public transportation"
+        "Kalshi's prediction markets",
+        "The rise of 'perps'",
+        "The history of trading"
       ],
-      "answer": 0
-    },
-    {
-      "question": "When did Clayton issue his warning?",
-      "options": [
-        "Before Thanksgiving",
-        "During the summer",
-        "After the holidays"
-      ],
-      "answer": 0
+      "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "Clayton’s warning comes ahead of Thanksgiving travel.",
-      "ai_suggestion": "Clayton issued his warning just before the Thanksgiving travel period."
+      "original": "The product, the first one beyond event contracts, was introduced in May.",
+      "ai_suggestion": "This product, which is the first to go beyond event contracts, was launched in May."
     },
     {
-      "original": "These outages disrupted air travel, Microsoft 365 and some bank transactions.",
-      "ai_suggestion": "The outages affected air travel, Microsoft 365 services, and various banking transactions."
+      "original": "Kalshi daily volume of ‘perps’ trading begins to top its prediction markets.",
+      "ai_suggestion": "The daily trading volume of 'perps' on Kalshi is starting to exceed that of its prediction markets."
     }
   ]
 }
