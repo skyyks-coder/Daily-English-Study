@@ -1,0 +1,75 @@
+{
+  "title": "Secondhand shopping is going mainstream this holiday season as consumers seek value",
+  "date": "2026-11-26",
+  "link": "https://www.cnbc.com/2026/11/25/secondhand-holiday-shopping-grows-as-shoppers-seek-value.html",
+  "isWeeklyReview": false,
+  "summary": "This holiday season, there is a noticeable shift towards secondhand shopping as consumers prioritize value and distinctiveness in their purchases. The trend reflects a growing awareness of sustainability and a desire to find unique gifts that stand out from mass-produced items. As more individuals embrace this approach, the secondhand market is becoming increasingly mainstream, offering a viable alternative to traditional retail options.",
+  "vocab": [
+    {
+      "word": "emphasize",
+      "meaning": "강조하다"
+    },
+    {
+      "word": "uniqueness",
+      "meaning": "독특함"
+    },
+    {
+      "word": "mainstream",
+      "meaning": "주류"
+    },
+    {
+      "word": "sustainability",
+      "meaning": "지속 가능성"
+    },
+    {
+      "word": "distinctive",
+      "meaning": "독특한"
+    }
+  ],
+  "shadowing": [
+    "More consumers are shopping secondhand this holiday season.",
+    "They emphasize value and uniqueness in their purchases.",
+    "The trend reflects a growing awareness of sustainability.",
+    "Secondhand shopping is becoming increasingly mainstream.",
+    "Consumers are seeking alternatives to traditional retail options."
+  ],
+  "quizzes": [
+    {
+      "question": "What are consumers prioritizing in their purchases this holiday season?",
+      "options": [
+        "Price and quantity",
+        "Value and uniqueness",
+        "Brand and popularity"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does the trend of secondhand shopping reflect?",
+      "options": [
+        "A desire for mass-produced items",
+        "A growing awareness of sustainability",
+        "A focus on luxury brands"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "How is the secondhand market changing?",
+      "options": [
+        "It is becoming less popular.",
+        "It is becoming increasingly mainstream.",
+        "It is only for thrift stores."
+      ],
+      "answer": 1
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "More consumers are shopping secondhand this holiday season.",
+      "ai_suggestion": "An increasing number of shoppers are opting for secondhand items during this holiday season."
+    },
+    {
+      "original": "They emphasize value and uniqueness in their purchases.",
+      "ai_suggestion": "Consumers are focusing on the importance of value and distinctiveness in what they buy."
+    }
+  ]
+}
