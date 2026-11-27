@@ -1,75 +1,75 @@
 {
-  "title": "Secondhand shopping is going mainstream this holiday season as consumers seek value",
-  "date": "2026-11-26",
-  "link": "https://www.cnbc.com/2026/11/25/secondhand-holiday-shopping-grows-as-shoppers-seek-value.html",
+  "title": "Commercial real estate activity falls 14% in October, as interest rates rise",
+  "date": "2026-11-27",
+  "link": "https://www.cnbc.com/2026/11/24/commercial-real-estate-activity-falls-14percent-in-october.html",
   "isWeeklyReview": false,
-  "summary": "This holiday season, there is a noticeable shift towards secondhand shopping as consumers prioritize value and distinctiveness in their purchases. The trend reflects a growing awareness of sustainability and a desire to find unique gifts that stand out from mass-produced items. As more individuals embrace this approach, the secondhand market is becoming increasingly mainstream, offering a viable alternative to traditional retail options.",
+  "summary": "In October, commercial real estate activity experienced a significant decline of 14% compared to September, as reported by LightBox, a prominent data platform in the sector. This downturn is largely attributed to the rising interest rates, which have created a challenging environment for investors and developers. The decrease in activity suggests a potential slowdown in the commercial real estate market, raising concerns about future investments and economic stability.",
   "vocab": [
     {
-      "word": "emphasize",
-      "meaning": "강조하다"
+      "word": "decline",
+      "meaning": "감소"
     },
     {
-      "word": "uniqueness",
-      "meaning": "독특함"
+      "word": "attributed",
+      "meaning": "귀속된"
     },
     {
-      "word": "mainstream",
-      "meaning": "주류"
+      "word": "environment",
+      "meaning": "환경"
     },
     {
-      "word": "sustainability",
-      "meaning": "지속 가능성"
+      "word": "investors",
+      "meaning": "투자자"
     },
     {
-      "word": "distinctive",
-      "meaning": "독특한"
+      "word": "stability",
+      "meaning": "안정성"
     }
   ],
   "shadowing": [
-    "More consumers are shopping secondhand this holiday season.",
-    "They emphasize value and uniqueness in their purchases.",
-    "The trend reflects a growing awareness of sustainability.",
-    "Secondhand shopping is becoming increasingly mainstream.",
-    "Consumers are seeking alternatives to traditional retail options."
+    "Commercial real estate activity dropped 14% in October.",
+    "This decline is attributed to rising interest rates.",
+    "Investors are facing a challenging environment.",
+    "The decrease raises concerns about future investments.",
+    "Economic stability may be at risk due to this downturn."
   ],
   "quizzes": [
     {
-      "question": "What are consumers prioritizing in their purchases this holiday season?",
+      "question": "What percentage did commercial real estate activity fall in October?",
       "options": [
-        "Price and quantity",
-        "Value and uniqueness",
-        "Brand and popularity"
+        "10%",
+        "14%",
+        "20%"
       ],
       "answer": 1
     },
     {
-      "question": "What does the trend of secondhand shopping reflect?",
+      "question": "Which platform reported the decline in commercial real estate activity?",
       "options": [
-        "A desire for mass-produced items",
-        "A growing awareness of sustainability",
-        "A focus on luxury brands"
+        "RealEstatePro",
+        "LightBox",
+        "MarketWatch"
       ],
       "answer": 1
     },
     {
-      "question": "How is the secondhand market changing?",
+      "question": "What factor is contributing to the decline in commercial real estate activity?",
       "options": [
-        "It is becoming less popular.",
-        "It is becoming increasingly mainstream.",
-        "It is only for thrift stores."
+        "Increased demand",
+        "Rising interest rates",
+        "Government policies"
       ],
       "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "More consumers are shopping secondhand this holiday season.",
-      "ai_suggestion": "An increasing number of shoppers are opting for secondhand items during this holiday season."
+      "original": "Commercial real estate activity dropped 14% in October from September.",
+      "ai_suggestion": "In October, there was a 14% decrease in commercial real estate activity compared to September."
     },
     {
-      "original": "They emphasize value and uniqueness in their purchases.",
-      "ai_suggestion": "Consumers are focusing on the importance of value and distinctiveness in what they buy."
+      "original": "This downturn is largely attributed to the rising interest rates.",
+      "ai_suggestion": "The increase in interest rates is a major factor contributing to this decline."
     }
   ]
 }

@@ -1,0 +1,75 @@
+{
+  "title": "Commercial real estate activity falls 14% in October, as interest rates rise",
+  "date": "2026-11-27",
+  "link": "https://www.cnbc.com/2026/11/24/commercial-real-estate-activity-falls-14percent-in-october.html",
+  "isWeeklyReview": false,
+  "summary": "In October, commercial real estate activity experienced a significant decline of 14% compared to September, as reported by LightBox, a prominent data platform in the sector. This downturn is largely attributed to the rising interest rates, which have created a challenging environment for investors and developers. The decrease in activity suggests a potential slowdown in the commercial real estate market, raising concerns about future investments and economic stability.",
+  "vocab": [
+    {
+      "word": "decline",
+      "meaning": "감소"
+    },
+    {
+      "word": "attributed",
+      "meaning": "귀속된"
+    },
+    {
+      "word": "environment",
+      "meaning": "환경"
+    },
+    {
+      "word": "investors",
+      "meaning": "투자자"
+    },
+    {
+      "word": "stability",
+      "meaning": "안정성"
+    }
+  ],
+  "shadowing": [
+    "Commercial real estate activity dropped 14% in October.",
+    "This decline is attributed to rising interest rates.",
+    "Investors are facing a challenging environment.",
+    "The decrease raises concerns about future investments.",
+    "Economic stability may be at risk due to this downturn."
+  ],
+  "quizzes": [
+    {
+      "question": "What percentage did commercial real estate activity fall in October?",
+      "options": [
+        "10%",
+        "14%",
+        "20%"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which platform reported the decline in commercial real estate activity?",
+      "options": [
+        "RealEstatePro",
+        "LightBox",
+        "MarketWatch"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What factor is contributing to the decline in commercial real estate activity?",
+      "options": [
+        "Increased demand",
+        "Rising interest rates",
+        "Government policies"
+      ],
+      "answer": 1
+    }
+  ],
+  "rephraseTarget": [
+    {
+      "original": "Commercial real estate activity dropped 14% in October from September.",
+      "ai_suggestion": "In October, there was a 14% decrease in commercial real estate activity compared to September."
+    },
+    {
+      "original": "This downturn is largely attributed to the rising interest rates.",
+      "ai_suggestion": "The increase in interest rates is a major factor contributing to this decline."
+    }
+  ]
+}
