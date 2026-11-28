@@ -1,75 +1,75 @@
 {
-  "title": "Commercial real estate activity falls 14% in October, as interest rates rise",
-  "date": "2026-11-27",
-  "link": "https://www.cnbc.com/2026/11/24/commercial-real-estate-activity-falls-14percent-in-october.html",
+  "title": "Jensen Huang to face DC grilling the same day Nvidia releases new products at GTC",
+  "date": "2026-11-28",
+  "link": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-congress-gtc.html",
   "isWeeklyReview": false,
-  "summary": "In October, commercial real estate activity experienced a significant decline of 14% compared to September, as reported by LightBox, a prominent data platform in the sector. This downturn is largely attributed to the rising interest rates, which have created a challenging environment for investors and developers. The decrease in activity suggests a potential slowdown in the commercial real estate market, raising concerns about future investments and economic stability.",
+  "summary": "Jensen Huang, the CEO of Nvidia, is set to face scrutiny in Washington on the same day the company unveils its latest products at the GTC event. This dual challenge highlights the pressures on Huang as he navigates both corporate leadership and political accountability. The outcome of his congressional appearance could significantly impact Nvidia's reputation and future endeavors in the tech industry.",
   "vocab": [
     {
-      "word": "decline",
-      "meaning": "감소"
+      "word": "scrutiny",
+      "meaning": "세심한 조사"
     },
     {
-      "word": "attributed",
-      "meaning": "귀속된"
+      "word": "unveil",
+      "meaning": "공개하다"
     },
     {
-      "word": "environment",
-      "meaning": "환경"
+      "word": "accountability",
+      "meaning": "책임"
     },
     {
-      "word": "investors",
-      "meaning": "투자자"
+      "word": "navigate",
+      "meaning": "이끌다"
     },
     {
-      "word": "stability",
-      "meaning": "안정성"
+      "word": "endeavors",
+      "meaning": "노력"
     }
   ],
   "shadowing": [
-    "Commercial real estate activity dropped 14% in October.",
-    "This decline is attributed to rising interest rates.",
-    "Investors are facing a challenging environment.",
-    "The decrease raises concerns about future investments.",
-    "Economic stability may be at risk due to this downturn."
+    "Jensen Huang is back as CEO of Nvidia.",
+    "He faces the challenge of leading the chip giant.",
+    "Huang must defend himself in Washington.",
+    "The same day, Nvidia releases new products.",
+    "This event is crucial for the company's future."
   ],
   "quizzes": [
     {
-      "question": "What percentage did commercial real estate activity fall in October?",
+      "question": "What position does Jensen Huang hold at Nvidia?",
       "options": [
-        "10%",
-        "14%",
-        "20%"
+        "Board Member",
+        "CEO",
+        "CFO"
       ],
       "answer": 1
     },
     {
-      "question": "Which platform reported the decline in commercial real estate activity?",
+      "question": "What event coincides with Huang's congressional appearance?",
       "options": [
-        "RealEstatePro",
-        "LightBox",
-        "MarketWatch"
+        "GTC",
+        "CES",
+        "MWC"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
-      "question": "What factor is contributing to the decline in commercial real estate activity?",
+      "question": "What is a key challenge Huang faces?",
       "options": [
-        "Increased demand",
-        "Rising interest rates",
-        "Government policies"
+        "Launching a new product",
+        "Defending himself in Congress",
+        "Hiring new staff"
       ],
       "answer": 1
     }
   ],
   "rephraseTarget": [
     {
-      "original": "Commercial real estate activity dropped 14% in October from September.",
-      "ai_suggestion": "In October, there was a 14% decrease in commercial real estate activity compared to September."
+      "original": "Jensen Huang is back as CEO of Nvidia.",
+      "ai_suggestion": "Jensen Huang has returned to his role as the CEO of Nvidia."
     },
     {
-      "original": "This downturn is largely attributed to the rising interest rates.",
-      "ai_suggestion": "The increase in interest rates is a major factor contributing to this decline."
+      "original": "He faces the challenge of leading the chip giant and defending himself in Washington.",
+      "ai_suggestion": "He is confronted with the task of guiding the chip giant while also defending himself in Washington."
     }
   ]
 }
